@@ -1,0 +1,111 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: XperiaKeyboard.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-hdpi-v4/ic_candidatebar_expand_shadow.9.png
+- res/drawable-hdpi-v4/ic_emoji_fade.9.png
+- res/drawable-hdpi-v4/ic_empty.9.png
+- res/drawable-hdpi-v4/ic_keyboard_button.9.png
+- res/drawable-hdpi-v4/ic_keyboard_button_shadow.9.png
+- res/drawable-hdpi-v4/ic_keyboard_floating_move_shadow.9.png
+- res/drawable-hdpi-v4/ic_keyboard_floating_shadow.9.png
+- res/drawable-hdpi-v4/ic_keyboard_longpress.9.png
+- res/drawable-hdpi-v4/ic_keyboard_longpress_shadow.9.png
+- res/drawable-hdpi-v4/ic_keyboard_multitapbox.9.png
+- res/drawable-hdpi-v4/ic_keyboard_multitapbox_shadow.9.png
+- res/drawable-hdpi-v4/ic_skinselector_shadow.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-nodpi-v4/ic_candidatebar.9.png
+- res/drawable-nodpi-v4/ic_candidatebar_expand.9.png
+- res/drawable-nodpi-v4/ic_candidatebar_item.9.png
+- res/drawable-nodpi-v4/ic_keyboard_bg.9.png
+- res/drawable-sw480dp-hdpi-v13/ic_keyboard_button.9.png
+- res/drawable-sw480dp-hdpi-v13/ic_keyboard_button_shadow.9.png
+- res/drawable-sw480dp-hdpi-v13/ic_keyboard_longpress.9.png
+- res/drawable-sw480dp-hdpi-v13/ic_keyboard_longpress_shadow.9.png
+- res/drawable-sw540dp-xhdpi-v13/ic_keyboard_button.9.png
+- res/drawable-sw540dp-xhdpi-v13/ic_keyboard_button_shadow.9.png
+- res/drawable-sw540dp-xhdpi-v13/ic_keyboard_longpress.9.png
+- res/drawable-sw540dp-xhdpi-v13/ic_keyboard_longpress_shadow.9.png
+- res/drawable-sw600dp-xhdpi-v13/ic_keyboard_button.9.png
+- res/drawable-sw600dp-xhdpi-v13/ic_keyboard_button_shadow.9.png
+- res/drawable-sw600dp-xhdpi-v13/ic_keyboard_longpress.9.png
+- res/drawable-sw600dp-xhdpi-v13/ic_keyboard_longpress_shadow.9.png
+- res/drawable-sw720dp-hdpi-v13/ic_keyboard_button.9.png
+- res/drawable-sw800dp-hdpi-v13/ic_keyboard_button.9.png
+- res/drawable-sw800dp-hdpi-v13/ic_keyboard_button_shadow.9.png
+- res/drawable-sw800dp-hdpi-v13/ic_keyboard_longpress.9.png
+- res/drawable-sw800dp-hdpi-v13/ic_keyboard_longpress_shadow.9.png
+- res/drawable-sw800dp-xhdpi-v13/ic_keyboard_button.9.png
+- res/drawable-sw800dp-xhdpi-v13/ic_keyboard_button_shadow.9.png
+- res/drawable-sw800dp-xhdpi-v13/ic_keyboard_longpress.9.png
+- res/drawable-sw800dp-xhdpi-v13/ic_keyboard_longpress_shadow.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xhdpi-v4/ic_candidatebar_expand_shadow.9.png
+- res/drawable-xhdpi-v4/ic_emoji_fade.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_button.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_button_shadow.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_floating_move_shadow.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_floating_shadow.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_longpress.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_longpress_shadow.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_multitapbox.9.png
+- res/drawable-xhdpi-v4/ic_keyboard_multitapbox_shadow.9.png
+- res/drawable-xhdpi-v4/ic_skinselector_shadow.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xxhdpi-v4/ic_candidatebar_expand_shadow.9.png
+- res/drawable-xxhdpi-v4/ic_emoji_fade.9.png
+- res/drawable-xxhdpi-v4/ic_google_login_button_red.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_button.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_button_shadow.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_floating_move_shadow.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_floating_shadow.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_longpress.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_longpress_shadow.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_multitapbox.9.png
+- res/drawable-xxhdpi-v4/ic_keyboard_multitapbox_shadow.9.png
+- res/drawable-xxhdpi-v4/ic_skinselector_shadow.9.png
+- res/drawable-xxhdpi-v4/ic_sony_login_button_black.9.png
+- res/raw/gtm_empty_container
+- wav
+- so
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  build-data.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '16908300'
+  versionName: 8.1.A.0.12

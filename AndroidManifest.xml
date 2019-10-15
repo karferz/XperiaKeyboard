@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" coreApp="true" package="com.sonyericsson.textinput.uxp" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.sonymobile.permission.WRITE_PERSISTENT_STORAGE"/>
+    <uses-permission android:name="com.sonymobile.permission.READ_GMAIL"/>
+    <uses-permission android:name="com.sonymobile.permission.SYSTEM_UI_VISIBILITY_EXTENSIONS"/>
+    <uses-permission android:name="com.sonymobile.internalmarket.permission.SEND_FEEDBACK"/>
+    <uses-permission android:name="com.sonymobile.runtimeskinning.permission.MANAGE_SKINS"/>
+    <uses-permission android:name="com.sonymobile.runtimeskinning.permission.RECEIVE_SKIN_CHANGED"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:allowBackup="false" android:directBootAware="true" android:fullBackupContent="false" android:icon="@drawable/icon" android:label="@string/textinput_strings_application_name_txt" android:name="com.sonyericsson.textinput.uxp.TextInputApplication" android:resizeableActivity="true" android:supportsRtl="true">
+        <uses-library android:name="com.sony.device"/>
+        <service android:label="@string/textinput_strings_application_name_txt" android:name="com.sonyericsson.textinput.uxp.glue.InputMethodServiceGlue" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        <meta-data android:name="io.fabric.ApiKey" android:value="7624e876aed7c7c33f1f5b93433926d71e687034"/>
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIHxHBIvHIcgqLYhjezb6Oc3_2ApXp9LYuAkqOLg"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.sonymobile.runtimeskinning.SKIN_PERMISSIONS" android:resource="@xml/skin_permissions"/>
+        <meta-data android:name="com.sonymobile.runtimeskinning.LAF_VERSION" android:value="1"/>
+        <service android:label="test service" android:name="com.sonyericsson.textinput.uxp.test.TestService" android:permission="android.permission.INTERNAL_SYSTEM_WINDOW">
+            <intent-filter>
+                <action android:name="com.sonyericsson.textinput.uxp.test.ITestService"/>
+            </intent-filter>
+        </service>
+        <activity android:autoRemoveFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:label="@string/textinput_strings_application_name_txt" android:name="com.sonyericsson.textinput.uxp.SettingsActivity" android:process="com.sonyericsson.textinput.uxp" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/SettingsTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/textinput_strings_settings_keyboard_skin" android:name="com.sonyericsson.textinput.uxp.controller.settings.SkinSelectorActivity" android:noHistory="true" android:process="com.sonyericsson.textinput.uxp" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/SkinSelectorTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/textinput_strings_settings_keyboard_height" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.KeyboardHeightPickerActivity" android:noHistory="true" android:process="com.sonyericsson.textinput.uxp" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/SettingsTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/textinput_strings_settings_language" android:multiprocess="false" android:name="com.sonyericsson.textinput.uxp.controller.settings.LanguageSelectActivity" android:process="com.sonyericsson.textinput.uxp" android:theme="@style/SettingsTheme"/>
+        <activity android:label="@string/textinput_strings_settings_my_words" android:name="com.sonyericsson.textinput.uxp.controller.settings.MyWordsActivity" android:process="com.sonyericsson.textinput.uxp" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/MyWordsTheme" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.personalizationguide.large.GuideActivityLarge" android:process="com.sonyericsson.textinput.uxp" android:resizeableActivity="false" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.test.GuideActivityLargeTest" android:resizeableActivity="false" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.personalizationguide.semilarge.GuideActivitySemiLarge" android:process="com.sonyericsson.textinput.uxp" android:resizeableActivity="false" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.test.GuideActivitySemiLargeTest" android:resizeableActivity="false" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.personalizationguide.large.upgrade.UpgradeGuideActivityLarge" android:process="com.sonyericsson.textinput.uxp" android:resizeableActivity="false" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.personalizationguide.small.GuideActivitySmall" android:process="com.sonyericsson.textinput.uxp" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.test.GuideActivitySmallTest" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.personalizationguide.small.upgrade.UpgradeGuideActivitySmall" android:process="com.sonyericsson.textinput.uxp" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboardHidden|orientation" android:exported="false" android:launchMode="singleInstance" android:name="com.sonyericsson.textinput.uxp.controller.settings.personalizationguide.medium.GuideActivityMedium" android:process="com.sonyericsson.textinput.uxp" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.sonyericsson.textinput.uxp.model.settings.ResetReceiver" android:permission="android.permission.MASTER_CLEAR">
+            <intent-filter>
+                <action android:name="com.sonyericsson.settings.MASTERRESET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sonyericsson.textinput.uxp.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.sonyericsson.textinput.uxp.controller.cloud.dialogs.CloudUserInteractionActivity" android:process="com.sonyericsson.textinput.uxp" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/SettingsTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.sonyericsson.textinput.uxp.controller.settings.permission.PermissionDialogActivity" android:process="com.sonyericsson.textinput.uxp" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.sonyericsson.textinput.uxp.controller.settings.WordSuggestionDialogActivity" android:process="com.sonyericsson.textinput.uxp" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/textinput_strings_settings_personalization" android:name="com.sonyericsson.textinput.uxp.swiftkeypersonalizer.PersonalizerSettingsActivity" android:process="com.sonyericsson.textinput.uxp" android:theme="@style/SettingsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.sonyericsson.textinput.uxp.swiftkeypersonalizer.PERSONALIZER_SETTINGS_ACTIVITY"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sonyericsson.textinput.uxp.swiftkeypersonalizer.PersonalizerLoginActivity" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizeTransparentTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.sonyericsson.textinput.uxp.controller.cloud.BackupAndSyncLoginActivity" android:process="com.sonyericsson.textinput.uxp" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizeTransparentTheme"/>
+        <activity android:label="@string/textinput_strings_settings_backup_and_synchronization_about" android:name="com.sonyericsson.textinput.uxp.swiftkeypersonalizer.BackupAndSyncAboutActivity" android:process="com.sonyericsson.textinput.uxp" android:taskAffinity="com.sonyericsson.textinput.uxp.settings" android:theme="@style/PersonalizationGuideTheme"/>
+        <activity android:name="com.sonyericsson.textinput.uxp.controller.settings.DebugActivity" android:process="com.sonyericsson.textinput.uxp"/>
+        <service android:name="com.sonyericsson.textinput.uxp.swiftkeypersonalizer.PersonalizerService" android:process="com.sonyericsson.textinput.uxp"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:name="com.sonyericsson.textinput.uxp.controller.NotificationDeletedService"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </application>
+</manifest>
