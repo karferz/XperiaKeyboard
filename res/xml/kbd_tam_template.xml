@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:totalWidth="320" semc:keyTextSizeSecondary="@dimen/tamil_secondary_key_print_size" semc:keyWidth="32" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="@string/row0_8keys" semc:keyStyle="auxiliary" semc:keyWidth="31" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="16" />
+        <KeySet semc:numberOfKeys="6" />
+        <Key semc:rightTouchAdjustment="4" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="48" semc:leftTouchAdjustment="4" semc:leftVisualGap="8" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_9keys" semc:keyStyle="auxiliary" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="16" />
+        <KeySet semc:numberOfKeys="7" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_10keys" semc:keyStyle="auxiliary" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="8" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_11keys" semc:keyStyle="auxiliary" semc:keyTextSizeNormal="14.0dip" semc:keyWidth="29" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" semc:keyWidth="34" />
+        <KeySet semc:numberOfKeys="1" semc:keyWidth="37" />
+        <KeySet semc:numberOfKeys="5" semc:keyWidth="28" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="27" />
+        <Key semc:keyEdgeFlags="right" semc:keyWidth="27" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_12keys" semc:keyStyle="auxiliary" semc:keyWidth="27" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <KeySet semc:numberOfKeys="4" semc:keyWidth="26" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_8keys" semc:keyWidth="31" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="16" />
+        <KeySet semc:numberOfKeys="6" />
+        <Key semc:rightTouchAdjustment="4" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="48" semc:leftTouchAdjustment="4" semc:leftVisualGap="8" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_9keys" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="16" />
+        <KeySet semc:numberOfKeys="7" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_10keys" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="8" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_11keys" semc:keyTextSizeNormal="14.0dip" semc:keyWidth="29" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" semc:keyWidth="34" />
+        <KeySet semc:numberOfKeys="1" semc:keyWidth="37" />
+        <KeySet semc:numberOfKeys="5" semc:keyWidth="28" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="27" />
+        <Key semc:keyEdgeFlags="right" semc:keyWidth="27" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_12keys" semc:keyWidth="27" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <KeySet semc:numberOfKeys="4" semc:keyWidth="26" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_9keys" semc:keyTextSizeNormal="14.0dip">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="16" />
+        <KeySet semc:numberOfKeys="7" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_10keys">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="8" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_11keys" semc:keyWidth="29">
+        <Key semc:keyEdgeFlags="left" semc:keyWidth="30" />
+        <KeySet semc:numberOfKeys="9" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_12keys" semc:keyWidth="27">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <KeySet semc:numberOfKeys="4" semc:keyWidth="26" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_6keys_symbols" semc:keyWidth="34">
+        <ReservedKey semc:metaKey="switchSymbols" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="49" semc:rightTouchAdjustment="4" />
+        <Key semc:leftTouchAdjustment="5" semc:leftVisualGap="9" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keyWidth="33" semc:rightTouchAdjustment="5" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="49" semc:leftTouchAdjustment="4" semc:leftVisualGap="10" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_6keys_symbols_shifted" semc:keyWidth="34">
+        <ReservedKey semc:metaKey="switchSymbols" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="49" semc:rightTouchAdjustment="4" />
+        <Key semc:leftTouchAdjustment="5" semc:leftVisualGap="9" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keyWidth="33" semc:rightTouchAdjustment="5" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="49" semc:leftTouchAdjustment="4" semc:leftVisualGap="10" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_7keys" semc:keyTextSizeNormal="14.0dip" semc:keyWidth="29">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="49" semc:rightTouchAdjustment="4" />
+        <Key semc:leftTouchAdjustment="5" semc:leftVisualGap="9" />
+        <KeySet semc:numberOfKeys="5" />
+        <Key semc:rightTouchAdjustment="5" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="49" semc:leftTouchAdjustment="5" semc:leftVisualGap="10" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_8keys" semc:keyWidth="29">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="39" semc:rightTouchAdjustment="2" />
+        <Key semc:leftTouchAdjustment="3" semc:leftVisualGap="5" />
+        <KeySet semc:numberOfKeys="6" />
+        <Key semc:rightTouchAdjustment="3" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="39" semc:leftTouchAdjustment="2" semc:leftVisualGap="5" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_9keys" semc:keyWidth="29">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="30" semc:rightTouchAdjustment="-2" />
+        <Key semc:leftTouchAdjustment="2" />
+        <KeySet semc:numberOfKeys="7" />
+        <Key semc:rightTouchAdjustment="2" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:leftTouchAdjustment="-2" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_9keys_hebrew">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="16" />
+        <KeySet semc:numberOfKeys="7" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <KeyboardTemplate_IncludeXML semc:includeXMLId="@xml/kbd_tam_bottom_row" />
+</KeyboardTemplate>

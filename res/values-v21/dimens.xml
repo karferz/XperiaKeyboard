@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="guide_list_side_margin_normal">0.0dip</dimen>
+    <dimen name="guide_text_side_margin_normal">0.0dip</dimen>
+</resources>

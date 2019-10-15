@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLANra konektatzean</string>
+    <string name="textinput_strings_download_only_via_wifi">Deskargatu WLAN bidez soilik</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Zure hizkuntzetarako hiztegiak ez daude deskargatuta. Konektatu sarera edo WLANra deskargatzeko.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Eguneratu automatikoki WLAN bidez soilik</string>
+</resources>

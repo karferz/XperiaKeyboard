@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:candidates="+" />
+        <Key semc:candidates="१" />
+        <Key semc:candidates="२" />
+        <Key semc:candidates="३" />
+        <Key semc:candidates="." />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:candidates="४" />
+        <Key semc:candidates="५" />
+        <Key semc:candidates="६" />
+        <Key semc:candidates="," />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:candidates="७" />
+        <Key semc:candidates="८" />
+        <Key semc:candidates="९" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+    <OverrideKey semc:disabled="false" semc:metaKey="switchSymbols" semc:label="१२|12" />
+    <OverrideKey semc:metaKey="symbols" semc:label="@string/abc_key_hindi" />
+    <OverrideKey semc:metaKey="space" semc:candidates="०ⁿ∅°" />
+</Keyboard>

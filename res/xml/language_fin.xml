@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="latin" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="a">
+        <semc:candidates data="å" />
+        <semc:candidates data="ä" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="e">
+        <semc:candidates data="é" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="i">
+        <semc:candidates data="í" />
+        <semc:candidates data="î" />
+        <semc:candidates data="ï" />
+        <semc:candidates data="ì" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="o">
+        <semc:candidates data="ö" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ä">
+        <semc:candidates data="æ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="æ">
+        <semc:candidates data="ä" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ö">
+        <semc:candidates data="ø" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ø">
+        <semc:candidates data="ö" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="A">
+        <semc:candidates data="Å" />
+        <semc:candidates data="Ä" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="E">
+        <semc:candidates data="É" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="I">
+        <semc:candidates data="Í" />
+        <semc:candidates data="Î" />
+        <semc:candidates data="Ï" />
+        <semc:candidates data="Ì" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="O">
+        <semc:candidates data="Ö" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Ä">
+        <semc:candidates data="Æ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Æ">
+        <semc:candidates data="Ä" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Ö">
+        <semc:candidates data="Ø" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Ø">
+        <semc:candidates data="Ö" />
+    </semc:baseCharacter>
+</Language>

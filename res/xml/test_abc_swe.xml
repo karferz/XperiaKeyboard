@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+        <Key semc:label="abc" semc:candidates="abc2åä" semc:shiftedCandidates="ABC2ÅÄ" semc:shiftedLabel="ABC" />
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+        <Key semc:label="abc" semc:candidates="abc" semc:shiftedCandidates="ABC" semc:shiftedLabel="ABC" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+</Keyboard>

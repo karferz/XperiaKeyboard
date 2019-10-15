@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.textinput.uxp.view.keyboard.KeyboardSlider android:id="@id/keyboard_slider" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <ImageView android:id="@id/candidate_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_bar_height" />
+        <FrameLayout android:id="@id/keyboard_slider_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center|left|top" android:id="@id/leftExpandButton" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/one_handed_keyboard_slide_button_margin" android:soundEffectsEnabled="false" android:scaleX="-1.0" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/rightExpandButton" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/one_handed_keyboard_slide_button_margin" android:soundEffectsEnabled="false" />
+            <ImageView android:layout_gravity="bottom|center|left" android:id="@id/slideLeftArrow" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/one_handed_keyboard_bottom_padding" android:soundEffectsEnabled="false" android:layout_marginStart="@dimen/one_handed_keyboard_slide_button_margin" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/slideRightArrow" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/one_handed_keyboard_bottom_padding" android:soundEffectsEnabled="false" android:layout_marginEnd="@dimen/one_handed_keyboard_slide_button_margin" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/keyboard_container_debug" />
+    </FrameLayout>
+    <View android:id="@id/keyboard_top_divider" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</com.sonyericsson.textinput.uxp.view.keyboard.KeyboardSlider>

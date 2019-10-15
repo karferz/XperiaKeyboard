@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?android:dividerHorizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="0.0" />
+    <LinearLayout android:id="@id/personalization_guide_buttons_layout" android:layout_weight="0.0" style="@style/guide_navbar_style">
+        <Button android:id="@id/btnPrevious" android:contentDescription="@string/textinput_strings_accessibility_previous_button" android:drawableStart="@drawable/ic_footer_previous_auto_mirror" style="@style/guide_navbar_button_style" />
+        <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/btnNext" android:contentDescription="@string/textinput_strings_accessibility_next_button" android:drawableEnd="@drawable/ic_footer_next_auto_mirror" style="@style/guide_navbar_button_style" />
+    </LinearLayout>
+</merge>

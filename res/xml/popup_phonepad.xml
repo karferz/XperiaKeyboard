@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row_5keys">
+        <Key semc:candidates="." />
+        <Key semc:candidates="," />
+        <Key semc:candidates="-" />
+        <Key semc:candidates="(" />
+        <Key semc:candidates=")" />
+    </Row>
+    <Row semc:layoutId="@string/row_5keys">
+        <Key semc:candidates="/" />
+        <Key semc:candidates="N" />
+        <Key semc:label="@string/textinput_strings_phone_no_pause" semc:candidates="," />
+        <Key semc:label="@string/textinput_strings_phone_no_wait" semc:candidates=";" />
+        <Key semc:iconId="@drawable/ic_keyboard_space" semc:candidates=" " />
+    </Row>
+</Keyboard>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row_7keys">
+        <Key semc:iconId="@drawable/ic_smiley_happy">
+            <Candidate semc:candidate=":-)" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_wink">
+            <Candidate semc:candidate=";-)" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_sad">
+            <Candidate semc:candidate=":-(" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_surprise">
+            <Candidate semc:candidate=":-o" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_big_grin">
+            <Candidate semc:candidate=":-D" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_tongue_out">
+            <Candidate semc:candidate=":-P" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_angry">
+            <Candidate semc:candidate=":@" />
+        </Key>
+    </Row>
+    <Row semc:layoutId="@string/row_7keys">
+        <Key semc:iconId="@drawable/ic_smiley_worried">
+            <Candidate semc:candidate=":-S" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_embarassed">
+            <Candidate semc:candidate=":$" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_sunglasses">
+            <Candidate semc:candidate="B-)" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_crying_face">
+            <Candidate semc:candidate=":'(" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_kiss">
+            <Candidate semc:candidate=":-*" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_devilish">
+            <Candidate semc:candidate=">:)" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_innocent">
+            <Candidate semc:candidate="O:)" />
+        </Key>
+    </Row>
+    <Row semc:layoutId="@string/row_6keys">
+        <Key semc:iconId="@drawable/ic_smiley_confused">
+            <Candidate semc:candidate=":-/" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_straight_face">
+            <Candidate semc:candidate=":|" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_nerd">
+            <Candidate semc:candidate=":-B" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_love">
+            <Candidate semc:candidate="&lt;3" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_rose">
+            <Candidate semc:candidate="\@):-" />
+        </Key>
+        <Key semc:iconId="@drawable/ic_smiley_lips_sealed">
+            <Candidate semc:candidate=":-SS" />
+        </Key>
+    </Row>
+</Keyboard>

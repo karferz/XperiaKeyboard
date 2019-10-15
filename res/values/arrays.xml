@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ar_fa_email_url_punctuations">
+        <item>.</item>
+        <item>-</item>
+        <item>_</item>
+        <item>\@</item>
+        <item>/</item>
+        <item>:</item>
+        <item>،</item>
+        <item>؟</item>
+        <item>؛</item>
+        <item>!</item>
+        <item>"'"</item>
+        <item>\"</item>
+    </string-array>
+    <string-array name="ar_fa_punctuations">
+        <item>.</item>
+        <item>،</item>
+        <item>؟</item>
+        <item>!</item>
+        <item>-</item>
+        <item>"'"</item>
+        <item>\@</item>
+        <item>\"</item>
+        <item>/</item>
+        <item>:</item>
+        <item>؛</item>
+        <item>_</item>
+    </string-array>
+    <string-array name="auto_dictionary_update_entries">
+        <item>@string/textinput_strings_settings_auto_dictionary_update_off</item>
+        <item>@string/textinput_strings_settings_auto_dictionary_update_any_time</item>
+        <item>@string/textinput_strings_settings_auto_dictionary_update_wifi_only</item>
+    </string-array>
+    <string-array name="auto_dictionary_update_entry_values">
+        <item>@string/auto_dictionary_update_off</item>
+        <item>@string/auto_dictionary_update_any_time</item>
+        <item>@string/auto_dictionary_update_wifi_only</item>
+    </string-array>
+    <integer-array name="comet_alpha_body">
+        <item>200</item>
+        <item>255</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="default_email_url_punctuations">
+        <item>.</item>
+        <item>-</item>
+        <item>_</item>
+        <item>\@</item>
+        <item>/</item>
+        <item>:</item>
+        <item>,</item>
+        <item>;</item>
+        <item>\?</item>
+        <item>!</item>
+        <item>"'"</item>
+        <item>\"</item>
+    </string-array>
+    <string-array name="default_punctuations">
+        <item>.</item>
+        <item>,</item>
+        <item>\?</item>
+        <item>!</item>
+        <item>-</item>
+        <item>"'"</item>
+        <item>\@</item>
+        <item>\"</item>
+        <item>/</item>
+        <item>:</item>
+        <item>;</item>
+        <item>_</item>
+    </string-array>
+    <string-array name="default_swap_punctuations">
+        <item>.</item>
+        <item>,</item>
+        <item>!</item>
+        <item>\?</item>
+        <item>)</item>
+        <item>،</item>
+        <item>؟</item>
+    </string-array>
+    <string-array name="el_email_url_punctuations">
+        <item>.</item>
+        <item>-</item>
+        <item>_</item>
+        <item>\@</item>
+        <item>/</item>
+        <item>:</item>
+        <item>,</item>
+        <item>;</item>
+        <item>!</item>
+        <item>"'"</item>
+        <item>\"</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="el_punctuations">
+        <item>.</item>
+        <item>,</item>
+        <item>;</item>
+        <item>!</item>
+        <item>-</item>
+        <item>"'"</item>
+        <item>\@</item>
+        <item>\"</item>
+        <item>/</item>
+        <item>:</item>
+        <item>\?</item>
+        <item>_</item>
+    </string-array>
+    <string-array name="el_swap_punctuations">
+        <item>.</item>
+        <item>,</item>
+        <item>!</item>
+        <item>;</item>
+        <item>)</item>
+    </string-array>
+    <string-array name="es_email_url_punctuations">
+        <item>.</item>
+        <item>-</item>
+        <item>_</item>
+        <item>\@</item>
+        <item>/</item>
+        <item>:</item>
+        <item>,</item>
+        <item>;</item>
+        <item>¡</item>
+        <item>¿</item>
+        <item>\?</item>
+        <item>!</item>
+        <item>"'"</item>
+        <item>\"</item>
+    </string-array>
+    <string-array name="es_punctuations">
+        <item>.</item>
+        <item>,</item>
+        <item>¡</item>
+        <item>¿</item>
+        <item>\?</item>
+        <item>!</item>
+        <item>-</item>
+        <item>"'"</item>
+        <item>\@</item>
+        <item>\"</item>
+        <item>/</item>
+        <item>:</item>
+        <item>;</item>
+        <item>_</item>
+    </string-array>
+    <string-array name="fr_swap_punctuations">
+        <item>.</item>
+        <item>,</item>
+        <item>)</item>
+    </string-array>
+    <string-array name="hi_pa_email_url_punctuations">
+        <item>।</item>
+        <item>-</item>
+        <item>_</item>
+        <item>.</item>
+        <item>\@</item>
+        <item>/</item>
+        <item>:</item>
+        <item>,</item>
+        <item>;</item>
+        <item>\?</item>
+        <item>!</item>
+        <item>"'"</item>
+        <item>\"</item>
+    </string-array>
+    <string-array name="hi_pa_punctuations">
+        <item>।</item>
+        <item>,</item>
+        <item>\?</item>
+        <item>!</item>
+        <item>.</item>
+        <item>\"</item>
+        <item>"'"</item>
+        <item>-</item>
+        <item>\@</item>
+        <item>/</item>
+        <item>:</item>
+        <item>;</item>
+        <item>_</item>
+    </string-array>
+    <string-array name="hi_pa_swap_punctuations">
+        <item>।</item>
+        <item>.</item>
+        <item>,</item>
+        <item>!</item>
+        <item>\?</item>
+        <item>)</item>
+    </string-array>
+    <string-array name="hy_swap_punctuations">
+        <item>.</item>
+        <item>,</item>
+        <item>!</item>
+        <item>\?</item>
+        <item>:</item>
+        <item>)</item>
+    </string-array>
+    <array name="language_exclude_list" />
+    <string-array name="portrait_keyboard_entries">
+        <item>@string/textinput_strings_settings_portrait_keyboard_full_keyboard</item>
+        <item>@string/textinput_strings_settings_portrait_keyboard_phonepad</item>
+    </string-array>
+    <string-array name="portrait_keyboard_entry_values">
+        <item>@string/layout_fullkeyboard</item>
+        <item>@string/layout_phonepad</item>
+    </string-array>
+    <string-array name="prediction_entries">
+        <item>@string/textinput_strings_settings_sw_qwerty_prediction_automatic_correction</item>
+        <item>@string/textinput_strings_settings_sw_qwerty_prediction_substitute_letters</item>
+        <item>@string/textinput_strings_settings_sw_qwerty_prediction_suggest_words</item>
+        <item>@string/textinput_strings_settings_prediction_off</item>
+    </string-array>
+    <string-array name="prediction_entry_values">
+        <item>@string/prediction_sloppy_automatic</item>
+        <item>@string/prediction_automatic_disambiguation</item>
+        <item>@string/prediction_sloppy_manually</item>
+        <item>@string/prediction_off</item>
+    </string-array>
+    <array name="textinput_layout_picker_icons">
+        <item>@drawable/ic_keyboard_small_full_kb</item>
+        <item>@drawable/ic_keyboard_small_mini_kb</item>
+        <item>@drawable/ic_keyboard_small_split_kb</item>
+    </array>
+    <string-array name="textinput_layout_picker_ids">
+        <item>@string/floating_keyboard_type_docked</item>
+        <item>@string/floating_keyboard_type_mini</item>
+        <item>@string/floating_keyboard_type_split</item>
+    </string-array>
+    <string-array name="textinput_layout_picker_texts">
+        <item>@string/textinput_layout_picker_docked_keyboard</item>
+        <item>@string/textinput_layout_picker_mini_keyboard</item>
+        <item>@string/textinput_layout_picker_split_keyboard</item>
+    </string-array>
+</resources>

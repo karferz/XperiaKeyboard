@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivConfigImageWithTrace" android:src="@drawable/ic_guide_config_trace" style="@style/PersonalizationGuideImage" />
+    <TextView android:id="@id/tvTraceHint" android:text="@string/textinput_strings_personalization_guide_trace_hint" style="@style/PersonalizationGuideInfoText" />
+    <TextView android:id="@id/tvFinishPersonalizationGuideMessage" android:text="@string/textinput_strings_personalization_guide_done" style="@style/PersonalizationGuideInfoText" />
+</LinearLayout>

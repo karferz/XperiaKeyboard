@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_11keys" semc:secondaryStyle="extendedSecondaryPrint">
+        <Key semc:candidates="й" semc:shiftedCandidates="Й" semc:secondaryPrints="1" />
+        <Key semc:candidates="ц" semc:shiftedCandidates="Ц" semc:secondaryPrints="2" />
+        <Key semc:candidates="у" semc:shiftedCandidates="У" semc:secondaryPrints="3" />
+        <Key semc:candidates="к" semc:shiftedCandidates="К" semc:secondaryPrints="4" />
+        <Key semc:candidates="её" semc:shiftedCandidates="ЕЁ" semc:secondaryPrints="5" />
+        <Key semc:candidates="н" semc:shiftedCandidates="Н" semc:secondaryPrints="6" />
+        <Key semc:candidates="гґ" semc:shiftedCandidates="ГҐ" semc:secondaryPrints="7" />
+        <Key semc:candidates="ш" semc:shiftedCandidates="Ш" semc:secondaryPrints="8" />
+        <Key semc:candidates="щ" semc:shiftedCandidates="Щ" semc:secondaryPrints="9" />
+        <Key semc:candidates="з" semc:shiftedCandidates="З" semc:secondaryPrints="0" />
+        <Key semc:candidates="х" semc:shiftedCandidates="Х" />
+    </Row>
+    <Row semc:layoutId="@string/row2_11keys" semc:secondaryStyle="extendedSecondaryPrint">
+        <Key semc:candidates="ф" semc:shiftedCandidates="Ф" semc:secondaryPrints="\@" />
+        <Key semc:candidates="ії" semc:shiftedCandidates="ІЇ" />
+        <Key semc:candidates="в" semc:shiftedCandidates="В" semc:secondaryPrints="_" />
+        <Key semc:candidates="а" semc:shiftedCandidates="А" semc:secondaryPrints="-" />
+        <Key semc:candidates="п" semc:shiftedCandidates="П" semc:secondaryPrints="+" />
+        <Key semc:candidates="р" semc:shiftedCandidates="Р" semc:secondaryPrints="*" />
+        <Key semc:candidates="о" semc:shiftedCandidates="О" semc:secondaryPrints="\#" />
+        <Key semc:candidates="л" semc:shiftedCandidates="Л" semc:secondaryPrints="(" />
+        <Key semc:candidates="д" semc:shiftedCandidates="Д" semc:secondaryPrints=")" />
+        <Key semc:candidates="ж" semc:shiftedCandidates="Ж" semc:secondaryPrints="/" />
+        <Key semc:candidates="єэ" semc:shiftedCandidates="ЄЭ" />
+    </Row>
+    <Row semc:layoutId="@string/row3_9keys" semc:secondaryStyle="extendedSecondaryPrint">
+        <Key semc:candidates="я" semc:shiftedCandidates="Я" />
+        <Key semc:candidates="ч" semc:shiftedCandidates="Ч" semc:secondaryPrints="&quot;" />
+        <Key semc:candidates="с" semc:shiftedCandidates="С" semc:secondaryPrints="'" />
+        <Key semc:candidates="м" semc:shiftedCandidates="М" semc:secondaryPrints=":" />
+        <Key semc:candidates="иы" semc:shiftedCandidates="ИЫ" />
+        <Key semc:candidates="т" semc:shiftedCandidates="Т" semc:secondaryPrints=";" />
+        <Key semc:candidates="ьъ" semc:shiftedCandidates="ЬЪ" />
+        <Key semc:candidates="б" semc:shiftedCandidates="Б" semc:secondaryPrints="!" />
+        <Key semc:candidates="ю" semc:shiftedCandidates="Ю" semc:secondaryPrints="\?" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+</Keyboard>

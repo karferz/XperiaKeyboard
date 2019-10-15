@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:totalWidth="1200" semc:keyWidth="107" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="@string/row0_8keys" semc:keyStyle="auxiliary" semc:keyWidth="150" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <Key semc:rightTouchAdjustment="4" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_9keys" semc:keyStyle="auxiliary" semc:keyWidth="133" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" semc:rowHeightId="@string/keyboard_auxiliary_row_height" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <Key />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_10keys" semc:keyStyle="auxiliary" semc:keyWidth="120" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_11keys" semc:keyStyle="auxiliary" semc:keyWidth="109" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row0_12keys" semc:keyStyle="auxiliary" semc:keyWidth="100" semc:rowEdgeFlags="top" semc:rowHeightId="@string/keyboard_auxiliary_row_height">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="2" />
+        <Key />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <Key />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_8keys" semc:keyWidth="107" semc:rowEdgeFlags="top">
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_url">
+                <ReservedKey semc:metaKey="slash" semc:keyEdgeFlags="left" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_web_email">
+                <ReservedKey semc:metaKey="at" semc:keyEdgeFlags="left" />
+            </Case>
+            <Default>
+                <ReservedKey semc:metaKey="comma" semc:keyEdgeFlags="left" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="period" semc:longPressTimeout="shortTime" />
+        <KeySet semc:numberOfKeys="8" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_10keys" semc:keyWidth="107" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="4" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_11keys" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" semc:keyWidth="98" />
+        <Key semc:keyWidth="98" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="97" />
+        <Key semc:keySplitFlags="right" semc:keyWidth="97" />
+        <Key semc:keySplitFlags="left" semc:keyWidth="97" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="97" />
+        <Key semc:keyWidth="98" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_12keys" semc:keyWidth="91" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="5" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="108" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_9keys" semc:keyWidth="107" semc:rowEdgeFlags="top">
+        <Key semc:leftTouchAdjustment="22" semc:leftVisualGap="53" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="184" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_9keys" semc:keyWidth="107">
+        <Key semc:leftTouchAdjustment="22" semc:leftVisualGap="53" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="184" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_10keys_no_delete" semc:keyWidth="110">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" semc:keyWidth="111" />
+        <Key semc:keySplitFlags="left" semc:keyWidth="111" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keyEdgeFlags="right" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_11keys">
+        <Key semc:keyEdgeFlags="left" semc:keyWidth="98" />
+        <Key semc:keyWidth="98" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="97" />
+        <Key semc:keySplitFlags="right" semc:keyWidth="97" />
+        <Key semc:keySplitFlags="left" semc:keyWidth="97" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="97" />
+        <Key semc:keyWidth="98" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_10keys" semc:keyWidth="107">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="4" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_10keys_delete" semc:keyWidth="107">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="4" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_12keys" semc:keyWidth="91">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="5" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="108" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_7keys" semc:keyWidth="102">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <Key semc:keyWidth="103" />
+        <KeySet semc:numberOfKeys="2" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="2" />
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_url">
+                <ReservedKey semc:metaKey="slash" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_web_email">
+                <ReservedKey semc:metaKey="at" />
+            </Case>
+            <Default>
+                <ReservedKey semc:metaKey="comma" semc:longPressTimeout="shortTime" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="period" semc:keyWidth="103" semc:longPressTimeout="shortTime" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="150" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_8keys" semc:keyWidth="92">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="2" />
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_url">
+                <ReservedKey semc:metaKey="slash" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_web_email">
+                <ReservedKey semc:metaKey="at" />
+            </Case>
+            <Default>
+                <ReservedKey semc:metaKey="comma" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="period" semc:longPressTimeout="shortTime" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="150" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_8keys_symbols">
+        <ReservedKey semc:metaKey="switchSymbols" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="115" />
+        <Key semc:keySplitFlags="right" semc:keyWidth="115" />
+        <Key semc:keySplitFlags="left" semc:keyWidth="115" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="115" />
+        <ReservedKey semc:metaKey="switchSymbols" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="150" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_8keys_symbols_shifted">
+        <ReservedKey semc:metaKey="switchSymbols" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="115" />
+        <Key semc:keySplitFlags="right" semc:keyWidth="115" />
+        <Key semc:keySplitFlags="left" semc:keyWidth="115" />
+        <KeySet semc:numberOfKeys="3" semc:keyWidth="115" />
+        <ReservedKey semc:metaKey="switchSymbols" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="150" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_9keys" semc:keyWidth="90">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="92" />
+        <KeySet semc:numberOfKeys="4" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_url">
+                <ReservedKey semc:metaKey="slash" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_web_email">
+                <ReservedKey semc:metaKey="at" />
+            </Case>
+            <Default>
+                <ReservedKey semc:metaKey="comma" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="period" semc:longPressTimeout="shortTime" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="118" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_9keys_enter" semc:keyWidth="107">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="55" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="182" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_10keys_no_shift" semc:keyWidth="100">
+        <KeySet semc:numberOfKeys="5" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="3" />
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_url">
+                <ReservedKey semc:metaKey="slash" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_web_email">
+                <ReservedKey semc:metaKey="at" />
+            </Case>
+            <Default>
+                <ReservedKey semc:metaKey="comma" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="period" semc:longPressTimeout="shortTime" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row4_7keys" semc:keyWidth="102">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <KeySet semc:numberOfKeys="3" />
+        <Key semc:keySplitFlags="right" />
+        <Key semc:keySplitFlags="left" />
+        <KeySet semc:numberOfKeys="2" />
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_url">
+                <ReservedKey semc:metaKey="slash" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_web_email">
+                <ReservedKey semc:metaKey="at" />
+            </Case>
+            <Default>
+                <ReservedKey semc:metaKey="comma" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="period" semc:longPressTimeout="shortTime" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="152" />
+    </RowTemplate>
+    <PreProcess>
+        <Switch>
+            <Case semc:leftFunctionKey="true" semc:keyboardMode="kbd_mode_symbols">
+                <LinkReference semc:layoutId="@string/row_bottom" semc:linkedId="@string/row_bottom_symbols_function_space_settings_toggle" />
+            </Case>
+            <Case semc:leftFunctionKey="false" semc:keyboardMode="kbd_mode_symbols">
+                <LinkReference semc:layoutId="@string/row_bottom" semc:linkedId="@string/row_bottom_symbols_space_settings_toggle" />
+            </Case>
+            <Case semc:XKey="true" semc:leftFunctionKey="true">
+                <LinkReference semc:layoutId="@string/row_bottom" semc:linkedId="@string/row_bottom_symbols_function_space_x_toggle" />
+            </Case>
+            <Case semc:XKey="false" semc:leftFunctionKey="true">
+                <LinkReference semc:layoutId="@string/row_bottom" semc:linkedId="@string/row_bottom_symbols_function_space_toggle" />
+            </Case>
+            <Case semc:XKey="true" semc:leftFunctionKey="false">
+                <LinkReference semc:layoutId="@string/row_bottom" semc:linkedId="@string/row_bottom_symbols_space_x_toggle" />
+            </Case>
+            <Default>
+                <LinkReference semc:layoutId="@string/row_bottom" semc:linkedId="@string/row_bottom_symbols_space_toggle" />
+            </Default>
+        </Switch>
+    </PreProcess>
+    <RowTemplate semc:layoutId="@string/row_bottom_symbols_function_space_settings_toggle" semc:keyWidth="130" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <Switch>
+            <Case semc:webTabKey="true">
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_tab" semc:metaKey="tab" semc:keyStyle="function" />
+            </Case>
+            <Case semc:wizardKey="true">
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_wizard_layers" semc:metaKey="wizard" semc:keyStyle="function" />
+            </Case>
+            <Case semc:emailDotComKey="true">
+                <ReservedKey semc:metaKey="dotcom" semc:keyStyle="function" semc:labelStyle="small" />
+            </Case>
+            <Default>
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_smiley" semc:metaKey="smileys" semc:keyStyle="function" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="space" semc:keyWidth="680" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_settings" semc:metaKey="settings" semc:keyStyle="function" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_mini_kb" semc:metaKey="toggleFloating" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" semc:longPressTimeout="mediumTime" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_symbols_space_settings_toggle" semc:keyWidth="130" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="260" />
+        <ReservedKey semc:metaKey="space" semc:keyWidth="680" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_settings" semc:metaKey="settings" semc:keyStyle="function" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_mini_kb" semc:metaKey="toggleFloating" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" semc:longPressTimeout="mediumTime" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_symbols_function_space_toggle" semc:keyWidth="130" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_web|kbd_mode_web_email|kbd_mode_web_password">
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_tab" semc:metaKey="tab" semc:keyStyle="function" />
+            </Case>
+            <Case semc:wizardKey="true">
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_wizard_layers" semc:metaKey="wizard" semc:keyStyle="function" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_url">
+                <ReservedKey semc:metaKey="dotcom" semc:keyStyle="function" semc:labelStyle="small" />
+            </Case>
+            <Default>
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_smiley" semc:metaKey="smileys" semc:keyStyle="function" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="space" semc:keyWidth="680" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_mini_kb" semc:metaKey="toggleFloating" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="260" semc:longPressTimeout="mediumTime" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_symbols_space_toggle" semc:keyWidth="260" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" />
+        <ReservedKey semc:metaKey="space" semc:keyWidth="680" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_mini_kb" semc:metaKey="toggleFloating" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:longPressTimeout="mediumTime" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_symbols_function_space_x_toggle" semc:keyWidth="130" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="130" />
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_web|kbd_mode_web_email|kbd_mode_web_password">
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_tab" semc:metaKey="tab" semc:keyStyle="function" />
+            </Case>
+            <Case semc:wizardKey="true">
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_wizard_layers" semc:metaKey="wizard" semc:keyStyle="function" />
+            </Case>
+            <Case semc:keyboardMode="kbd_mode_email|kbd_mode_url">
+                <ReservedKey semc:metaKey="dotcom" semc:keyStyle="function" semc:labelStyle="small" />
+            </Case>
+            <Default>
+                <ReservedKey semc:iconId="@drawable/ic_keyboard_smiley" semc:metaKey="smileys" semc:keyStyle="function" />
+            </Default>
+        </Switch>
+        <ReservedKey semc:metaKey="space" semc:keyWidth="680" />
+        <ReservedKey semc:metaKey="xkey" semc:keyStyle="function" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_mini_kb" semc:metaKey="toggleFloating" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" semc:longPressTimeout="mediumTime" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_symbols_space_x_toggle" semc:keyWidth="130" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="260" />
+        <ReservedKey semc:metaKey="space" semc:keyWidth="680" />
+        <ReservedKey semc:metaKey="xkey" semc:keyStyle="function" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_mini_kb" semc:metaKey="toggleFloating" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="130" semc:longPressTimeout="mediumTime" />
+    </RowTemplate>
+</KeyboardTemplate>

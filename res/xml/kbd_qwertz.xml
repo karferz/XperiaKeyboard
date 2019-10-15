@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_10keys">
+        <Key semc:candidates="q" semc:shiftedCandidates="Q" semc:secondaryPrints="1" />
+        <Key semc:candidates="w" semc:shiftedCandidates="W" semc:secondaryPrints="2" />
+        <Key semc:candidates="e" semc:shiftedCandidates="E" semc:secondaryPrints="3" />
+        <Key semc:candidates="r" semc:shiftedCandidates="R" semc:secondaryPrints="4" />
+        <Key semc:candidates="t" semc:shiftedCandidates="T" semc:secondaryPrints="5" />
+        <Key semc:candidates="z" semc:shiftedCandidates="Z" semc:secondaryPrints="6" />
+        <Key semc:candidates="u" semc:shiftedCandidates="U" semc:secondaryPrints="7" />
+        <Key semc:candidates="i" semc:shiftedCandidates="I" semc:secondaryPrints="8" />
+        <Key semc:candidates="o" semc:shiftedCandidates="O" semc:secondaryPrints="9" />
+        <Key semc:candidates="p" semc:shiftedCandidates="P" semc:secondaryPrints="0" />
+    </Row>
+    <Row semc:layoutId="@string/row2_9keys">
+        <Key semc:candidates="a" semc:shiftedCandidates="A" semc:secondaryPrints="\@" />
+        <Key semc:candidates="s" semc:shiftedCandidates="S" semc:secondaryPrints=":" />
+        <Key semc:candidates="d" semc:shiftedCandidates="D" semc:secondaryPrints=";" />
+        <Key semc:candidates="f" semc:shiftedCandidates="F" semc:secondaryPrints="_" />
+        <Key semc:candidates="g" semc:shiftedCandidates="G" semc:secondaryPrints="-" />
+        <Key semc:candidates="h" semc:shiftedCandidates="H" semc:secondaryPrints="\#" />
+        <Key semc:candidates="j" semc:shiftedCandidates="J" semc:secondaryPrints="(" />
+        <Key semc:candidates="k" semc:shiftedCandidates="K" semc:secondaryPrints=")" />
+        <Key semc:candidates="l" semc:shiftedCandidates="L" semc:secondaryPrints="/" />
+    </Row>
+    <Row semc:layoutId="@string/row3_7keys">
+        <Key semc:candidates="y" semc:shiftedCandidates="Y" semc:secondaryPrints="." />
+        <Key semc:candidates="x" semc:shiftedCandidates="X" semc:secondaryPrints="," />
+        <Key semc:candidates="c" semc:shiftedCandidates="C" semc:secondaryPrints="\?" />
+        <Key semc:candidates="v" semc:shiftedCandidates="V" semc:secondaryPrints="!" />
+        <Key semc:candidates="b" semc:shiftedCandidates="B" semc:secondaryPrints="'" />
+        <Key semc:candidates="n" semc:shiftedCandidates="N" semc:secondaryPrints="&quot;" />
+        <Key semc:candidates="m" semc:shiftedCandidates="M" semc:secondaryPrints="+" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+</Keyboard>

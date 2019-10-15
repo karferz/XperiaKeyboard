@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">மறுபிரதி மற்றும் ஒத்திசை</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">மறுபிரதி மற்றும் ஒத்திசை</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">மறுபிரதி மற்றும் ஒத்திசை பற்றி</string>
+    <string name="textinput_strings_settings_show_period_and_comma">காற்புள்ளி / பொது விசைகள்</string>
+    <string name="textinput_strings_settings_show_secondary_prints">நீண்ட அழுத்தலி. சின்னங்கள்</string>
+</resources>

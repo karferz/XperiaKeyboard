@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row0_10keys">
+        <Key semc:candidates="1" />
+        <Key semc:candidates="2" />
+        <Key semc:candidates="3" />
+        <Key semc:candidates="4" />
+        <Key semc:candidates="5" />
+        <Key semc:candidates="6" />
+        <Key semc:candidates="7" />
+        <Key semc:candidates="8" />
+        <Key semc:candidates="9" />
+        <Key semc:candidates="0" />
+    </Row>
+    <Row semc:layoutId="@string/row1_9keys">
+        <Key semc:candidates="ς" semc:shiftedCandidates=";" semc:secondaryPrints="=" />
+        <Key semc:candidates="εέ" semc:shiftedCandidates="ΕΈ" semc:secondaryPrints="+" />
+        <Key semc:candidates="ρ" semc:shiftedCandidates="Ρ" semc:secondaryPrints="*" />
+        <Key semc:candidates="τ" semc:shiftedCandidates="Τ" semc:secondaryPrints="[" />
+        <Key semc:candidates="υύϋΰ" semc:shiftedCandidates="ΥΎΫ" semc:secondaryPrints="]" />
+        <Key semc:candidates="θ" semc:shiftedCandidates="Θ" semc:secondaryPrints="{" />
+        <Key semc:candidates="ιίϊΐ" semc:shiftedCandidates="ΙΊΪ" semc:secondaryPrints="}" />
+        <Key semc:candidates="οό" semc:shiftedCandidates="ΟΌ" semc:secondaryPrints="&lt;" />
+        <Key semc:candidates="π" semc:shiftedCandidates="Π" semc:secondaryPrints=">" />
+    </Row>
+    <Row semc:layoutId="@string/row2_9keys">
+        <Key semc:candidates="αά" semc:shiftedCandidates="ΑΆ" semc:secondaryPrints="\@" />
+        <Key semc:candidates="σ" semc:shiftedCandidates="Σ" semc:secondaryPrints=":" />
+        <Key semc:candidates="δ" semc:shiftedCandidates="Δ" semc:secondaryPrints=";" />
+        <Key semc:candidates="φ" semc:shiftedCandidates="Φ" semc:secondaryPrints="_" />
+        <Key semc:candidates="γ" semc:shiftedCandidates="Γ" semc:secondaryPrints="-" />
+        <Key semc:candidates="ηή" semc:shiftedCandidates="ΗΉ" semc:secondaryPrints="\#" />
+        <Key semc:candidates="ξ" semc:shiftedCandidates="Ξ" semc:secondaryPrints="(" />
+        <Key semc:candidates="κ" semc:shiftedCandidates="Κ" semc:secondaryPrints=")" />
+        <Key semc:candidates="λ" semc:shiftedCandidates="Λ" semc:secondaryPrints="/" />
+    </Row>
+    <Row semc:layoutId="@string/row3_7keys">
+        <Key semc:candidates="ζ" semc:shiftedCandidates="Ζ" semc:secondaryPrints="&quot;" />
+        <Key semc:candidates="χ" semc:shiftedCandidates="Χ" semc:secondaryPrints="'" />
+        <Key semc:candidates="ψ" semc:shiftedCandidates="Ψ" semc:secondaryPrints=":" />
+        <Key semc:candidates="ωώ" semc:shiftedCandidates="ΩΏ" semc:secondaryPrints=";" />
+        <Key semc:candidates="β" semc:shiftedCandidates="Β" semc:secondaryPrints="!" />
+        <Key semc:candidates="ν" semc:shiftedCandidates="Ν" semc:secondaryPrints="\?" />
+        <Key semc:candidates="μ" semc:shiftedCandidates="Μ" semc:secondaryPrints="/\\" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="comma" semc:label="," semc:candidates=",;!-'.?" />
+    <OverrideKey semc:metaKey="period" semc:label="." semc:candidates=".;!-',?" semc:secondaryLabel=";!" />
+</Keyboard>

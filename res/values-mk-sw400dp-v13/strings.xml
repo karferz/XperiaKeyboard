@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Резервна копија и синхронизација</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Резервна копија и синхронизација</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Резервна копија и синхронизација</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">За резервна копија и синхронизација</string>
+    <string name="textinput_strings_settings_show_secondary_prints">Симболи на долго притискање</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">Копче за гласовно пишување на Google</string>
+</resources>

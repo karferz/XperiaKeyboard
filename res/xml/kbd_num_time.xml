@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_phone_4keys">
+        <Key semc:candidates="1" />
+        <Key semc:candidates="2" />
+        <Key semc:candidates="3" />
+        <Key semc:candidates="-" semc:longpress_candidate="+" />
+    </Row>
+    <Row semc:layoutId="@string/row2_phone_4keys">
+        <Key semc:candidates="4" />
+        <Key semc:candidates="5" />
+        <Key semc:candidates="6" />
+        <Key semc:candidates="." />
+    </Row>
+    <Row semc:layoutId="@string/row3_phone_3keys">
+        <Key semc:candidates="7" />
+        <Key semc:candidates="8" />
+        <Key semc:candidates="9" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_phone_3keys">
+        <Key semc:candidates=":" />
+        <Key semc:candidates="0" />
+        <Key semc:candidates=" " />
+    </Row>
+</Keyboard>

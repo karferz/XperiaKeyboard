@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permissions_dialog_continue_button">App info</string>
+    <string name="textinput_strings_backup_and_sync_hint_dialog_text">"You can back up and synchronise your writing style to ensure the same keyboard experience across all your Xperia™ devices, both present and future.
+Activate automatic backup and sync?"</string>
+    <string name="textinput_strings_datacharges_may_apply">Additional charges may apply for downloading.</string>
+    <string name="textinput_strings_download_missing_dictionaries">"Dictionary is missing for %1$s. Without a dictionary you won't see any word suggestions for this language except for words you have written yourself."</string>
+    <string name="textinput_strings_missing_dictionary_and_network">The dictionaries for your languages have not been downloaded. Please connect to the network or Wi-Fi to download them.</string>
+    <string name="textinput_strings_personalization_can_be_done_later_dialog_text">To personalise the keyboard later, go to Xperia™ keyboard settings.</string>
+    <string name="textinput_strings_personalization_guide">Personalisation guide</string>
+    <string name="textinput_strings_personalization_guide_additional_keys_period_and_comma_keys">Full stop and comma keys</string>
+    <string name="textinput_strings_personalization_guide_done">To further personalise the keyboard, for example to change the keyboard skin, visit Xperia™ keyboard settings.</string>
+    <string name="textinput_strings_personalization_guide_done_title">"You're ready to go!"</string>
+    <string name="textinput_strings_personalization_guide_start_dialog_title">Personalise your keyboard?</string>
+    <string name="textinput_strings_punctuation_directly_hint">Tip! You can enter punctuation marks without having to delete the space first.</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_deactivation_dialog_clear_text">Clear from server</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_deactivation_dialog_keep_text">Keep data</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_section">Backup and synchronisation</string>
+    <string name="textinput_strings_settings_clear_language_data_hint">All of your personal writing style data will be deleted</string>
+    <string name="textinput_strings_settings_current_layout">"Current layout: "</string>
+    <string name="textinput_strings_settings_emoji_suggestions_summary">Get emoji suggestions when typing, for example a cloud emoji if you type cloud</string>
+    <string name="textinput_strings_settings_personalization_personalize_gmail_subtitle">Log in to learn from Gmail™</string>
+    <string name="textinput_strings_settings_personalization_personalize_gmail_succeeded">Successfully learned from Gmail™.</string>
+    <string name="textinput_strings_settings_quick_period">Quick full stop</string>
+    <string name="textinput_strings_settings_quick_period_summary">Tap space bar twice for full stop followed by space</string>
+    <string name="textinput_strings_settings_show_period_and_comma">Full stop and comma keys</string>
+</resources>

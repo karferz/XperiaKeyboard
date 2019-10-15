@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.textinput.uxp.view.keyboard.KeyboardContainer android:id="@id/keyboard_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/emoji_container" />
+    <LinearLayout android:orientation="vertical" android:id="@id/keyboard_and_candidatebar_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/candidate_bar" />
+        <ImageView android:id="@id/candidate_bar_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/candidate_bar_divider" />
+        <include layout="@layout/keyboard_view_with_shadow" />
+    </LinearLayout>
+</com.sonyericsson.textinput.uxp.view.keyboard.KeyboardContainer>

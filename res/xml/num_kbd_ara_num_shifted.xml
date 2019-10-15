@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row0_10keys">
+        <Key semc:candidates="1١" semc:secondaryPrints="١" />
+        <Key semc:candidates="2٢" semc:secondaryPrints="٢" />
+        <Key semc:candidates="3٣" semc:secondaryPrints="٣" />
+        <Key semc:candidates="4٤" semc:secondaryPrints="٤" />
+        <Key semc:candidates="5٥" semc:secondaryPrints="٥" />
+        <Key semc:candidates="6٦" semc:secondaryPrints="٦" />
+        <Key semc:candidates="7٧" semc:secondaryPrints="٧" />
+        <Key semc:candidates="8٨" semc:secondaryPrints="٨" />
+        <Key semc:candidates="9٩" semc:secondaryPrints="٩" />
+        <Key semc:candidates="0٠ⁿ∅°" semc:secondaryPrints="٠" />
+    </Row>
+    <Row semc:layoutId="@string/row1_10keys">
+        <Key semc:candidates="¢" />
+        <Key semc:candidates="¤" />
+        <Key semc:candidates="©" />
+        <Key semc:candidates="®" />
+        <Key semc:candidates="™" />
+        <Key semc:candidates="°" />
+        <Key semc:candidates="“" />
+        <Key semc:candidates="”" />
+        <Key semc:candidates="«" />
+        <Key semc:candidates="»" />
+    </Row>
+    <Row semc:layoutId="@string/row2_10keys">
+        <Key semc:candidates="$₣₤₱" />
+        <Key semc:candidates="£₤" />
+        <Key semc:candidates="€" />
+        <Key semc:candidates="¥" />
+        <Key semc:candidates="|" />
+        <Key semc:candidates="~`" />
+        <Key semc:candidates="^" />
+        <Key semc:candidates="§" />
+        <Key semc:candidates="…" />
+        <Key semc:candidates="&amp;¶•" />
+    </Row>
+    <Row semc:layoutId="@string/row3_6keys_symbols_shifted">
+        <Key semc:candidates="." />
+        <Key semc:candidates="،," />
+        <Key semc:candidates="؟?¿" />
+        <Key semc:candidates="!¡" />
+        <Key semc:candidates="'`´" />
+        <Key semc:candidates="&quot;“”«»˝" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="switchSymbols" semc:label="@string/switch_symbols_page" />
+    <OverrideKey semc:metaKey="symbols" semc:label="@string/abc_key_arabic" />
+</Keyboard>

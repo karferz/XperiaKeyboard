@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:totalWidth="320" semc:keyWidth="33" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="testSingleKeyCandidates">
+        <Key />
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testMutipleKeyCandidates">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testCandidateTag_withKeyCandidates">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testLabel">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testLabelInheritance">
+        <Key />
+        <Key />
+        <Key />
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testSecondaryPrintCandidate">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testCandidateTag">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testKeySet">
+        <KeySet semc:numberOfKeys="3" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testKeySetAndKey">
+        <Key />
+        <KeySet semc:numberOfKeys="3" />
+        <Key />
+    </RowTemplate>
+    <PreProcess>
+        <Switch>
+            <Case semc:keyboardMode="kbd_mode_web">
+                <LinkReference semc:layoutId="testSwitchCase" semc:linkedId="testSwitchCase_web" />
+            </Case>
+            <Default>
+                <LinkReference semc:layoutId="testSwitchCase" semc:linkedId="testSwitchCase_default" />
+            </Default>
+        </Switch>
+    </PreProcess>
+    <RowTemplate semc:layoutId="testSwitchCase_web">
+        <Key semc:keyWidth="40" />
+        <Key semc:keyWidth="20" />
+        <Key semc:keyWidth="42" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="testSwitchCase_default">
+        <KeySet semc:numberOfKeys="2" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row1_10keys">
+        <KeySet semc:numberOfKeys="10" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_9keys">
+        <KeySet semc:numberOfKeys="9" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_7keys">
+        <ReservedKey />
+        <KeySet semc:numberOfKeys="7" />
+        <ReservedKey />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom" />
+</KeyboardTemplate>

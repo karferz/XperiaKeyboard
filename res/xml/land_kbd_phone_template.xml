@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:keyBackground="@drawable/ic_keyboard_button" semc:totalWidth="320" semc:keyWidth="79" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="@string/row1_phone_4keys" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="1" />
+        <Key semc:keyWidth="80" />
+        <Key semc:keyWidth="80" />
+        <Key semc:keyEdgeFlags="right" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_phone_4keys">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="1" />
+        <Key semc:keyWidth="80" />
+        <Key semc:keyWidth="80" />
+        <Key semc:keyEdgeFlags="right" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_phone_3keys">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="1" />
+        <Key semc:keyWidth="80" />
+        <Key semc:keyWidth="80" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_phone_2keys" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:leftVisualGap="1" />
+        <Key semc:keyWidth="80" />
+        <Key semc:iconId="@drawable/ic_keyboard_space" semc:keyWidth="80" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_phone_3keys" semc:rowEdgeFlags="bottom">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="1" />
+        <Key semc:keyWidth="80" />
+        <Key semc:iconId="@drawable/ic_keyboard_space" semc:keyWidth="80" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_phone_4keys_symbols">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="1" />
+        <Key semc:keyTextSizeNormal="16.0dip" semc:keyWidth="80" />
+        <Key semc:keyWidth="80" />
+        <Key semc:keyEdgeFlags="right" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_phone_3keys_symbols">
+        <Key semc:keyEdgeFlags="left" semc:leftVisualGap="1" />
+        <Key semc:keyTextSizeNormal="16.0dip" semc:keyWidth="80" />
+        <Key semc:keyWidth="80" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:rightVisualGap="1" />
+    </RowTemplate>
+</KeyboardTemplate>

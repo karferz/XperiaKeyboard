@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row0_10keys">
+        <Key semc:candidates="1۱" semc:secondaryPrints="۱" />
+        <Key semc:candidates="2۲" semc:secondaryPrints="۲" />
+        <Key semc:candidates="3۳" semc:secondaryPrints="۳" />
+        <Key semc:candidates="4۴" semc:secondaryPrints="۴" />
+        <Key semc:candidates="5۵" semc:secondaryPrints="۵" />
+        <Key semc:candidates="6۶" semc:secondaryPrints="۶" />
+        <Key semc:candidates="7۷" semc:secondaryPrints="۷" />
+        <Key semc:candidates="8۸" semc:secondaryPrints="۸" />
+        <Key semc:candidates="9۹" semc:secondaryPrints="۹" />
+        <Key semc:candidates="0۰ⁿ∅°" semc:secondaryPrints="۰" />
+    </Row>
+    <Row semc:layoutId="@string/row1_10keys">
+        <Key semc:candidates="=≠≈∞" />
+        <Key semc:candidates="+±" />
+        <Key semc:candidates="%‰" />
+        <Key semc:candidates="*†‡" />
+        <Key semc:candidates="]" semc:visualCandidates="[" />
+        <Key semc:candidates="[" semc:visualCandidates="]" />
+        <Key semc:candidates="}" semc:visualCandidates="{" />
+        <Key semc:candidates="{" semc:visualCandidates="}" />
+        <Key semc:candidates=">≥»›" semc:visualCandidates="&lt;≤«‹" />
+        <Key semc:candidates="&lt;≤«‹" semc:visualCandidates=">≥»›" />
+    </Row>
+    <Row semc:layoutId="@string/row2_10keys">
+        <Key semc:candidates="\@©®™" />
+        <Key semc:candidates=":" />
+        <Key semc:candidates="؛;" />
+        <Key semc:candidates="_" />
+        <Key semc:candidates="-=–—" />
+        <Key semc:candidates="\#" />
+        <Key semc:candidates=")" semc:visualCandidates="(" />
+        <Key semc:candidates="(" semc:visualCandidates=")" />
+        <Key semc:candidates="/÷" />
+        <Key semc:candidates="\\" />
+    </Row>
+    <Row semc:layoutId="@string/row3_6keys_symbols">
+        <Key semc:candidates="." />
+        <Key semc:candidates="،," />
+        <Key semc:candidates="؟?¿" />
+        <Key semc:candidates="!¡" />
+        <Key semc:candidates="'`´" />
+        <Key semc:candidates="&quot;“”«»˝" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="switchSymbols" semc:label="@string/switch_symbols_page" />
+    <OverrideKey semc:metaKey="symbols" semc:label="@string/abc_key_arabic" />
+</Keyboard>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN күту</string>
+    <string name="textinput_strings_download_only_via_wifi">Тек WLAN арқылы жүктеу</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Сіздің тілдер үшін сөздіктер жүктелмеген. Жүктеу үшін желіге немесе WLAN желісіне қосылыңыз.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Тек WLAN арқылы авт. түрде жаң.</string>
+</resources>

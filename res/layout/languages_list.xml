@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/languagesListView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:orientation="vertical" android:id="@id/extraButtonsContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle">
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:layout_gravity="end" android:id="@id/okButton" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/gui_ok_txt" android:layout_weight="1.0" android:title="@string/gui_ok_txt" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

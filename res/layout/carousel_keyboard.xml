@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/guide_keyboard_layout_header_text_size" android:gravity="center_horizontal" android:id="@id/keyboardHeader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/personalization_guide_keyboard_layout_header_margin_bottom" />
+    <LinearLayout android:gravity="center_horizontal" android:background="@drawable/ic_skinselector_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/keyboard_view" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/guide_keyboard_layout_footer_text_size" android:gravity="center_horizontal" android:id="@id/keyboardFooter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/guide_keyboard_layout_footer_margin" android:lines="4" android:width="0.0dip" android:layout_marginStart="@dimen/guide_margin_small" android:layout_marginEnd="@dimen/guide_margin_small" />
+</LinearLayout>

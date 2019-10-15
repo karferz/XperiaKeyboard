@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:popupKeySize="@dimen/popup_key_size" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="@string/row_5keys">
+        <KeySet semc:numberOfKeys="5" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_4keys">
+        <KeySet semc:numberOfKeys="4" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_2keys">
+        <KeySet semc:numberOfKeys="2" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_1keys">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_8keys">
+        <KeySet semc:numberOfKeys="8" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_7keys">
+        <KeySet semc:numberOfKeys="7" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_6keys">
+        <KeySet semc:numberOfKeys="6" />
+    </RowTemplate>
+</KeyboardTemplate>

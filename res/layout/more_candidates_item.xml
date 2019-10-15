@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/candidate_bar_text_size" android:textColor="@color/candidate_normal_text_classic" android:gravity="center" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:soundEffectsEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

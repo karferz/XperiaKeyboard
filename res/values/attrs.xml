@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="RootInclude" format="reference" />
+    <attr name="disabled" format="boolean" />
+    <attr name="iconId" format="reference" />
+    <attr name="iconPreviewId" format="reference" />
+    <attr name="keyBackground" format="reference" />
+    <attr name="keyIndex" format="string" />
+    <attr name="layoutId" format="string" />
+    <attr name="metaKey">
+        <enum name="at" value="6" />
+        <enum name="comma" value="2" />
+        <enum name="delete" value="-5" />
+        <enum name="dotcom" value="3" />
+        <enum name="enter" value="-4" />
+        <enum name="exclamation" value="8" />
+        <enum name="handwriting" value="-20" />
+        <enum name="hyphen" value="9" />
+        <enum name="period" value="1" />
+        <enum name="question" value="7" />
+        <enum name="settings" value="-11" />
+        <enum name="shift" value="-1" />
+        <enum name="singletap" value="-8" />
+        <enum name="slash" value="5" />
+        <enum name="smallSpace" value="11" />
+        <enum name="smileys" value="-14" />
+        <enum name="space" value="4" />
+        <enum name="switchSymbols" value="-13" />
+        <enum name="symbols" value="-2" />
+        <enum name="tab" value="-12" />
+        <enum name="toggleFloating" value="-19" />
+        <enum name="underline" value="10" />
+        <enum name="voice" value="-18" />
+        <enum name="wizard" value="-17" />
+        <enum name="xkey" value="-16" />
+    </attr>
+    <attr name="secondaryStyle" format="integer">
+        <enum name="extendedSecondaryPrint" value="1" />
+        <enum name="normalSecondaryPrint" value="0" />
+    </attr>
+    <attr name="text" format="string" />
+    <attr name="candidateEllipsizePadding" format="dimension" />
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="contentPadding" format="dimension" />
+    <attr name="contentPaddingLeft" format="dimension" />
+    <attr name="contentPaddingRight" format="dimension" />
+    <attr name="contentPaddingTop" format="dimension" />
+    <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="state_shift_normal" format="boolean" />
+    <attr name="state_shift_shifted" format="boolean" />
+    <attr name="state_shift_caps_locked" format="boolean" />
+    <attr name="confirmationTitle" format="string" />
+    <attr name="confirmationText" format="string" />
+    <attr name="search" format="boolean" />
+    <attr name="tabIconNormal" format="reference" />
+    <attr name="tabIconSelected" format="reference" />
+    <attr name="tabLabel" format="string" />
+    <attr name="tabTextSize" format="dimension" />
+    <attr name="tabGrayScale" format="boolean" />
+    <attr name="direction">
+        <enum name="bottom" value="0" />
+        <enum name="end" value="5" />
+        <enum name="left" value="2" />
+        <enum name="right" value="3" />
+        <enum name="start" value="4" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="fadePercentage" format="float" />
+    <attr name="fadeSize" format="dimension" />
+    <attr name="state_auxiliary" format="boolean" />
+    <attr name="state_function" format="boolean" />
+    <attr name="state_focused" format="boolean" />
+    <attr name="state_locked" format="boolean" />
+    <attr name="state_space" format="boolean" />
+    <attr name="totalWidth" format="integer" />
+    <attr name="verticalGap" format="dimension|fraction" />
+    <attr name="keyLargeLabelStyle" format="reference" />
+    <attr name="keyLabelStyle" format="reference" />
+    <attr name="keySmallLabelStyle" format="reference" />
+    <attr name="keyVerySmallLabelStyle" format="reference" />
+    <attr name="keyVeryVerySmallLabelStyle" format="reference" />
+    <attr name="keyPreviewLabelStyle" format="reference" />
+    <attr name="keyVerySmallPreviewLabelStyle" format="reference" />
+    <attr name="popupKeySize" format="dimension|fraction" />
+    <attr name="includeXMLId" format="reference" />
+    <attr name="numberOfKeys" format="integer" />
+    <attr name="isModifier" format="boolean" />
+    <attr name="isRepeatable" format="boolean" />
+    <attr name="isSticky" format="boolean" />
+    <attr name="keyEdgeFlags">
+        <flag name="left" value="0x00000000" />
+        <flag name="right" value="0x00000001" />
+    </attr>
+    <attr name="keyStyle">
+        <enum name="auxiliary" value="1" />
+        <enum name="basic" value="0" />
+        <enum name="function" value="2" />
+    </attr>
+    <attr name="keySplitFlags">
+        <flag name="left" value="0x00000001" />
+        <flag name="right" value="0x00000002" />
+    </attr>
+    <attr name="keyTextSizeNormal" format="dimension" />
+    <attr name="keyTextSizeSecondary" format="dimension" />
+    <attr name="keyTextYOffset" format="dimension" />
+    <attr name="keyWidth" format="integer" />
+    <attr name="labelStyle">
+        <enum name="bold" value="3" />
+        <enum name="normal" value="1" />
+        <enum name="small" value="2" />
+    </attr>
+    <attr name="leftTouchAdjustment" format="integer" />
+    <attr name="leftVisualGap" format="integer" />
+    <attr name="rightTouchAdjustment" format="integer" />
+    <attr name="templateKeyCandidate" format="string" />
+    <attr name="rightVisualGap" format="integer" />
+    <attr name="showPreview">
+        <flag name="none" value="0x00000000" />
+        <flag name="onDragTo" value="0x00000001" />
+        <flag name="onDragToAndPress" value="0x00000002" />
+    </attr>
+    <attr name="longPressTimeout">
+        <flag name="longTime" value="0x00000002" />
+        <flag name="mediumTime" value="0x00000001" />
+        <flag name="shortTime" value="0x00000000" />
+    </attr>
+    <attr name="linkedId" format="string" />
+    <attr name="rowEdgeFlags">
+        <flag name="bottom" value="0x00000003" />
+        <flag name="top" value="0x00000002" />
+    </attr>
+    <attr name="rowHeightId" format="string" />
+    <attr name="keyboardViewStyle" format="reference" />
+    <attr name="keyboardModifiedWidth" format="dimension" />
+    <attr name="keyboardModifiedHeight" format="dimension" />
+    <attr name="keyboardKeyContentScaleFactor" format="float" />
+    <attr name="viewBackground" format="reference" />
+    <attr name="keyShadow" format="reference" />
+    <attr name="keyTextSize" format="dimension" />
+    <attr name="keyTextOffset" format="dimension" />
+    <attr name="secondaryPrintTextSize" format="dimension" />
+    <attr name="secondaryPrintOffset" format="dimension" />
+    <attr name="labelTextSize" format="dimension" />
+    <attr name="keyTextColor" format="color" />
+    <attr name="colorIconsUsingTextColor" format="boolean" />
+    <attr name="showKeyPreview" format="boolean" />
+    <attr name="keyPreviewOffset" format="dimension" />
+    <attr name="keyPreviewHeight" format="dimension" />
+    <attr name="verticalCorrection" format="dimension" />
+    <attr name="keyExpansionFactorX" format="float" />
+    <attr name="keyExpansionFactorY" format="float" />
+    <attr name="label" format="string" />
+    <attr name="decorSubLabel" format="string" />
+    <attr name="candidates" format="string" />
+    <attr name="longpress_candidate" format="string" />
+    <attr name="shiftedCandidates" format="string" />
+    <attr name="visualCandidates" format="string" />
+    <attr name="shiftedVisualCandidates" format="string" />
+    <attr name="shiftedLabel" format="string" />
+    <attr name="visualSecondaryPrints" format="string" />
+    <attr name="secondaryPrints" format="string" />
+    <attr name="shiftedVisualSecondaryPrints" format="string" />
+    <attr name="shiftedSecondaryPrints" format="string" />
+    <attr name="secondaryLabel" format="string" />
+    <attr name="candidate" format="string" />
+    <attr name="visualCandidate" format="string" />
+    <attr name="shiftedCandidate" format="string" />
+    <attr name="shiftedVisualCandidate" format="string" />
+    <attr name="visualSecondaryPrint" format="string" />
+    <attr name="secondaryPrint" format="string" />
+    <attr name="shiftedVisualSecondaryPrint" format="string" />
+    <attr name="shiftedSecondaryPrint" format="string" />
+    <attr name="XKey" format="boolean" />
+    <attr name="punctuationKeys" format="boolean" />
+    <attr name="leftFunctionKey" format="boolean" />
+    <attr name="wizardKey" format="boolean" />
+    <attr name="handwritingKey" format="boolean" />
+    <attr name="webTabKey" format="boolean" />
+    <attr name="emailDotComKey" format="boolean" />
+    <attr name="keyboardMode">
+        <flag name="kbd_mode_email" value="0x00000010" />
+        <flag name="kbd_mode_im" value="0x00000020" />
+        <flag name="kbd_mode_normal" value="0x00000001" />
+        <flag name="kbd_mode_number_password" value="0x00000200" />
+        <flag name="kbd_mode_phone" value="0x00000004" />
+        <flag name="kbd_mode_symbols" value="0x00000002" />
+        <flag name="kbd_mode_url" value="0x00000008" />
+        <flag name="kbd_mode_web" value="0x00000040" />
+        <flag name="kbd_mode_web_email" value="0x00000080" />
+        <flag name="kbd_mode_web_password" value="0x00000100" />
+    </attr>
+    <attr name="orientation" format="integer" />
+    <attr name="language_isocode" format="string" />
+    <attr name="language_name" format="string" />
+    <attr name="language_script" format="string" />
+    <attr name="language_country" format="string" />
+    <attr name="language_properties" format="string" />
+    <attr name="secondary_writing_language" format="string" />
+    <attr name="third_writing_language" format="string" />
+    <attr name="language_candidates_xml" format="reference" />
+    <attr name="script">
+        <enum name="arabic" value="2" />
+        <enum name="armenian" value="8" />
+        <enum name="cyrillic" value="1" />
+        <enum name="georgian" value="9" />
+        <enum name="greek" value="3" />
+        <enum name="hebrew" value="4" />
+        <enum name="hindi" value="6" />
+        <enum name="latin" value="0" />
+        <enum name="punjabi" value="10" />
+        <enum name="tamil" value="7" />
+        <enum name="thai" value="5" />
+    </attr>
+    <attr name="countryISO" format="string" />
+    <attr name="keyboardLayoutId" format="string" />
+    <attr name="keyboardLayoutOrder" format="integer" />
+    <attr name="keyboardLayoutName" format="string" />
+    <attr name="keyboardLayoutXml" format="reference" />
+    <attr name="templateLayoutXml" format="reference" />
+    <attr name="keyboardSymbolsXml" format="reference" />
+    <attr name="keyboardSymbolsShiftedXml" format="reference" />
+    <attr name="imageAspectRatioAdjust">
+        <enum name="none" value="0" />
+        <enum name="adjust_height" value="2" />
+        <enum name="adjust_width" value="1" />
+    </attr>
+    <attr name="imageAspectRatio" format="float" />
+    <attr name="circleCrop" format="boolean" />
+    <attr name="content" format="reference" />
+    <attr name="textSize" format="dimension" />
+    <attr name="subLabelTextSizeResName" format="string" />
+    <attr name="pageGapResName" format="string" />
+    <attr name="subLabel" format="string" />
+    <attr name="excludeFromDynamic" format="boolean" />
+    <attr name="visualLabel" format="string" />
+    <attr name="columnMinWidth" format="string" />
+    <attr name="rowPreferredHeight" format="string" />
+    <attr name="rowMinHeight" format="string" />
+    <attr name="minVisibleRows" format="string" />
+    <attr name="cellBackground" format="reference" />
+    <attr name="cellBorderThickness" format="dimension" />
+    <attr name="identifier" format="string" />
+    <attr name="empty_hint" format="string" />
+    <attr name="preferredLabelTextSize" format="dimension" />
+    <attr name="pageXml" format="reference" />
+    <attr name="layoutManager" format="string" />
+    <attr name="spanCount" format="integer" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="stackFromEnd" format="boolean" />
+    <attr name="min" format="integer" />
+    <attr name="max" format="integer" />
+    <attr name="dialogIconAccentColor">
+        <enum name="none" value="0" />
+        <enum name="colorize_using_dark_accent_color" value="2" />
+        <enum name="colorize_using_light_accent_color" value="1" />
+    </attr>
+    <attr name="buttonSize" format="reference">
+        <enum name="icon_only" value="2" />
+        <enum name="standard" value="0" />
+        <enum name="wide" value="1" />
+    </attr>
+    <attr name="colorScheme" format="reference">
+        <enum name="auto" value="2" />
+        <enum name="dark" value="0" />
+        <enum name="light" value="1" />
+    </attr>
+    <attr name="scopeUris" format="reference|string" />
+    <attr name="entries" format="reference" />
+    <attr name="entryValues" format="reference" />
+    <attr name="state_single" format="boolean" />
+    <attr name="background" format="reference" />
+    <attr name="src" format="reference" />
+    <attr name="highlightImage" format="reference" />
+    <attr name="textGap" format="dimension" />
+    <attr name="maxLength" format="float" />
+    <attr name="velocity" format="float" />
+    <attr name="touchPrecision" format="float" />
+    <attr name="smooth" format="boolean" />
+    <attr name="smoothPrecision" format="float" />
+    <attr name="weight0" format="float" />
+    <attr name="weight1" format="float" />
+    <attr name="headSize" format="dimension" />
+    <attr name="tailSize" format="dimension" />
+    <attr name="headColor" format="color" />
+</resources>

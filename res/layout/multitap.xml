@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ic_keyboard_multitapbox_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.textinput.uxp.view.speechbubble.SpeechBubble android:id="@id/speechbubblebox" style="@style/speechbubble"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</FrameLayout>

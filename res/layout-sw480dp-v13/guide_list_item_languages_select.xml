@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/languageSelectLayout" style="@style/PersonalizationGuideListItemDoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:id="@id/writingLanguage" android:text="@string/textinput_strings_personalization_guide_languages_writing_language" style="@style/PersonalizationGuideSwitchListSubheadText" />
+        <TextView android:ellipsize="end" android:id="@id/currentLanguages" android:text="@string/textinput_strings_personalization_guide_languages_current_language" android:maxLines="2" style="@style/PersonalizationGuideSwitchListText" />
+    </LinearLayout>
+</RelativeLayout>

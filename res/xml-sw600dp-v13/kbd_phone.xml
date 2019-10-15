@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_phone_6keys">
+        <Key semc:candidates="(" />
+        <Key semc:candidates=")" />
+        <Key semc:candidates="/" />
+        <Key semc:decorSubLabel="" semc:candidates="1" />
+        <Key semc:decorSubLabel="ABC" semc:candidates="2" />
+        <Key semc:decorSubLabel="DEF" semc:candidates="3" />
+    </Row>
+    <Row semc:layoutId="@string/row2_phone_6keys">
+        <Key semc:label="@string/textinput_strings_phone_no_pause" semc:candidates="," />
+        <Key semc:label="@string/textinput_strings_phone_no_wait" semc:candidates=";" />
+        <Key semc:candidates="-" />
+        <Key semc:decorSubLabel="GHI" semc:candidates="4" />
+        <Key semc:decorSubLabel="JKL" semc:candidates="5" />
+        <Key semc:decorSubLabel="MNO" semc:candidates="6" />
+    </Row>
+    <Row semc:layoutId="@string/row3_phone_6keys">
+        <Key semc:candidates="N" />
+        <Key semc:candidates="," />
+        <Key semc:candidates="." />
+        <Key semc:decorSubLabel="PQRS" semc:candidates="7" />
+        <Key semc:decorSubLabel="TUV" semc:candidates="8" />
+        <Key semc:decorSubLabel="WXYZ" semc:candidates="9" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_phone_6keys">
+        <Key semc:candidates=" " />
+        <Key semc:candidates="+" />
+        <Key semc:candidates="*" />
+        <Key semc:decorSubLabel="+" semc:candidates="0" semc:longpress_candidate="+" />
+        <Key semc:candidates="\#" />
+    </Row>
+    <OverrideKey semc:metaKey="symbols" semc:label="@string/phonenum_symbol_key" />
+</Keyboard>

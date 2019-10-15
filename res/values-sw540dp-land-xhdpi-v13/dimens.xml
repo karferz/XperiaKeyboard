@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emoji_grid_view_emoji_column_minimum_width">60.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_minimum_height">60.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_preferred_height">65.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_column_minimum_width">60.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_minimum_height">60.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_preferred_height">70.0dip</dimen>
+    <item type="dimen" name="emoji_grid_view_smiley_scale_factor">0.9</item>
+</resources>

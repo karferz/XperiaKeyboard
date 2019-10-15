@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page semc:columnMinWidth="@string/emoji_grid_view_smiley_column_minimum_width_key" semc:rowPreferredHeight="@string/emoji_grid_view_smiley_row_preferred_height_key" semc:rowMinHeight="@string/emoji_grid_view_smiley_row_minimum_height_key" semc:minVisibleRows="@string/emoji_grid_view_smiley_minimum_visible_rows_key" semc:cellBorderThickness="@dimen/emoji_cellborder_thickness" semc:preferredLabelTextSize="@dimen/emoji_grid_view_symbol_font_size" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Cell semc:label="." semc:excludeFromDynamic="true" />
+    <Cell semc:label="،" semc:excludeFromDynamic="true" />
+    <Cell semc:label="-" semc:excludeFromDynamic="true" />
+    <Cell semc:label="؟" semc:excludeFromDynamic="true" />
+    <Cell semc:label="!" semc:excludeFromDynamic="true" />
+    <Cell semc:label="\@" semc:excludeFromDynamic="true" />
+    <Cell semc:label="_" semc:excludeFromDynamic="true" />
+    <Cell semc:label="/" semc:excludeFromDynamic="true" />
+    <Cell semc:label=")" semc:excludeFromDynamic="true" semc:visualLabel="(" />
+    <Cell semc:label="(" semc:excludeFromDynamic="true" semc:visualLabel=")" />
+    <Cell semc:label="&amp;" semc:excludeFromDynamic="true" />
+    <Cell semc:label=":" semc:excludeFromDynamic="true" />
+    <Cell semc:label="؛" semc:excludeFromDynamic="true" />
+    <Cell semc:label="&quot;" semc:excludeFromDynamic="true" />
+    <Cell semc:label="+" semc:excludeFromDynamic="true" />
+    <Cell semc:label="%" semc:excludeFromDynamic="true" />
+    <Cell semc:label="=" semc:excludeFromDynamic="true" />
+    <Cell semc:label="\#" semc:excludeFromDynamic="true" />
+    <Cell semc:label="*" semc:excludeFromDynamic="true" />
+    <Cell semc:label="'" semc:excludeFromDynamic="true" />
+    <Cell semc:label="§" semc:excludeFromDynamic="true" />
+    <Cell semc:label="£" semc:excludeFromDynamic="true" />
+    <Cell semc:label="$" semc:excludeFromDynamic="true" />
+    <Cell semc:label="¥" semc:excludeFromDynamic="true" />
+    <Cell semc:label="€" semc:excludeFromDynamic="true" />
+    <Cell semc:label="`" semc:excludeFromDynamic="true" />
+    <Cell semc:label=">" semc:excludeFromDynamic="true" semc:visualLabel="&lt;" />
+    <Cell semc:label="&lt;" semc:excludeFromDynamic="true" semc:visualLabel=">" />
+    <Cell semc:label="^" semc:excludeFromDynamic="true" />
+    <Cell semc:label="~" semc:excludeFromDynamic="true" />
+    <Cell semc:label="]" semc:excludeFromDynamic="true" semc:visualLabel="[" />
+    <Cell semc:label="[" semc:excludeFromDynamic="true" semc:visualLabel="]" />
+    <Cell semc:label="}" semc:excludeFromDynamic="true" semc:visualLabel="{" />
+    <Cell semc:label="{" semc:excludeFromDynamic="true" semc:visualLabel="}" />
+    <Cell semc:label="\\" semc:excludeFromDynamic="true" />
+    <Cell semc:label="¿" semc:excludeFromDynamic="true" />
+    <Cell semc:label="¡" semc:excludeFromDynamic="true" />
+    <Cell semc:label="¤" semc:excludeFromDynamic="true" />
+    <Cell semc:label="|" semc:excludeFromDynamic="true" />
+    <Cell semc:label="\?" semc:excludeFromDynamic="true" />
+    <Cell semc:label=";" semc:excludeFromDynamic="true" />
+    <Cell semc:label="," semc:excludeFromDynamic="true" />
+    <Cell semc:iconId="@drawable/ic_smiley_happy" subLabel=":-)" />
+    <Cell semc:iconId="@drawable/ic_smiley_wink" subLabel=";-)" />
+    <Cell semc:iconId="@drawable/ic_smiley_sad" subLabel=":-(" />
+    <Cell semc:iconId="@drawable/ic_smiley_surprise" subLabel=":-o" />
+    <Cell semc:iconId="@drawable/ic_smiley_big_grin" subLabel=":-D" />
+    <Cell semc:iconId="@drawable/ic_smiley_tongue_out" subLabel=":-P" />
+    <Cell semc:iconId="@drawable/ic_smiley_angry" subLabel=":@" />
+    <Cell semc:iconId="@drawable/ic_smiley_worried" subLabel=":-S" />
+    <Cell semc:iconId="@drawable/ic_smiley_embarassed" subLabel=":$" />
+    <Cell semc:iconId="@drawable/ic_smiley_sunglasses" subLabel="B-)" />
+    <Cell semc:iconId="@drawable/ic_smiley_crying_face" subLabel=":'(" />
+    <Cell semc:iconId="@drawable/ic_smiley_kiss" subLabel=":-*" />
+    <Cell semc:iconId="@drawable/ic_smiley_devilish" subLabel=">:)" />
+    <Cell semc:iconId="@drawable/ic_smiley_innocent" subLabel="O:)" />
+    <Cell semc:iconId="@drawable/ic_smiley_confused" subLabel=":-/" />
+    <Cell semc:iconId="@drawable/ic_smiley_straight_face" subLabel=":|" />
+    <Cell semc:iconId="@drawable/ic_smiley_nerd" subLabel=":-B" />
+    <Cell semc:iconId="@drawable/ic_smiley_lips_sealed" subLabel=":-SS" />
+    <Cell semc:iconId="@drawable/ic_smiley_laughing" subLabel=":-))" />
+    <Cell semc:iconId="@drawable/ic_smiley_sleepy" subLabel="|-O" />
+    <Cell semc:iconId="@drawable/ic_smiley_eye_roll" subLabel="8-)" />
+    <Cell semc:iconId="@drawable/ic_smiley_sick" subLabel=":-&amp;" />
+    <Cell semc:iconId="@drawable/ic_smiley_thinking" subLabel=":-?" />
+    <Cell semc:iconId="@drawable/ic_smiley_raised_eyebrow" subLabel="/:-)" />
+    <Cell semc:iconId="@drawable/ic_smiley_love" subLabel="&lt;3" />
+    <Cell semc:iconId="@drawable/ic_smiley_rose" subLabel="\@):-" />
+    <Cell semc:iconId="@drawable/ic_smiley_cup_of_coffee" subLabel="~o)" />
+    <Cell semc:iconId="@drawable/ic_smiley_drink" subLabel=")-|" />
+    <Cell semc:iconId="@drawable/ic_smiley_idea" subLabel="*-:-)" />
+    <Cell semc:iconId="@drawable/ic_smiley_beer" subLabel="(b)" />
+    <Cell semc:iconId="@drawable/ic_smiley_broken_heart" subLabel="(u)" />
+    <Cell semc:iconId="@drawable/ic_smiley_rock_on" subLabel="\\m/" />
+    <Cell semc:iconId="@drawable/ic_smiley_pirate" subLabel=":ar!" />
+    <Cell semc:iconId="@drawable/ic_smiley_silly" subLabel="8-}" />
+    <Cell semc:iconId="@drawable/ic_smiley_applause" subLabel="=D>" />
+    <Cell semc:iconId="@drawable/ic_smiley_penguin" subLabel="&lt;(')" />
+    <Cell semc:iconId="@drawable/ic_smiley_music_note" subLabel="-8" />
+    <Cell semc:iconId="@drawable/ic_smiley_star" subLabel="(*)" />
+    <Cell semc:iconId="@drawable/ic_smiley_clock" subLabel="(o)" />
+    <Cell semc:iconId="@drawable/ic_smiley_pizza" subLabel="(pi)" />
+    <Cell semc:iconId="@drawable/ic_smiley_money" subLabel="(mo)" />
+    <Cell semc:iconId="@drawable/ic_smiley_sheep" subLabel="(bah)" />
+    <Cell semc:iconId="@drawable/ic_smiley_pig" subLabel=":8)" />
+    <Cell semc:iconId="@drawable/ic_smiley_sun" subLabel="(#)" />
+    <Cell semc:iconId="@drawable/ic_smiley_rain_cloud" subLabel="(st)" />
+    <Cell semc:iconId="@drawable/ic_smiley_umbrella" subLabel="(um)" />
+    <Cell semc:iconId="@drawable/ic_smiley_aeroplane" subLabel="(pl)" />
+    <Cell semc:iconId="@drawable/ic_smiley_birthday_cake" subLabel="(^)" />
+    <Cell semc:iconId="@drawable/ic_smiley_party" subLabel="&lt;:o)" />
+    <Cell semc:iconId="@drawable/ic_smiley_film" subLabel="(~)" />
+    <Cell semc:iconId="@drawable/ic_smiley_gift" subLabel="(g)" />
+    <Cell semc:iconId="@drawable/ic_smiley_email" subLabel="(e)" />
+    <Cell semc:iconId="@drawable/ic_smiley_phone" subLabel="(t)" />
+    <Cell semc:iconId="@drawable/ic_smiley_wave" subLabel=":-h" />
+    <Cell semc:iconId="@drawable/ic_smiley_big_hug" subLabel=">:D&lt;" />
+</Page>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:keyBackground="@drawable/ic_keyboard_button" semc:totalWidth="1920" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="@string/row1_phone_6keys" semc:keyWidth="221" semc:rowEdgeFlags="top">
+        <Key semc:keyEdgeFlags="left" semc:keyWidth="201" />
+        <Key semc:keyWidth="201" />
+        <Key semc:keyWidth="201" semc:rightVisualGap="228" />
+        <Key semc:leftVisualGap="228" />
+        <Key />
+        <Key />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="198" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_phone_6keys" semc:keyWidth="221">
+        <Key semc:keyEdgeFlags="left" semc:keyTextSizeNormal="19.0dip" semc:keyWidth="201" />
+        <Key semc:keyTextSizeNormal="19.0dip" semc:keyWidth="201" />
+        <Key semc:keyWidth="201" semc:rightVisualGap="228" />
+        <Key semc:leftVisualGap="228" />
+        <Key />
+        <Key />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="198" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_phone_6keys" semc:keyWidth="221">
+        <Key semc:keyEdgeFlags="left" semc:keyWidth="201" />
+        <Key semc:keyWidth="201" />
+        <Key semc:keyWidth="201" semc:rightVisualGap="228" />
+        <Key semc:leftVisualGap="228" />
+        <Key />
+        <Key semc:rightVisualGap="198" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_phone_6keys" semc:keyWidth="221" semc:rowEdgeFlags="bottom">
+        <Key semc:iconId="@drawable/ic_keyboard_space" semc:keyEdgeFlags="left" semc:keyWidth="402" />
+        <Key semc:keyWidth="201" semc:rightVisualGap="228" />
+        <Key semc:leftVisualGap="228" />
+        <Key />
+        <Key />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_mini_kb" semc:metaKey="toggleFloating" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="198" semc:longPressTimeout="mediumTime" />
+    </RowTemplate>
+</KeyboardTemplate>

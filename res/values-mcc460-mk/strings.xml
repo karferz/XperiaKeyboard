@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Чекајте WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Преземај само преку WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Не се преземени речниците за вашите јазици. Поврзете се на мрежа или WLAN за да ги преземете.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Ажурирај автоматски само преку WLAN</string>
+</resources>

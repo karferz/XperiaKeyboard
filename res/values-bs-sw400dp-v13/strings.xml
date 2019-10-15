@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Rezervna kopija i sinhroniziranje</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Rezervna kopija i sinhroniziranje</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Rezervna kopija i sinhroniziranje</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">Više o izradi rezervna kopija i sinhroniziranje</string>
+</resources>

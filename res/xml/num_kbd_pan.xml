@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row0_10keys">
+        <Key semc:candidates="1੧" semc:secondaryPrints="੧" />
+        <Key semc:candidates="2੨" semc:secondaryPrints="੨" />
+        <Key semc:candidates="3੩" semc:secondaryPrints="੩" />
+        <Key semc:candidates="4੪" semc:secondaryPrints="੪" />
+        <Key semc:candidates="5੫" semc:secondaryPrints="੫" />
+        <Key semc:candidates="6੬" semc:secondaryPrints="੬" />
+        <Key semc:candidates="7੭" semc:secondaryPrints="੭" />
+        <Key semc:candidates="8੮" semc:secondaryPrints="੮" />
+        <Key semc:candidates="9੯" semc:secondaryPrints="੯" />
+        <Key semc:candidates="0੦ⁿ∅°" semc:secondaryPrints="੦" />
+    </Row>
+    <Row semc:layoutId="@string/row1_11keys">
+        <Key semc:candidates="ੌਔ" semc:shiftedCandidates="ਔੌ" semc:secondaryPrints="ਔ" semc:shiftedSecondaryPrints="ੌ" />
+        <Key semc:candidates="ੈਐ" semc:shiftedCandidates="ਐੈ" semc:secondaryPrints="ਐ" semc:shiftedSecondaryPrints="ੈ" />
+        <Key semc:candidates="ਾਆ" semc:shiftedCandidates="ਆਾ" semc:secondaryPrints="ਆ" semc:shiftedSecondaryPrints="ਾ" />
+        <Key semc:candidates="ੀਈ" semc:shiftedCandidates="ਈੀ" semc:secondaryPrints="ਈ" semc:shiftedSecondaryPrints="ੀ" />
+        <Key semc:candidates="ੂਊ" semc:shiftedCandidates="ਊੂ" semc:secondaryPrints="ਊ" semc:shiftedSecondaryPrints="ੂ" />
+        <Key semc:candidates="ਬਭ" semc:shiftedCandidates="ਭਬ" semc:secondaryPrints="ਭ" semc:shiftedSecondaryPrints="ਬ" />
+        <Key semc:candidates="ਹਙ" semc:shiftedCandidates="ਙਹ" semc:secondaryPrints="ਙ" semc:shiftedSecondaryPrints="ਹ" />
+        <Key semc:candidates="ਗਘ" semc:shiftedCandidates="ਘਗ" semc:secondaryPrints="ਘ" semc:shiftedSecondaryPrints="ਗ" />
+        <Key semc:candidates="ਦਧ" semc:shiftedCandidates="ਧਦ" semc:secondaryPrints="ਧ" semc:shiftedSecondaryPrints="ਦ" />
+        <Key semc:candidates="ਜਝ" semc:shiftedCandidates="ਝਜ" semc:secondaryPrints="ਝ" semc:shiftedSecondaryPrints="ਜ" />
+        <Key semc:candidates="ਡਢ" semc:shiftedCandidates="ਢਡ" semc:secondaryPrints="ਢ" semc:shiftedSecondaryPrints="ਡ" />
+    </Row>
+    <Row semc:layoutId="@string/row2_11keys">
+        <Key semc:candidates="ੋਓ" semc:shiftedCandidates="ਓੋ" semc:secondaryPrints="ਓ" semc:shiftedSecondaryPrints="ੋ" />
+        <Key semc:candidates="ੇਏ" semc:shiftedCandidates="ਏੇ" semc:secondaryPrints="ਏ" semc:shiftedSecondaryPrints="ੇ" />
+        <Key semc:candidates="੍ਅ" semc:shiftedCandidates="ਅ੍" semc:secondaryPrints="ਅ" semc:shiftedSecondaryPrints="੍" />
+        <Key semc:candidates="ਿਇ" semc:shiftedCandidates="ਇਿ" semc:secondaryPrints="ਇ" semc:shiftedSecondaryPrints="ਿ" />
+        <Key semc:candidates="ੁਉ" semc:shiftedCandidates="ਉੁ" semc:secondaryPrints="ਉ" semc:shiftedSecondaryPrints="ੁ" />
+        <Key semc:candidates="ਪਫ" semc:shiftedCandidates="ਫਪ" semc:secondaryPrints="ਫ" semc:shiftedSecondaryPrints="ਪ" />
+        <Key semc:candidates="ਰੜ" semc:shiftedCandidates="ੜਰ" semc:secondaryPrints="ੜ" semc:shiftedSecondaryPrints="ਰ" />
+        <Key semc:candidates="ਕਖ" semc:shiftedCandidates="ਖਕ" semc:secondaryPrints="ਖ" semc:shiftedSecondaryPrints="ਕ" />
+        <Key semc:candidates="ਤਥ" semc:shiftedCandidates="ਥਤ" semc:secondaryPrints="ਥ" semc:shiftedSecondaryPrints="ਤ" />
+        <Key semc:candidates="ਚਛ" semc:shiftedCandidates="ਛਚ" semc:secondaryPrints="ਛ" semc:shiftedSecondaryPrints="ਚ" />
+        <Key semc:candidates="ਟਠ" semc:shiftedCandidates="ਠਟ" semc:secondaryPrints="ਠ" semc:shiftedSecondaryPrints="ਟ" />
+    </Row>
+    <Row semc:layoutId="@string/row3_9keys">
+        <Key semc:candidates="ੱਂ" semc:shiftedCandidates="ਂੱ" semc:secondaryPrints="ਂ" semc:shiftedSecondaryPrints="ੱ" />
+        <Key semc:candidates="ੰ਼" semc:shiftedCandidates="਼ੰ" semc:secondaryPrints="਼" semc:shiftedSecondaryPrints="ੰ" />
+        <Key semc:candidates="ਃਁ" semc:shiftedCandidates="ਁਃ" semc:secondaryPrints="ਁ" semc:shiftedSecondaryPrints="ਃ" />
+        <Key semc:candidates="ਮ" semc:shiftedCandidates="ਮ" />
+        <Key semc:candidates="ਨਣ" semc:shiftedCandidates="ਣਨ" semc:secondaryPrints="ਣ" semc:shiftedSecondaryPrints="ਨ" />
+        <Key semc:candidates="ਵਞ" semc:shiftedCandidates="ਞਵ" semc:secondaryPrints="ਞ" semc:shiftedSecondaryPrints="ਵ" />
+        <Key semc:candidates="ਲਲ਼" semc:shiftedCandidates="ਲ਼ਲ" semc:secondaryPrints="ਲ਼" semc:shiftedSecondaryPrints="ਲ" />
+        <Key semc:candidates="ਸਸ਼" semc:shiftedCandidates="ਸ਼ਸ" semc:secondaryPrints="ਸ਼" semc:shiftedSecondaryPrints="ਸ" />
+        <Key semc:candidates="ਯ" semc:shiftedCandidates="ਯ" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="period" semc:label="।" semc:candidates="।?!-'." semc:secondaryLabel="\?!" />
+</Keyboard>

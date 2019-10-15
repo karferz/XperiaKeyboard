@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Várakozás WLAN hálózatra</string>
+    <string name="textinput_strings_download_only_via_wifi">Letöltés kizárólag WLAN-n keresztül</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Nem töltődtek le a szótárak az Ön által használt nyelvekhez. A letöltéshez csatlakozzon a hálózathoz vagy WLAN-hez.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Aut. frissítés csak WLAN hálózaton</string>
+</resources>

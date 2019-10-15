@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_8keys">
+        <Key semc:candidates="ק" semc:secondaryPrints="\@" />
+        <Key semc:candidates="ר" semc:secondaryPrints=":" />
+        <Key semc:candidates="א" semc:secondaryPrints=";" />
+        <Key semc:candidates="ט" semc:secondaryPrints="_" />
+        <Key semc:candidates="ו" semc:secondaryPrints="-" />
+        <Key semc:candidates="ן" semc:secondaryPrints="\#" />
+        <Key semc:candidates="ם" semc:visualSecondaryPrints="(" semc:secondaryPrints=")" />
+        <Key semc:candidates="פ" semc:visualSecondaryPrints=")" semc:secondaryPrints="(" />
+    </Row>
+    <Row semc:layoutId="@string/row2_10keys">
+        <Key semc:candidates="ש" semc:secondaryPrints="1" />
+        <Key semc:candidates="ד" semc:secondaryPrints="2" />
+        <Key semc:candidates="ג" semc:secondaryPrints="3" />
+        <Key semc:candidates="כ" semc:secondaryPrints="4" />
+        <Key semc:candidates="ע" semc:secondaryPrints="5" />
+        <Key semc:candidates="י" semc:secondaryPrints="6" />
+        <Key semc:candidates="ח" semc:secondaryPrints="7" />
+        <Key semc:candidates="ל" semc:secondaryPrints="8" />
+        <Key semc:candidates="ך" semc:secondaryPrints="9" />
+        <Key semc:candidates="ף" semc:secondaryPrints="0" />
+    </Row>
+    <Row semc:layoutId="@string/row3_9keys_hebrew">
+        <Key semc:candidates="ז" semc:secondaryPrints="." />
+        <Key semc:candidates="ס" semc:secondaryPrints="," />
+        <Key semc:candidates="ב" semc:secondaryPrints="\?" />
+        <Key semc:candidates="ה" semc:secondaryPrints="!" />
+        <Key semc:candidates="נ" semc:secondaryPrints="'" />
+        <Key semc:candidates="מ" semc:secondaryPrints="&quot;" />
+        <Key semc:candidates="צ" semc:secondaryPrints="/" />
+        <Key semc:candidates="ת" semc:secondaryPrints="+" />
+        <Key semc:candidates="ץ" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="comma" semc:label="," semc:candidates=",?!-'.₪" />
+    <OverrideKey semc:metaKey="period" semc:label="." semc:candidates=".?!-',₪" semc:secondaryLabel="\?!" />
+</Keyboard>

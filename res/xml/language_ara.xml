@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="arabic" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="ض" />
+    <semc:baseCharacter data="ص" />
+    <semc:baseCharacter data="ث" />
+    <semc:baseCharacter data="ق" />
+    <semc:baseCharacter data="ف" />
+    <semc:baseCharacter data="غ" />
+    <semc:baseCharacter data="ع" />
+    <semc:baseCharacter data="خ" />
+    <semc:baseCharacter data="ح" />
+    <semc:baseCharacter data="ج" />
+    <semc:baseCharacter data="ش" />
+    <semc:baseCharacter data="س" />
+    <semc:baseCharacter data="ي" />
+    <semc:baseCharacter data="ب" />
+    <semc:baseCharacter data="ل" />
+    <semc:baseCharacter data="ا" />
+    <semc:baseCharacter data="ت" />
+    <semc:baseCharacter data="ن" />
+    <semc:baseCharacter data="م" />
+    <semc:baseCharacter data="ك" />
+    <semc:baseCharacter data="ئ" />
+    <semc:baseCharacter data="ؤ" />
+    <semc:baseCharacter data="و" />
+    <semc:baseCharacter data="ه" />
+    <semc:baseCharacter data="ر" />
+    <semc:baseCharacter data="ز" />
+    <semc:baseCharacter data="ظ" />
+    <semc:baseCharacter data="ط" />
+    <semc:baseCharacter data="ذ" />
+    <semc:baseCharacter data="د" />
+    <semc:baseCharacter data="1">
+        <semc:candidates data="١" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="2">
+        <semc:candidates data="٢" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="3">
+        <semc:candidates data="٣" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="4">
+        <semc:candidates data="٤" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="5">
+        <semc:candidates data="٥" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="6">
+        <semc:candidates data="٦" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="7">
+        <semc:candidates data="٧" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="8">
+        <semc:candidates data="٨" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="9">
+        <semc:candidates data="٩" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="0">
+        <semc:candidates data="٠" />
+    </semc:baseCharacter>
+</Language>

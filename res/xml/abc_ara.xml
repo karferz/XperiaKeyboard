@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label="- ، ." semc:candidates=".،-'@؟!&quot;:؛/1" />
+        <Key semc:label="ب‌ت‌​ة‌ث" semc:candidates="بتةث2" />
+        <Key semc:label="ا‌ء" semc:candidates="اأإآىؤئء3" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="س‌ش‌​ص‌ض" semc:candidates="سشصض4" />
+        <Key semc:label="د‌ذ‌​ر‌ز" semc:candidates="دذرز5" />
+        <Key semc:label="ج‌ح‌خ" semc:candidates="جحخ6" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="ن‌ه‌​و‌ي" semc:candidates="نهوي7" />
+        <Key semc:label="ف‌ق‌​ك‌ل‌م" semc:candidates="فقكلم8" />
+        <Key semc:label="ط‌ظ‌​ع‌غ" semc:candidates="طظعغ9" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+    <OverrideKey semc:metaKey="question" semc:candidates="؟" />
+</Keyboard>

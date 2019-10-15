@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row0_10keys">
+        <Key semc:candidates="1" />
+        <Key semc:candidates="2" />
+        <Key semc:candidates="3" />
+        <Key semc:candidates="4" />
+        <Key semc:candidates="5" />
+        <Key semc:candidates="6" />
+        <Key semc:candidates="7" />
+        <Key semc:candidates="8" />
+        <Key semc:candidates="9" />
+        <Key semc:candidates="0" />
+    </Row>
+    <Row semc:layoutId="@string/row1_12keys">
+        <Key semc:candidates="ქ" semc:shiftedCandidates="ქ" semc:secondaryPrints="" />
+        <Key semc:candidates="წ" semc:shiftedCandidates="წ" semc:secondaryPrints="" />
+        <Key semc:candidates="ე" semc:shiftedCandidates="ე" semc:secondaryPrints="" />
+        <Key semc:candidates="რ" semc:shiftedCandidates="რ" semc:secondaryPrints="%" />
+        <Key semc:candidates="ტ" semc:shiftedCandidates="ტ" semc:secondaryPrints="[" />
+        <Key semc:candidates="ყ" semc:shiftedCandidates="ყ" semc:secondaryPrints="]" />
+        <Key semc:candidates="უ" semc:shiftedCandidates="უ" semc:secondaryPrints="{" />
+        <Key semc:candidates="ი" semc:shiftedCandidates="ი" semc:secondaryPrints="}" />
+        <Key semc:candidates="ო" semc:shiftedCandidates="ო" semc:secondaryPrints="&lt;" />
+        <Key semc:candidates="პ" semc:shiftedCandidates="პ" semc:secondaryPrints=">" />
+        <Key semc:candidates="თ" semc:shiftedCandidates="თ" semc:secondaryPrints="" />
+        <Key semc:candidates="ღ" semc:shiftedCandidates="ღ" semc:secondaryPrints="" />
+    </Row>
+    <Row semc:layoutId="@string/row2_11keys">
+        <Key semc:candidates="ა" semc:shiftedCandidates="ა" semc:secondaryPrints="\@" />
+        <Key semc:candidates="ს" semc:shiftedCandidates="ს" semc:secondaryPrints=":" />
+        <Key semc:candidates="დ" semc:shiftedCandidates="დ" semc:secondaryPrints=";" />
+        <Key semc:candidates="ფ" semc:shiftedCandidates="ფ" semc:secondaryPrints="_" />
+        <Key semc:candidates="გ" semc:shiftedCandidates="გ" semc:secondaryPrints="-" />
+        <Key semc:candidates="ჰ" semc:shiftedCandidates="ჰ" semc:secondaryPrints="\#" />
+        <Key semc:candidates="ჯ" semc:shiftedCandidates="ჯ" semc:secondaryPrints="(" />
+        <Key semc:candidates="კ" semc:shiftedCandidates="კ" semc:secondaryPrints=")" />
+        <Key semc:candidates="ლ" semc:shiftedCandidates="ლ" semc:secondaryPrints="/" />
+        <Key semc:candidates="შ" semc:shiftedCandidates="შ" semc:secondaryPrints="\\" />
+        <Key semc:candidates="ჟ" semc:shiftedCandidates="ჟ" semc:secondaryPrints="" />
+    </Row>
+    <Row semc:layoutId="@string/row3_10keys_no_shift">
+        <Key semc:candidates="ძ" semc:shiftedCandidates="ძ" semc:secondaryPrints="=" />
+        <Key semc:candidates="ზ" semc:shiftedCandidates="ზ" semc:secondaryPrints="+" />
+        <Key semc:candidates="ხ" semc:shiftedCandidates="ხ" semc:secondaryPrints="&quot;" />
+        <Key semc:candidates="ც" semc:shiftedCandidates="ც" semc:secondaryPrints="'" />
+        <Key semc:candidates="ვ" semc:shiftedCandidates="ვ" semc:secondaryPrints=":" />
+        <Key semc:candidates="ბ" semc:shiftedCandidates="ბ" semc:secondaryPrints=";" />
+        <Key semc:candidates="ნ" semc:shiftedCandidates="ნ" semc:secondaryPrints="!" />
+        <Key semc:candidates="მ" semc:shiftedCandidates="მ" semc:secondaryPrints="\?" />
+        <Key semc:candidates="ჩ" semc:shiftedCandidates="ჩ" semc:secondaryPrints="*" />
+        <Key semc:candidates="ჭ" semc:shiftedCandidates="ჭ" semc:secondaryPrints="" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+</Keyboard>

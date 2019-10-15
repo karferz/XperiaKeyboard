@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Prenesi v omrežju WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Prenos samo prek omrežja WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Slovarji za jezike niso preneseni. Vzpostavite povezavo z omrežjem ali WLAN-jem in jih prenesite.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Posodobi samodejno prek omrežja WLAN</string>
+</resources>

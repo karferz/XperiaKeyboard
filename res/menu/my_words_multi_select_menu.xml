@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/delete" android:text="@string/gui_delete_txt" android:title="@string/gui_delete_txt" android:showAsAction="ifRoom" />
+    <item android:id="@id/markAll" android:text="@string/textinput_strings_my_words_mark_all" android:title="@string/textinput_strings_my_words_mark_all" android:showAsAction="never" />
+    <item android:id="@id/unmarkAll" android:text="@string/textinput_strings_my_words_unmark_all" android:visible="false" android:title="@string/textinput_strings_my_words_unmark_all" android:showAsAction="never" />
+</menu>

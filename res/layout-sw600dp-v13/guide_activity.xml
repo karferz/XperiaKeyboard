@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/tablet_guide_content_side_margin" android:layout_marginEnd="@dimen/tablet_guide_content_side_margin">
+        <include layout="@layout/guide_activity_content" />
+    </LinearLayout>
+    <include layout="@layout/guide_activity_keyboard" />
+    <include layout="@layout/guide_activity_footer" />
+</LinearLayout>

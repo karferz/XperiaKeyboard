@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label=". , -" semc:candidates=".,-'@?!:;/1" />
+        <Key semc:label="abc" semc:candidates="abcąćäáč2" semc:shiftedCandidates="ABCĄĆÄÁČ2" semc:shiftedLabel="ABC" />
+        <Key semc:label="def" semc:candidates="defęďéě3" semc:shiftedCandidates="DEFĘĎÉĚ3" semc:shiftedLabel="DEF" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="ghi" semc:candidates="ghií4" semc:shiftedCandidates="GHIÍ4" semc:shiftedLabel="GHI" />
+        <Key semc:label="jkl" semc:candidates="jklłĺľ5" semc:shiftedCandidates="JKLŁĹĽ5" semc:shiftedLabel="JKL" />
+        <Key semc:label="mno" semc:candidates="mnońóöňô6" semc:shiftedCandidates="MNOŃÓÖŇÔ6" semc:shiftedLabel="MNO" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="pqrs" semc:candidates="pqrsśřŕš7" semc:shiftedCandidates="PQRSŚŘŔŠ7" semc:shiftedLabel="PQRS" />
+        <Key semc:label="tuv" semc:candidates="tuvüťúů8" semc:shiftedCandidates="TUVÜŤÚŮ8" semc:shiftedLabel="TUV" />
+        <Key semc:label="wxyz" semc:candidates="wxyzźżýž9" semc:shiftedCandidates="WXYZŹŻÝŽ9" semc:shiftedLabel="WXYZ" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+</Keyboard>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">انتظار WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">التنزيل عبر WLAN فقط</string>
+    <string name="textinput_strings_missing_dictionary_and_network">لم يتم تنزيل القواميس للغتك. يرجى الاتصال بالشبكة أو WLAN لتنزيلها.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">التحديث تلقائيًا عبر WLAN فقط</string>
+</resources>

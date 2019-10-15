@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN -க்காக காத்திரு.</string>
+    <string name="textinput_strings_download_only_via_wifi">WLAN வழியாக மட்டும் இறக்கம் செய்</string>
+    <string name="textinput_strings_missing_dictionary_and_network">உங்கள் மொழிகளுக்கான அகராதிகள் இறக்கம் செய்யப்படவில்லை. இறக்கம் செய்ய நெட்வொர்க் அல்லது WLAN -க்கு தயவுசெய்து இணைக்கவும்.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">WLAN -இல் மட். தானியங்கா. புதுப்பி</string>
+</resources>

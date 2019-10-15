@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Počkať na sieť WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Preberať len cez sieť WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Slovníky pre vaše jazyky sa neprevzali. Ak ich chcete prevziať, pripojte sa k sieti WLAN alebo k inej sieti.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Aktualizovať automaticky len cez WLAN</string>
+</resources>

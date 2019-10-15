@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/textinput_strings_settings_feedback" android:key="@string/key_textinput_feedback"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/textinput_strings_settings_vibration_section" android:key="@string/key_personalizer_category">
+        <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_tactile_feedback" android:key="@string/key_tactile_feedback" android:defaultValue="@bool/feedback_tactile_default" />
+        <com.sonyericsson.textinput.uxp.view.settings.SeekBarDialogPreference android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:title="@string/textinput_strings_settings_tactile_feedback_intensity" android:key="@string/key_vibrator_duration" android:defaultValue="@integer/default_vibrator_duration" android:dialogLayout="@layout/preference_seekbar_dialog" semc:min="@integer/min_vibrator_duration" semc:max="@integer/max_vibrator_duration" semc:dialogIconAccentColor="colorize_using_dark_accent_color" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/textinput_strings_settings_sound_section" android:key="@string/key_personalizer_category">
+        <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_sound_feedback" android:key="@string/key_sound_feedback" android:defaultValue="@bool/feedback_sound_default" />
+        <com.sonyericsson.textinput.uxp.view.settings.SeekBarDialogPreference android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:title="@string/textinput_strings_settings_sound_feedback_volume" android:key="@string/key_sound_feedback_volume" android:defaultValue="@integer/default_sound_feedback_volume" android:dialogLayout="@layout/preference_seekbar_dialog" semc:min="@integer/min_sound_feedback_volume" semc:max="@integer/max_sound_feedback_volume" semc:dialogIconAccentColor="colorize_using_dark_accent_color" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/textinput_strings_settings_visual_section" android:key="@string/key_personalizer_category_visual_feedback">
+        <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_enable_key_preview" android:key="@string/key_key_preview" android:defaultValue="@bool/key_preview_default" />
+    </PreferenceCategory>
+</PreferenceScreen>

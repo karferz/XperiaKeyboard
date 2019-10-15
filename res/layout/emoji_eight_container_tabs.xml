@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.textinput.uxp.view.emoji.EmojiTabView android:gravity="top" android:orientation="horizontal" android:id="@id/emoji_tab_view" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_eight_smileys" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_history_eight" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_smiley_eight" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_flower_eight" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_food_eight" style="@style/EmojiTabItem" />
+    <View android:id="@id/splitEmojiTabGap" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_transport_eight" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_games_eight" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_bell_eight" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_shape_eight" style="@style/EmojiTabItem" />
+    <com.sonyericsson.textinput.uxp.view.emoji.EmojiTabItem semc:tabIconNormal="@drawable/ic_tab_emoji_flag_eight" style="@style/EmojiTabItem" />
+</com.sonyericsson.textinput.uxp.view.emoji.EmojiTabView>

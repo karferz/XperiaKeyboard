@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="testKeySet" />
+    <Row semc:layoutId="testKeySetAndKey" />
+    <Row semc:layoutId="testSwitchCase" />
+</Keyboard>

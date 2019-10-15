@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Grid xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Include semc:pageXml="@xml/page_emoji_phonepad_smileys" />
+    <Include semc:pageXml="@xml/page_emoji_recent" />
+    <Include semc:pageXml="@xml/page_emoji_faces" />
+    <Include semc:pageXml="@xml/page_emoji_objects" />
+    <Include semc:pageXml="@xml/page_emoji_nature" />
+    <Include semc:pageXml="@xml/page_emoji_places" />
+    <Include semc:pageXml="@xml/page_emoji_symbols" />
+</Grid>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/floating_keyboard_type_item" android:background="@drawable/ic_keyboard_bg" android:layout_width="wrap_content" android:layout_height="@dimen/floating_keyboard_type_selector_item_height" android:maxWidth="@dimen/floating_keyboard_type_selector_item_max_width" android:minWidth="@dimen/floating_keyboard_type_selector_item_min_width" android:minHeight="@dimen/floating_keyboard_type_selector_item_height" android:layout_weight="1.0" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/floating_keyboard_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_mini_kb" android:paddingStart="@dimen/floating_keyboard_type_selector_padding" />
+    <TextView android:textSize="@dimen/floating_keyboard_type_selector_text_size" android:ellipsize="none" android:layout_gravity="start|center" android:id="@id/floating_keyboard_type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/floating_keyboard_type_selector_padding" android:paddingEnd="@dimen/floating_keyboard_type_selector_padding" />
+</LinearLayout>

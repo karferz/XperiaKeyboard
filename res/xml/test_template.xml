@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:totalWidth="320" semc:keyTextSizeNormal="10.0dip" semc:keyWidth="58" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="1">
+        <Key semc:keyEdgeFlags="left" />
+        <KeySet semc:numberOfKeys="6" />
+        <Key semc:metaKey="symbols" semc:keyStyle="function" />
+        <KeySet semc:numberOfKeys="2" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="2">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="3" semc:keyTextSizeNormal="14.0dip">
+        <Key />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="4">
+        <Key semc:keyTextSizeNormal="16.0dip" />
+        <Key />
+        <Key semc:keyTextSizeNormal="22.0dip" />
+        <Key />
+        <Key />
+        <Key />
+        <Key />
+    </RowTemplate>
+</KeyboardTemplate>

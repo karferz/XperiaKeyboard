@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="latin" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="a">
+        <semc:candidates data="ä" />
+        <semc:candidates data="ã" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="u">
+        <semc:candidates data="w" />
+        <semc:candidates data="ũ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="A">
+        <semc:candidates data="Ä" />
+        <semc:candidates data="Ã" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="U">
+        <semc:candidates data="W" />
+        <semc:candidates data="Ũ" />
+    </semc:baseCharacter>
+</Language>

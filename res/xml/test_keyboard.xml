@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="1">
+        <Key semc:iconId="@drawable/ic_keyboard_button" semc:candidates="A" />
+        <Key semc:label="EDCBA" semc:candidates="ABCDE" />
+        <Key semc:label="EDCBA">
+            <Candidate semc:candidate="ABCDE" />
+        </Key>
+        <Key semc:label="EDCBA">
+            <Candidate semc:candidate="AB" />
+            <Candidate semc:candidate="CDE" />
+            <Candidate semc:candidate="FG" />
+        </Key>
+        <Key semc:label="edcba" semc:candidates="abcde" />
+        <Key semc:shiftedCandidates="ABCDE" semc:shiftedLabel="EDCBA" />
+        <Key semc:label="edcba" semc:candidates="abcde" semc:shiftedCandidates="ABCDE" semc:shiftedLabel="EDCBA" />
+        <Key semc:label="Meta" />
+        <Key semc:label="sp11" />
+        <Key semc:label="sp12" />
+    </Row>
+    <Row semc:layoutId="2">
+        <Key semc:label="keysize1" />
+    </Row>
+    <Row semc:layoutId="3">
+        <Key semc:label="keysize2" />
+    </Row>
+    <Row semc:layoutId="4">
+        <Key semc:label="keysize3" />
+        <Key semc:label="keysize4" />
+        <Key semc:label="keysize5" />
+        <Key semc:label="EDCBA">
+            <Candidate semc:candidate="{A}" semc:visualCandidate="EDCBA" />
+            <Candidate semc:candidate="{B}" semc:visualCandidate="D" />
+            <Candidate semc:candidate="{C}" semc:visualCandidate="C" />
+            <Candidate semc:candidate="{D}" semc:visualCandidate="B" />
+            <Candidate semc:candidate="{E}" semc:visualCandidate="A" />
+        </Key>
+        <Key semc:label="Meta">
+            <Candidate semc:candidate="{A}" semc:visualCandidate="E" />
+            <Candidate semc:candidate="{B}" semc:visualCandidate="D" />
+            <Candidate semc:candidate="{C}" semc:visualCandidate="C" />
+            <Candidate semc:candidate="{D}" semc:visualCandidate="B" />
+            <Candidate semc:candidate="{E}" semc:visualCandidate="A" />
+        </Key>
+        <Key>
+            <Candidate semc:candidate="{a}" semc:visualCandidate="edcba" semc:shiftedCandidate="{A}" semc:shiftedVisualCandidate="EDCBA" />
+            <Candidate semc:candidate="{b}" semc:visualCandidate="d" semc:shiftedCandidate="{B}" semc:shiftedVisualCandidate="D" />
+            <Candidate semc:candidate="{c}" semc:visualCandidate="c" semc:shiftedCandidate="{C}" semc:shiftedVisualCandidate="C" />
+            <Candidate semc:candidate="{d}" semc:visualCandidate="b" semc:shiftedCandidate="{D}" semc:shiftedVisualCandidate="B" />
+            <Candidate semc:candidate="{e}" semc:visualCandidate="a" semc:shiftedCandidate="{E}" semc:shiftedVisualCandidate="A" />
+        </Key>
+        <Key semc:label="meta" semc:shiftedLabel="META">
+            <Candidate semc:candidate="{a}" semc:visualCandidate="e" semc:shiftedCandidate="{A}" semc:shiftedVisualCandidate="E" />
+            <Candidate semc:candidate="{b}" semc:visualCandidate="d" semc:shiftedCandidate="{B}" semc:shiftedVisualCandidate="D" />
+            <Candidate semc:candidate="{c}" semc:visualCandidate="c" semc:shiftedCandidate="{C}" semc:shiftedVisualCandidate="C" />
+            <Candidate semc:candidate="{d}" semc:visualCandidate="b" semc:shiftedCandidate="{D}" semc:shiftedVisualCandidate="B" />
+            <Candidate semc:candidate="{e}" semc:visualCandidate="a" semc:shiftedCandidate="{E}" semc:shiftedVisualCandidate="A" />
+        </Key>
+    </Row>
+</Keyboard>

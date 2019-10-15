@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/personalization_guide_buttons_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" style="?android:attr/buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btnPrevious" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="6.0dip" android:layout_weight="1.0" android:contentDescription="@string/textinput_strings_accessibility_previous_button" android:drawableStart="@drawable/ic_footer_previous_auto_mirror" android:textAlignment="viewEnd" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="?android:attr/buttonBarButtonStyle" />
+    <Button android:id="@id/btnNext" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="6.0dip" android:layout_weight="1.0" android:contentDescription="@string/textinput_strings_accessibility_next_button" android:drawableEnd="@drawable/ic_footer_next_auto_mirror" android:textAlignment="viewEnd" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

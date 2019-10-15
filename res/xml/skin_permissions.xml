@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay-resources>
+    <overlay id="@drawable/keyboard_background">
+        <filter type="type" value="bitmap,nine-patch,color" />
+        <filter type="size" minWidth="1dp" maxWidth="1080dp" minHeight="1dp" maxHeight="720dp">
+            <filter type="type" value="bitmap,nine-patch" />
+        </filter>
+    </overlay>
+    <filter-group group="keyboard_space">
+        <filter type="type" value="nine-patch,color" />
+        <filter type="size" minWidth="1dp" maxWidth="256dp" minHeight="1dp" maxHeight="64dp">
+            <filter type="type" value="nine-patch" />
+        </filter>
+    </filter-group>
+    <filter-group group="keyboard_key">
+        <filter type="type" value="nine-patch,color" />
+        <filter type="size" minWidth="1dp" maxWidth="64dp" minHeight="1dp" maxHeight="64dp">
+            <filter type="type" value="nine-patch" />
+        </filter>
+    </filter-group>
+    <filter-group group="keyboard_key_shadow">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="1dp" maxWidth="64dp" minHeight="1dp" maxHeight="64dp" />
+    </filter-group>
+    <filter-group group="color">
+        <filter type="type" value="color" />
+    </filter-group>
+    <overlay id="@drawable/keyboard_button" filters="keyboard_key" />
+    <overlay id="@drawable/keyboard_button_pressed" filters="keyboard_key" />
+    <overlay id="@drawable/keyboard_button_function" filters="keyboard_key" />
+    <overlay id="@drawable/keyboard_button_function_pressed" filters="keyboard_key" />
+    <overlay id="@drawable/keyboard_button_auxiliary" filters="keyboard_key" />
+    <overlay id="@drawable/keyboard_button_auxiliary_pressed" filters="keyboard_key" />
+    <overlay id="@drawable/keyboard_button_space" filters="keyboard_space" />
+    <overlay id="@drawable/keyboard_button_space_pressed" filters="keyboard_space" />
+    <overlay id="@drawable/keyboard_longpress" filters="keyboard_key" />
+    <overlay id="@drawable/keyboard_button_auxiliary_shadow" filters="keyboard_key_shadow" />
+    <overlay id="@drawable/keyboard_button_normal_shadow" filters="keyboard_key_shadow" />
+    <overlay id="@drawable/keyboard_button_function_shadow" filters="keyboard_key_shadow" />
+    <overlay id="@drawable/keyboard_button_space_shadow" filters="keyboard_key_shadow" />
+    <overlay id="@drawable/keyboard_longpress_shadow" filters="keyboard_key_shadow" />
+    <overlay id="@color/text_color" filters="color" />
+    <overlay id="@color/text_color_function" filters="color" />
+    <overlay id="@color/candidate_normal_text" filters="color" />
+    <overlay id="@color/candidate_recommended_text" filters="color" />
+    <overlay id="@color/candidate_bar_divider_line" filters="color" />
+    <overlay id="@color/candidate_bar_highlighted_text_color" filters="color" />
+    <overlay id="@color/keyboard_slider_divider_line" filters="color" />
+    <overlay id="@color/keyboard_more_candidates_divider" filters="color" />
+    <overlay id="@color/emoji_tab_indicator" filters="color" />
+    <overlay id="@color/key_icon_accent_color" filters="color" />
+    <overlay id="@color/wizard_key_accent_color" filters="color" />
+    <overlay id="@color/keyboard_icon_accent_color" filters="color" />
+    <overlay id="@color/keyboard_border_moving" filters="color" />
+    <overlay id="@color/trace_color" filters="color" />
+    <overlay id="@color/candidate_highlight" filters="color" />
+    <overlay id="@color/keyboard_background_tint" filters="color" />
+    <overlay id="@color/keyboard_button_tint" filters="color" />
+    <overlay id="@color/keyboard_button_pressed_tint" filters="color" />
+    <overlay id="@color/keyboard_button_function_tint" filters="color" />
+    <overlay id="@color/keyboard_button_function_pressed_tint" filters="color" />
+    <overlay id="@color/keyboard_button_auxiliary_tint" filters="color" />
+    <overlay id="@color/keyboard_button_auxiliary_pressed_tint" filters="color" />
+    <overlay id="@color/keyboard_button_space_tint" filters="color" />
+    <overlay id="@color/keyboard_button_space_pressed_tint" filters="color" />
+    <overlay id="@color/keyboard_longpress_tint" filters="color" />
+    <overlay id="@color/keyboard_candidate_background" filters="color" />
+    <overlay id="@color/keyboard_candidate_background_pressed" filters="color" />
+    <overlay id="@color/keyboard_more_candidates_background" filters="color" />
+    <overlay id="@color/keyboard_more_candidates_background_pressed" filters="color" />
+    <overlay id="@color/slide_expand_button" filters="color" />
+    <overlay id="@color/emoji_view_text_color" filters="color" />
+    <overlay id="@bool/keyboard_themed" />
+</overlay-resources>

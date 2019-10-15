@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.textinput.uxp.view.main.MainContainer android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/container_margin" android:layout_marginTop="@dimen/container_margin" android:layout_marginRight="@dimen/container_margin" android:layout_marginBottom="@dimen/container_margin">
+        <include layout="@layout/keyboard_slider" />
+    </FrameLayout>
+</com.sonyericsson.textinput.uxp.view.main.MainContainer>

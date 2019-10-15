@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ic_keyboard_longpress_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/keyboard_button_classic" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.sonyericsson.textinput.uxp.view.keyboard.KeyboardScrollView android:id="@id/keyboardScrollView" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.sonyericsson.textinput.uxp.view.keyboard.KeyboardView android:id="@android:id/keyboardView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/BaseDialogKeyboardView" />
+        </com.sonyericsson.textinput.uxp.view.keyboard.KeyboardScrollView>
+    </FrameLayout>
+</FrameLayout>

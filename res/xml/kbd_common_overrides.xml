@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <OverrideKey semc:metaKey="switchSymbols" semc:label="@string/switch_symbols_page" />
+    <OverrideKey semc:metaKey="symbols" semc:label="@string/symbol_key" />
+    <OverrideKey semc:metaKey="dotcom" semc:label=".com" semc:secondaryLabel="˙˙˙" />
+    <OverrideKey semc:metaKey="slash" semc:candidates="/" />
+    <OverrideKey semc:metaKey="at" semc:candidates="\@" />
+    <OverrideKey semc:metaKey="space" semc:candidates=" " />
+    <OverrideKey semc:metaKey="comma" semc:label="," semc:candidates=",?!-'." />
+    <OverrideKey semc:metaKey="period" semc:label="." semc:candidates=".?!-'," semc:secondaryLabel="\?!" />
+</Keyboard>

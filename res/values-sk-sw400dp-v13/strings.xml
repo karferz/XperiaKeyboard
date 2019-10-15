@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Zálohovanie a synchronizácia</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Zálohovanie a synchronizácia</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">Informácie o zálohovaní a synchronizácii</string>
+    <string name="textinput_strings_settings_show_secondary_prints">Symboly pri stlačení a podržaní kláv.</string>
+</resources>

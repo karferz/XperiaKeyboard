@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Կրկնօրինակում և համաժամացում</string>
+    <string name="textinput_strings_personalization_guide_additional_keys_show_secondary_prints">Նշաններ՝ երկար սեղմելու դեպքում</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Կրկնօրինակում և համաժամացում</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Կրկնօրինակում և համաժամացում</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">Կրկնօրինակում և համաժամացում մսն</string>
+    <string name="textinput_strings_settings_show_period_and_comma">Կետի և ստորակետի ստեղներ</string>
+    <string name="textinput_strings_settings_show_secondary_prints">Նշաններ՝ երկար սեղմելու դեպքում</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">Google-ի ձայնային մուտքագրման ստեղն</string>
+</resources>

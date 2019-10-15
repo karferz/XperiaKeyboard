@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row0_10keys">
+        <Key semc:candidates="1" />
+        <Key semc:candidates="2" />
+        <Key semc:candidates="3" />
+        <Key semc:candidates="4" />
+        <Key semc:candidates="5" />
+        <Key semc:candidates="6" />
+        <Key semc:candidates="7" />
+        <Key semc:candidates="8" />
+        <Key semc:candidates="9" />
+        <Key semc:candidates="0" />
+    </Row>
+    <Row semc:layoutId="@string/row1_10keys">
+        <Key semc:candidates="q" semc:shiftedCandidates="Q" />
+        <Key semc:candidates="w" semc:shiftedCandidates="W" />
+        <Key semc:candidates="eéèêěëęēėẹ" semc:shiftedCandidates="EÉÈÊĚËĘĒĖẸ" />
+        <Key semc:candidates="rřŕŗ" semc:shiftedCandidates="RŘŔŖ" />
+        <Key semc:candidates="tþťţ" semc:shiftedCandidates="TÞŤŢ" />
+        <Key semc:candidates="yý" semc:shiftedCandidates="YÝ" />
+        <Key semc:candidates="uüúùûůūųűụư" semc:shiftedCandidates="UÜÚÙÛŮŪŲŰỤƯ" />
+        <Key semc:candidates="iıíîïìīįị" semc:shiftedCandidates="IİÍÎÏÌĪĮỊ" />
+        <Key semc:candidates="oöóòôøõőọơ" semc:shiftedCandidates="OÖÓÒÔØÕŐỌƠ" />
+        <Key semc:candidates="p" semc:shiftedCandidates="P" />
+    </Row>
+    <Row semc:layoutId="@string/row2_9keys">
+        <Key semc:candidates="aàáäæâãąåāă" semc:shiftedCandidates="AÀÁÄÆÂÃĄÅĀĂ" />
+        <Key semc:candidates="sşšśß" semc:shiftedCandidates="SŞŠŚß" />
+        <Key semc:candidates="dđďð" semc:shiftedCandidates="DĐĎÐ" />
+        <Key semc:candidates="f" semc:shiftedCandidates="F" />
+        <Key semc:candidates="gğģ" semc:shiftedCandidates="GĞĢ" />
+        <Key semc:candidates="h" semc:shiftedCandidates="H" />
+        <Key semc:candidates="j" semc:shiftedCandidates="J" />
+        <Key semc:candidates="kķ" semc:shiftedCandidates="KĶ" />
+        <Key semc:candidates="lĺľłļ" semc:shiftedCandidates="LĹĽŁĻ" />
+    </Row>
+    <Row semc:layoutId="@string/row3_7keys">
+        <Key semc:candidates="zžźż" semc:shiftedCandidates="ZŽŹŻ" />
+        <Key semc:candidates="x" semc:shiftedCandidates="X" />
+        <Key semc:candidates="cçčć" semc:shiftedCandidates="CÇČĆ" />
+        <Key semc:candidates="v" semc:shiftedCandidates="V" />
+        <Key semc:candidates="b" semc:shiftedCandidates="B" />
+        <Key semc:candidates="nñňńņ" semc:shiftedCandidates="NÑŇŃŅ" />
+        <Key semc:candidates="m" semc:shiftedCandidates="M" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+</Keyboard>

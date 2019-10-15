@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN 연결 대기</string>
+    <string name="textinput_strings_download_only_via_wifi">WLAN를 통해서만 다운로드</string>
+    <string name="textinput_strings_missing_dictionary_and_network">사용하는 언어의 사전이 다운로드되지 않았습니다. 네트워크 또는 WLAN에 연결하여 다운로드하세요.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">WLAN를 통해서만 자동으로 업데이트</string>
+</resources>

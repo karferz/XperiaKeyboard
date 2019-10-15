@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/npam_removed_dialog_message" style="@style/DialogTextStyle" />
+    <CheckBox android:textSize="14.0sp" android:textColor="#ff7a7a7a" android:id="@id/npam_removed_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="Never ask again" style="@style/DialogCheckboxStyle" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_vibrator_duration">60</integer>
+    <integer name="max_vibrator_duration">100</integer>
+    <integer name="min_vibrator_duration">30</integer>
+</resources>

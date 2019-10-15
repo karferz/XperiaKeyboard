@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="arabic" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="ض" />
+    <semc:baseCharacter data="ص" />
+    <semc:baseCharacter data="ث" />
+    <semc:baseCharacter data="ق" />
+    <semc:baseCharacter data="ف" />
+    <semc:baseCharacter data="غ" />
+    <semc:baseCharacter data="ع" />
+    <semc:baseCharacter data="خ" />
+    <semc:baseCharacter data="ح" />
+    <semc:baseCharacter data="ج">
+        <semc:candidates data="چ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ش" />
+    <semc:baseCharacter data="س" />
+    <semc:baseCharacter data="ي">
+        <semc:candidates data="ی" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ب">
+        <semc:candidates data="پ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ل" />
+    <semc:baseCharacter data="ا" />
+    <semc:baseCharacter data="ت" />
+    <semc:baseCharacter data="ن" />
+    <semc:baseCharacter data="م" />
+    <semc:baseCharacter data="ئ" />
+    <semc:baseCharacter data="ؤ" />
+    <semc:baseCharacter data="و" />
+    <semc:baseCharacter data="ه" />
+    <semc:baseCharacter data="ر" />
+    <semc:baseCharacter data="ز">
+        <semc:candidates data="ژ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ك">
+        <semc:candidates data="گ" />
+        <semc:candidates data="ک" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ظ" />
+    <semc:baseCharacter data="ط" />
+    <semc:baseCharacter data="ذ" />
+    <semc:baseCharacter data="د" />
+    <semc:baseCharacter data="1">
+        <semc:candidates data="۱" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="2">
+        <semc:candidates data="۲" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="3">
+        <semc:candidates data="۳" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="4">
+        <semc:candidates data="۴" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="5">
+        <semc:candidates data="۵" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="6">
+        <semc:candidates data="۶" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="7">
+        <semc:candidates data="۷" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="8">
+        <semc:candidates data="۸" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="9">
+        <semc:candidates data="۹" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="0">
+        <semc:candidates data="۰" />
+    </semc:baseCharacter>
+</Language>

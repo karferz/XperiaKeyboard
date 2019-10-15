@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="armenian" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="ქ" />
+    <semc:baseCharacter data="წ" />
+    <semc:baseCharacter data="ე" />
+    <semc:baseCharacter data="რ" />
+    <semc:baseCharacter data="ტ" />
+    <semc:baseCharacter data="ყ" />
+    <semc:baseCharacter data="უ" />
+    <semc:baseCharacter data="ი" />
+    <semc:baseCharacter data="ო" />
+    <semc:baseCharacter data="პ" />
+    <semc:baseCharacter data="თ" />
+    <semc:baseCharacter data="ღ" />
+    <semc:baseCharacter data="ა" />
+    <semc:baseCharacter data="ს" />
+    <semc:baseCharacter data="დ" />
+    <semc:baseCharacter data="ფ" />
+    <semc:baseCharacter data="გ" />
+    <semc:baseCharacter data="ჰ" />
+    <semc:baseCharacter data="ჯ" />
+    <semc:baseCharacter data="კ" />
+    <semc:baseCharacter data="ლ" />
+    <semc:baseCharacter data="შ" />
+    <semc:baseCharacter data="ჟ" />
+    <semc:baseCharacter data="ზ" />
+    <semc:baseCharacter data="ხ" />
+    <semc:baseCharacter data="ც" />
+    <semc:baseCharacter data="ვ" />
+    <semc:baseCharacter data="ბ" />
+    <semc:baseCharacter data="ნ" />
+    <semc:baseCharacter data="მ" />
+    <semc:baseCharacter data="ჩ" />
+    <semc:baseCharacter data="ძ" />
+    <semc:baseCharacter data="ჭ" />
+</Language>

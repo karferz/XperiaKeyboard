@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Սպասել WLAN-ին</string>
+    <string name="textinput_strings_download_only_via_wifi">Ներբեռնել միայն WLAN-ով</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Ձեր լեզուների համար նախատեսված բառարանները չեն ներբեռնվել: Ներբեռնելու համար միացեք ցանցին կամ WLAN-ին:</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Ինքնշխտ արդցնլ մյն WLAN-ի մջցվ</string>
+</resources>

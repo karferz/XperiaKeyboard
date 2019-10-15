@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivConfigImage" android:visibility="gone" android:src="@drawable/ic_guide_config_without_trace" style="@style/PersonalizationGuideImage" />
+    <ImageView android:id="@id/ivConfigImageWithTrace" android:visibility="gone" android:src="@drawable/ic_guide_config_trace" style="@style/PersonalizationGuideImage" />
+    <RelativeLayout android:id="@id/chBoxGestureInputLine" style="@style/PersonalizationGuideListItem">
+        <CheckBox android:id="@id/chBoxGestureInput" android:layout_centerInParent="true" android:layout_alignParentStart="true" style="@style/PersonalizationGuideFinishCheckBox" />
+        <TextView android:paddingTop="@dimen/guide_list_single_and_three_row_item_bottom_padding" android:paddingBottom="@dimen/guide_list_single_and_three_row_item_top_padding" android:layout_width="wrap_content" android:text="@string/textinput_strings_personalization_guide_trace_checkbox" android:layout_centerInParent="true" android:layout_marginStart="0.0dip" android:layout_toEndOf="@id/chBoxGestureInput" style="@style/PersonalizationGuideSwitchListSubheadText" />
+    </RelativeLayout>
+    <TextView android:id="@id/tvFinishPersonalizationGuideMessage" android:layout_marginTop="0.0dip" android:text="@string/textinput_strings_personalization_guide_done" style="@style/PersonalizationGuideInfoText" />
+</LinearLayout>

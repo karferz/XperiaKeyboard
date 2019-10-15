@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="im_is_default">false</bool>
+    <bool name="numeric_keys_enabled">false</bool>
+    <bool name="prediction_trace_default">true</bool>
+    <bool name="show_voice_input_key">false</bool>
+    <bool name="feedback_sound_default">false</bool>
+    <bool name="feedback_tactile_default">false</bool>
+    <bool name="key_preview_default">true</bool>
+    <bool name="is_ascii_capable">false</bool>
+    <bool name="backup_and_sync_default">false</bool>
+    <bool name="candidate_selection_auto_space">true</bool>
+    <bool name="download_shown_popup_default">false</bool>
+    <bool name="keyboard_themed">false</bool>
+    <bool name="no_dictionaries_or_wifi_shown_popup_default">false</bool>
+    <bool name="one_handed_keyboard_default">false</bool>
+    <bool name="prediction_auto_replace_default">true</bool>
+    <bool name="show_data_charge_warning">true</bool>
+    <bool name="show_period_and_comma_keys">true</bool>
+    <bool name="show_smiley_key">true</bool>
+    <bool name="smart_language_detection_default">true</bool>
+    <bool name="trace_auto_accept">true</bool>
+    <bool name="upgrade_from_version_no_dictionaries_default">false</bool>
+</resources>

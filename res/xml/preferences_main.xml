@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="@string/key_textinput_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sony="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:title="@string/textinput_strings_personalization_guide" android:key="@string/key_personalization_guide_screen">
+        <intent android:targetPackage="com.sonyericsson.textinput.uxp" android:action="android.intent.action.MAIN" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/textinput_strings_settings_languages_and_writing_section" android:key="@string/key_personalizer_category" />
+    <PreferenceScreen android:title="@string/textinput_strings_settings_language" android:summary="@string/textinput_strings_settings_language_summary">
+        <intent android:targetPackage="com.sonyericsson.textinput.uxp" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.textinput.uxp.controller.settings.LanguageSelectActivity" />
+    </PreferenceScreen>
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_smart_language_detection" android:key="@string/key_smart_language_detection" android:summary="@string/textinput_strings_settings_smart_language_detection_on_summary" android:defaultValue="@bool/smart_language_detection_default" />
+    <PreferenceScreen android:title="@string/textinput_strings_settings_word_suggestion" android:key="@string/key_prediction" />
+    <com.sonyericsson.textinput.uxp.controller.settings.SimpleMenuPreference android:persistent="true" android:title="@string/textinput_strings_settings_auto_dictionary_update" android:key="@string/key_auto_dictionary_update" android:defaultValue="@string/auto_dictionary_update_default" sony:entries="@array/auto_dictionary_update_entries" sony:entryValues="@array/auto_dictionary_update_entry_values" />
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_trace_input" android:key="@string/key_trace" android:summary="@string/textinput_strings_settings_trace_input_summary" android:defaultValue="@bool/prediction_trace_default" />
+    <PreferenceScreen android:title="@string/textinput_strings_settings_personalization" android:key="@string/key_learn_my_writing_style_screen" android:summary="@string/textinput_strings_settings_personalization_and_sync_summary">
+        <intent android:targetPackage="com.sonyericsson.textinput.uxp" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.textinput.uxp.swiftkeypersonalizer.PersonalizerSettingsActivity" />
+    </PreferenceScreen>
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_quick_period" android:key="@string/key_prediction_auto_replace" android:summary="@string/textinput_strings_settings_quick_period_summary" android:defaultValue="@bool/prediction_auto_replace_default" />
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_voice_input_start_from_keyboard" android:key="@string/key_show_voice_input_key" android:summary="@string/textinput_strings_settings_voice_input_start_from_keyboard_summary" android:defaultValue="@bool/show_voice_input_key" />
+    <PreferenceCategory android:title="@string/textinput_strings_settings_keyboard_section" android:key="@string/textinput_strings_settings_keyboard_section" />
+    <PreferenceScreen android:title="@string/textinput_strings_settings_keyboard_skin">
+        <intent android:targetPackage="com.sonyericsson.textinput.uxp" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.textinput.uxp.controller.settings.SkinSelectorActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/textinput_strings_settings_keyboard_height" android:key="@string/textinput_strings_settings_keyboard_height">
+        <intent android:targetPackage="com.sonyericsson.textinput.uxp" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.textinput.uxp.controller.settings.KeyboardHeightPickerActivity" />
+    </PreferenceScreen>
+    <com.sonyericsson.textinput.uxp.controller.settings.SimpleMenuPreference android:persistent="true" android:title="@string/textinput_strings_settings_portrait_keyboard" android:key="@string/key_portrait_keyboard" android:defaultValue="@string/layout_fullkeyboard" sony:entries="@array/portrait_keyboard_entries" sony:entryValues="@array/portrait_keyboard_entry_values" />
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_one_handed_keyboard" android:key="@string/key_one_handed_keyboard" android:defaultValue="@bool/one_handed_keyboard_default" />
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_show_numeric_keys" android:key="@string/key_show_numeric_keys" android:defaultValue="@bool/numeric_keys_enabled" />
+    <PreferenceScreen android:title="@string/textinput_strings_settings_keyboard_symbols_and_smileys" android:key="@string/textinput_strings_settings_keyboard_symbols_and_smileys" android:fragment="com.sonyericsson.textinput.uxp.controller.settings.SymbolsAndSmileysOptionsFragment" />
+    <PreferenceScreen android:title="@string/textinput_strings_settings_feedback" android:key="@string/key_feedback_screen" android:fragment="com.sonyericsson.textinput.uxp.controller.settings.FeedbackOptionsFragment" />
+    <PreferenceCategory android:title="@string/textinput_strings_send_feedback" android:key="@string/textinput_strings_send_feedback" />
+    <com.sonyericsson.textinput.uxp.util.FeedbackPreference android:title="@string/textinput_strings_send_feedback" android:key="@string/key_textinput_send_feedback_preference" />
+    <PreferenceScreen android:title="Debug" android:key="@string/key_textinput_debug" android:summary="Debug options" android:fragment="com.sonyericsson.textinput.uxp.configuration.DebugFragment" />
+</PreferenceScreen>

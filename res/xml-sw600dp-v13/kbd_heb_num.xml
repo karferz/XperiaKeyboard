@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_10keys">
+        <Key semc:candidates="1" />
+        <Key semc:candidates="2" />
+        <Key semc:candidates="3" />
+        <Key semc:candidates="4" />
+        <Key semc:candidates="5" />
+        <Key semc:candidates="6" />
+        <Key semc:candidates="7" />
+        <Key semc:candidates="8" />
+        <Key semc:candidates="9" />
+        <Key semc:candidates="0ⁿ∅°" />
+    </Row>
+    <Row semc:layoutId="@string/row2_10keys">
+        <Key semc:candidates="\@©®™" />
+        <Key semc:candidates="_" />
+        <Key semc:candidates="-=–—" />
+        <Key semc:candidates="+" />
+        <Key semc:candidates="*†‡" />
+        <Key semc:candidates="\#" />
+        <Key semc:candidates=")" semc:visualCandidates="(" />
+        <Key semc:candidates="(" semc:visualCandidates=")" />
+        <Key semc:candidates="/÷" />
+        <Key semc:candidates="\\" />
+    </Row>
+    <Row semc:layoutId="@string/row3_8keys_symbols">
+        <Key semc:candidates="&quot;“”«»˝" semc:visualCandidates="&quot;“”»«˝" />
+        <Key semc:candidates="'`´" />
+        <Key semc:candidates=":" />
+        <Key semc:candidates=";" />
+        <Key semc:candidates="!¡" />
+        <Key semc:candidates="\?¿" />
+        <Key semc:candidates="," />
+        <Key semc:candidates="." />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="switchSymbols" semc:label="@string/switch_symbols_page" />
+    <OverrideKey semc:metaKey="symbols" semc:label="@string/abc_key_hebrew" />
+</Keyboard>

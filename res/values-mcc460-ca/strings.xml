@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Només per WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Baixa només mitjançant WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">"Els diccionaris dels vostres idiomes no s'han baixat. Connecteu-vos a la xarxa o a la WLAN per baixar-los."</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Actualitza automàt. només per WLAN</string>
+</resources>

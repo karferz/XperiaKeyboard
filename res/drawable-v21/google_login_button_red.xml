@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <nine-patch android:src="@drawable/ic_google_login_button_red" android:alpha="?android:disabledAlpha" />
+            </item>
+            <item>
+                <nine-patch android:src="@drawable/ic_google_login_button_red" />
+            </item>
+        </selector>
+    </item>
+</ripple>

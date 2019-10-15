@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN की प्रतीक्षा करें</string>
+    <string name="textinput_strings_download_only_via_wifi">केवल WLAN के माध्यम से डाउनलोड करें</string>
+    <string name="textinput_strings_missing_dictionary_and_network">आपकी भाषाओं के शब्दकोश डाउनलोड नहीं किए गए हैं. डाउनलोड करने के लिए कृपया नेटवर्क या WLAN से कनेक्ट करें.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">केवल WLAN के द्वारा स्वचालित रूप से अपडेट करें</string>
+</resources>

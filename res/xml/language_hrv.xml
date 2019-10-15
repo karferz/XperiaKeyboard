@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="latin" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="c">
+        <semc:candidates data="č" />
+        <semc:candidates data="ć" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="d">
+        <semc:candidates data="đ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="e">
+        <semc:candidates data="ë" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="i">
+        <semc:candidates data="í" />
+        <semc:candidates data="î" />
+        <semc:candidates data="ï" />
+        <semc:candidates data="ì" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="o">
+        <semc:candidates data="ó" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="s">
+        <semc:candidates data="š" />
+        <semc:candidates data="ş" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="u">
+        <semc:candidates data="ú" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="z">
+        <semc:candidates data="ž" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="C">
+        <semc:candidates data="Č" />
+        <semc:candidates data="Ć" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="D">
+        <semc:candidates data="Đ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="E">
+        <semc:candidates data="Ë" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="I">
+        <semc:candidates data="Í" />
+        <semc:candidates data="Î" />
+        <semc:candidates data="Ï" />
+        <semc:candidates data="Ì" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="J" />
+    <semc:baseCharacter data="O">
+        <semc:candidates data="Ó" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="S">
+        <semc:candidates data="Š" />
+        <semc:candidates data="Ş" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="U">
+        <semc:candidates data="Ú" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Z">
+        <semc:candidates data="Ž" />
+    </semc:baseCharacter>
+</Language>

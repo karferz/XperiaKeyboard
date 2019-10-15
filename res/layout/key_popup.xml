@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/candidates_layout" android:background="@drawable/ic_keyboard_longpress_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/candidates_background" android:background="@drawable/keyboard_longpress" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/candidates_placeholder" android:layout_width="wrap_content" android:layout_height="@dimen/long_press_preview_height" android:minWidth="@dimen/key_preview_content_minWidth" android:layoutDirection="ltr" />
+        <RelativeLayout android:id="@id/preview_placeholder" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/key_preview_content_minWidth">
+            <TextView android:textSize="@dimen/key_preview_primary_candidate_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/primaryCandidate" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/key_preview_content_minWidth" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/primaryCandidateImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

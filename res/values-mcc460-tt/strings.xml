@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN тоташуын көтү</string>
+    <string name="textinput_strings_download_only_via_wifi">WLAN аша гына йөкләү</string>
+    <string name="textinput_strings_missing_dictionary_and_network">"Телләрегез өчен сүзлекләр йөкләнмәде. Йөуләү өчен челтәргә яки WLAN'га тоташыгыз."</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">WLAN аша гына автом. рәв. яңарту</string>
+</resources>

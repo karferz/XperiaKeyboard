@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_key_size">53.0dip</dimen>
+    <dimen name="personalization_guide_keyboard_layout_header_margin_bottom">26.0dip</dimen>
+    <dimen name="phonepad_key_bottom_gap">14.0px</dimen>
+    <dimen name="phonepad_key_left_gap">6.0px</dimen>
+    <dimen name="phonepad_key_right_gap">6.0px</dimen>
+    <dimen name="phonepad_key_top_gap">14.0px</dimen>
+    <dimen name="popup_smileys_symbols_height">531.0dip</dimen>
+</resources>

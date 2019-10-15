@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">รอ WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">ดาวน์โหลดเฉพาะเมื่อใช้ WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">ยังไม่ได้ดาวน์โหลดพจนานุกรมภาษาของคุณ โปรดเชื่อมต่อเครือข่ายหรือ WLAN เพื่อดาวน์โหลด</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">อัปเดตโดยอัตโนมัติผ่าน WLAN เท่านั้น</string>
+</resources>

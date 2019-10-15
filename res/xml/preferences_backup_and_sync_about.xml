@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/backup_and_sync_about_fragment" android:title="@string/textinput_strings_settings_backup_and_synchronization_about" android:key="@string/key_backup_and_sync_about_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/textinput_strings_settings_about_backup_and_sync_synced_devices_section" android:key="@string/key_backup_and_sync_about_synced_devices" />
+    <PreferenceCategory android:title="@string/textinput_strings_settings_about_backup_and_sync_about_section" android:key="@string/key_backup_and_sync_about">
+        <Preference android:title="@string/textinput_strings_settings_about_backup_and_sync_account" android:key="@string/key_backup_and_sync_about_account" />
+        <Preference android:title="@string/textinput_strings_settings_about_backup_and_sync_personal_data" android:key="@string/key_backup_and_sync_about_personal_data" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.textinput.uxp.controller.settings.KeyboardHeightPickerLayout android:id="@id/keyboard_resize_keyboard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/textinput_strings_settings_keyboard_height_text" android:layout_alignParentTop="true" style="@style/MainInfoText" />
+    <View android:id="@id/keyboard_resize_maximum_divider" android:background="@color/keyboard_height_picker_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_height_divider_height" android:layout_alignParentBottom="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/textinput_strings_settings_keyboard_height_default_text" android:layout_above="@id/keyboard_resize_default_divider" style="@style/ResizeKeyboardDividerText" />
+    <View android:id="@id/keyboard_resize_default_divider" android:background="@color/keyboard_height_picker_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_height_divider_height" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/keyboard_resize_keyboard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/keyboard_view" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/keyboard_resize_handle" android:layout_width="@dimen/keyboard_height_handle_size" android:layout_height="@dimen/keyboard_height_handle_size" android:layout_marginTop="@dimen/keyboard_height_handle_size_negative_half" android:layout_alignTop="@id/keyboard_resize_keyboard" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_width="@dimen/keyboard_height_handle_size" android:layout_height="@dimen/keyboard_height_handle_size">
+            <ImageView android:layout_gravity="center" android:id="@id/keyboard_resize_handle_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keyboard_height_selector_handle_bg" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:clickable="true" android:layout_width="@dimen/keyboard_height_handle_image_container_size" android:layout_height="@dimen/keyboard_height_handle_image_container_size" style="@style/ImageContainerClickable">
+                <ImageView android:id="@id/keyboard_resize_handle_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expand_less" />
+                <ImageView android:id="@id/keyboard_resize_handle_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expand_more" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</com.sonyericsson.textinput.uxp.controller.settings.KeyboardHeightPickerLayout>

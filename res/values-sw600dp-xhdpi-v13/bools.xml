@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="prediction_trace_default">true</bool>
+    <bool name="feedback_sound_default">true</bool>
+    <bool name="feedback_tactile_default">false</bool>
+    <bool name="key_preview_default">false</bool>
+</resources>

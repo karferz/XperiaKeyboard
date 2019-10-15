@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">انتظار برای اتصال به WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">دانلود فقط از طریق WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">فرهنگ لغت های زبان های شما دانلود نشدند. لطفاً به شبکه یا WLAN وصل شوید تا دانلود شوند.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">فقط با WLAN بروزرسانی خودکار شود</string>
+</resources>

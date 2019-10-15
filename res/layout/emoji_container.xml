@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.textinput.uxp.view.emoji.EmojiContainer android:orientation="vertical" android:id="@id/emoji_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/emoji_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/emoji_tab_view_container" android:layout_width="fill_parent" android:layout_height="@dimen/candidate_bar_height" />
+        <com.sonyericsson.textinput.uxp.view.grid.SplittableFrameLayout android:id="@id/emoji_grid_and_buttons" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/emoji_tab_view_container">
+            <com.sonyericsson.textinput.uxp.view.grid.PagedGridView android:id="@id/emoji_grid_view" android:layout_width="wrap_content" android:layout_height="fill_parent" semc:content="@xml/grid_emojis_full" semc:textSize="@dimen/emoji_grid_view_label_font_size" semc:subLabelTextSizeResName="emoji_grid_view_sub_label_font_size" semc:pageGapResName="emoji_grid_view_page_gap" />
+            <com.sonyericsson.textinput.uxp.view.emoji.EmojiBottomRow android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/emoji_bottom_row" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/toggle_button_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                    <FrameLayout android:id="@id/toggle_button_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.sonyericsson.textinput.uxp.view.grid.IconButton android:id="@id/toggle_button" style="@style/EmojiBottomRowKey" />
+                    </FrameLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/delete_button_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <FrameLayout android:id="@id/delete_button_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.sonyericsson.textinput.uxp.view.grid.IconButton android:id="@id/delete_button" style="@style/EmojiBottomRowKey" />
+                    </FrameLayout>
+                </FrameLayout>
+            </com.sonyericsson.textinput.uxp.view.emoji.EmojiBottomRow>
+        </com.sonyericsson.textinput.uxp.view.grid.SplittableFrameLayout>
+    </RelativeLayout>
+</com.sonyericsson.textinput.uxp.view.emoji.EmojiContainer>

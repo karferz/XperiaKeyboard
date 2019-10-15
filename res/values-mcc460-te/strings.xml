@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN కొరకు వేచి ఉండండి</string>
+    <string name="textinput_strings_download_only_via_wifi">WLAN ద్వారా మాత్రమే డౌన్‌లోడ్ చెయ్యి</string>
+    <string name="textinput_strings_missing_dictionary_and_network">మీ భాషల కోసం నిఘంటువులు డౌన్‌లోడ్ చెయ్యబడలేవు. దయచేసి డౌన్‌లోడ్ చేయడానికి నెట్‌వర్క్ లేదా WLANకు కనెక్ట్ చేయండి.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">WLANచే మాత్రమే స్వయంచా. అప్‌డేట్ చే.</string>
+</resources>

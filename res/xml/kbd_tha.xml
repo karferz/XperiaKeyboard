@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_11keys">
+        <Key semc:candidates="ๆ" semc:shiftedCandidates="๐" semc:secondaryPrints="๐" semc:shiftedSecondaryPrints="ๆ" />
+        <Key semc:candidates="ภ" semc:shiftedCandidates="๑" semc:secondaryPrints="๑" semc:shiftedSecondaryPrints="ภ" />
+        <Key semc:candidates="ถ" semc:shiftedCandidates="๒" semc:secondaryPrints="๒" semc:shiftedSecondaryPrints="ถ" />
+        <Key semc:candidates="ุ" semc:shiftedCandidates="ู" semc:secondaryPrints="ู" semc:shiftedSecondaryPrints="ุ" />
+        <Key semc:candidates="ึ" semc:shiftedCandidates="๓" semc:secondaryPrints="๓" semc:shiftedSecondaryPrints="ึ" />
+        <Key semc:candidates="ค" semc:shiftedCandidates="๔" semc:secondaryPrints="๔" semc:shiftedSecondaryPrints="ค" />
+        <Key semc:candidates="ต" semc:shiftedCandidates="๕" semc:secondaryPrints="๕" semc:shiftedSecondaryPrints="ต" />
+        <Key semc:candidates="จ" semc:shiftedCandidates="๖" semc:secondaryPrints="๖" semc:shiftedSecondaryPrints="จ" />
+        <Key semc:candidates="ข" semc:shiftedCandidates="๗" semc:secondaryPrints="๗" semc:shiftedSecondaryPrints="ข" />
+        <Key semc:candidates="ช" semc:shiftedCandidates="๘" semc:secondaryPrints="๘" semc:shiftedSecondaryPrints="ช" />
+        <Key semc:candidates="ล" semc:shiftedCandidates="๙" semc:secondaryPrints="๙" semc:shiftedSecondaryPrints="ล" />
+    </Row>
+    <Row semc:layoutId="@string/row2_11keys">
+        <Key semc:candidates="ไ" semc:shiftedCandidates="ฎ" semc:secondaryPrints="ฎ" semc:shiftedSecondaryPrints="ไ" />
+        <Key semc:candidates="ำ" semc:shiftedCandidates="ฑ" semc:secondaryPrints="ฑ" semc:shiftedSecondaryPrints="ำ" />
+        <Key semc:candidates="พ" semc:shiftedCandidates="ธ" semc:secondaryPrints="ธ" semc:shiftedSecondaryPrints="พ" />
+        <Key semc:candidates="ะ" semc:shiftedCandidates="ํ" semc:secondaryPrints="ํ" semc:shiftedSecondaryPrints="ะ" />
+        <Key semc:candidates="ั" semc:shiftedCandidates="๊" semc:secondaryPrints="๊" semc:shiftedSecondaryPrints="ั" />
+        <Key semc:candidates="ี" semc:shiftedCandidates="ณ" semc:secondaryPrints="ณ" semc:shiftedSecondaryPrints="ี" />
+        <Key semc:candidates="ร" semc:shiftedCandidates="ฯ" semc:secondaryPrints="ฯ" semc:shiftedSecondaryPrints="ร" />
+        <Key semc:candidates="น" semc:shiftedCandidates="ญ" semc:secondaryPrints="ญ" semc:shiftedSecondaryPrints="น" />
+        <Key semc:candidates="ย" semc:shiftedCandidates="ฐ" semc:secondaryPrints="ฐ" semc:shiftedSecondaryPrints="ย" />
+        <Key semc:candidates="บ" semc:shiftedCandidates="บ" semc:secondaryPrints="" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ง" semc:shiftedCandidates="ง" semc:secondaryPrints="" semc:shiftedSecondaryPrints="" />
+    </Row>
+    <Row semc:layoutId="@string/row3_11keys">
+        <Key semc:candidates="ฟ" semc:shiftedCandidates="ฤ" semc:secondaryPrints="ฤ" semc:shiftedSecondaryPrints="ฟ" />
+        <Key semc:candidates="ห" semc:shiftedCandidates="ฆ" semc:secondaryPrints="ฆ" semc:shiftedSecondaryPrints="ห" />
+        <Key semc:candidates="ก" semc:shiftedCandidates="ฏ" semc:secondaryPrints="ฏ" semc:shiftedSecondaryPrints="ก" />
+        <Key semc:candidates="ด" semc:shiftedCandidates="โ" semc:secondaryPrints="โ" semc:shiftedSecondaryPrints="ด" />
+        <Key semc:candidates="เ" semc:shiftedCandidates="ฌ" semc:secondaryPrints="ฌ" semc:shiftedSecondaryPrints="เ" />
+        <Key semc:candidates="้" semc:shiftedCandidates="็" semc:secondaryPrints="็" semc:shiftedSecondaryPrints="้" />
+        <Key semc:candidates="่" semc:shiftedCandidates="๋" semc:secondaryPrints="๋" semc:shiftedSecondaryPrints="่" />
+        <Key semc:candidates="า" semc:shiftedCandidates="ษ" semc:secondaryPrints="ษ" semc:shiftedSecondaryPrints="า" />
+        <Key semc:candidates="ส" semc:shiftedCandidates="ศ" semc:secondaryPrints="ศ" semc:shiftedSecondaryPrints="ส" />
+        <Key semc:candidates="ว" semc:shiftedCandidates="ซ" semc:secondaryPrints="ซ" semc:shiftedSecondaryPrints="ว" />
+        <Key semc:candidates="ฝ" semc:shiftedCandidates="ฝ" semc:secondaryPrints="" semc:shiftedSecondaryPrints="" />
+    </Row>
+    <Row semc:layoutId="@string/row4_9keys">
+        <Key semc:candidates="ผ" semc:shiftedCandidates="ผ" semc:secondaryPrints="" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ป" semc:shiftedCandidates="ฉ" semc:secondaryPrints="ฉ" semc:shiftedSecondaryPrints="ป" />
+        <Key semc:candidates="แ" semc:shiftedCandidates="ฮ" semc:secondaryPrints="ฮ" semc:shiftedSecondaryPrints="แ" />
+        <Key semc:candidates="อ" semc:shiftedCandidates="ฺ" semc:secondaryPrints="ฺ" semc:shiftedSecondaryPrints="อ" />
+        <Key semc:candidates="ิ" semc:shiftedCandidates="์" semc:secondaryPrints="์" semc:shiftedSecondaryPrints="ิ" />
+        <Key semc:candidates="ื" semc:shiftedCandidates="ฒ" semc:secondaryPrints="ฒ" semc:shiftedSecondaryPrints="ื" />
+        <Key semc:candidates="ท" semc:shiftedCandidates="ฬ" semc:secondaryPrints="ฬ" semc:shiftedSecondaryPrints="ท" />
+        <Key semc:candidates="ม" semc:shiftedCandidates="ฦ" semc:secondaryPrints="ฦ" semc:shiftedSecondaryPrints="ม" />
+        <Key semc:candidates="ใ" semc:shiftedCandidates="ใ" semc:secondaryPrints="" semc:shiftedSecondaryPrints="" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+</Keyboard>

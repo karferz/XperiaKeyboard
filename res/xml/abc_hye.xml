@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label=": , -" semc:candidates=":,-՞՜'@?!.;/1" />
+        <Key semc:label="աբգդե" semc:candidates="աբգդե2" semc:shiftedCandidates="ԱԲԳԴԵ2" semc:shiftedLabel="ԱԲԳԴԵ" />
+        <Key semc:label="զէըթժ" semc:candidates="զէըթժ3" semc:shiftedCandidates="ԶԷԸԹԺ3" semc:shiftedLabel="ԶԷԸԹԺ" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="իլխծկ" semc:candidates="իլխծկ4" semc:shiftedCandidates="ԻԼԽԾԿ4" semc:shiftedLabel="ԻԼԽԾԿ" />
+        <Key semc:label="հձղճմ" semc:candidates="հձղճմ5" semc:shiftedCandidates="ՀՁՂՃՄ5" semc:shiftedLabel="ՀՁՂՃՄ" />
+        <Key semc:label="յնշոչ" semc:candidates="յնշոչ6" semc:shiftedCandidates="ՅՆՇՈՉ6" semc:shiftedLabel="ՅՆՇՈՉ" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="պջռսվ" semc:candidates="պջռսվ7" semc:shiftedCandidates="ՊՋՌՍՎ7" semc:shiftedLabel="ՊՋՌՍՎ" />
+        <Key semc:label="տրցւփ" semc:candidates="տրցւփ8" semc:shiftedCandidates="ՏՐՑՒՓ8" semc:shiftedLabel="ՏՐՑՒՓ" />
+        <Key semc:label="քևօֆ" semc:candidates="քևօֆ9" semc:shiftedCandidates="ՔևՕՖ9" semc:shiftedLabel="ՔևՕՖ" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+    <OverrideKey semc:metaKey="period" semc:candidates=":" />
+    <OverrideKey semc:metaKey="question" semc:candidates="՞" />
+    <OverrideKey semc:metaKey="exclamation" semc:candidates="՜" />
+</Keyboard>

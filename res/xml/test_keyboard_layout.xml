@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="testSingleKeyCandidates">
+        <Key semc:candidates="a" semc:shiftedCandidates="A" />
+        <Key semc:candidates="b" semc:shiftedCandidates="B" semc:visualCandidates="b" semc:shiftedVisualCandidates="B" />
+    </Row>
+    <Row semc:layoutId="testMutipleKeyCandidates">
+        <Key semc:candidates="abc" semc:shiftedCandidates="ABC" semc:visualCandidates="abc" semc:shiftedVisualCandidates="ABC" />
+    </Row>
+    <Row semc:layoutId="testCandidateTag">
+        <Key>
+            <Candidate semc:candidate="b" semc:shiftedCandidate="B" />
+            <Candidate semc:candidate="c" semc:visualCandidate="cee" semc:shiftedCandidate="C" semc:shiftedVisualCandidate="CEE" />
+        </Key>
+    </Row>
+    <Row semc:layoutId="testCandidateTag_withKeyCandidates">
+        <Key semc:candidates="a" semc:shiftedCandidates="A" semc:visualCandidates="a" semc:shiftedVisualCandidates="A">
+            <Candidate semc:candidate="b" semc:shiftedCandidate="B" />
+            <Candidate semc:candidate="c" semc:visualCandidate="cee" semc:shiftedCandidate="C" semc:shiftedVisualCandidate="CEE" />
+        </Key>
+    </Row>
+    <Row semc:layoutId="testLabel">
+        <Key semc:label="Label" semc:candidates="abc" semc:shiftedCandidates="ABC" />
+    </Row>
+    <Row semc:layoutId="testLabelInheritance">
+        <Key>
+            <Candidate semc:candidate="a" semc:shiftedCandidate="A" />
+        </Key>
+        <Key semc:candidates="b" semc:shiftedCandidates="B">
+            <Candidate semc:candidate="a" semc:shiftedCandidate="A" />
+        </Key>
+        <Key semc:candidates="ba" semc:shiftedCandidates="B" semc:visualCandidates="c" semc:shiftedVisualCandidates="C">
+            <Candidate semc:candidate="a" semc:shiftedCandidate="A" />
+        </Key>
+        <Key semc:label="d" semc:candidates="b" semc:shiftedCandidates="B" semc:visualCandidates="c" semc:shiftedVisualCandidates="C" semc:shiftedLabel="D">
+            <Candidate semc:candidate="a" semc:shiftedCandidate="A" />
+        </Key>
+    </Row>
+    <Row semc:layoutId="testSecondaryPrintCandidate">
+        <Key>
+            <Candidate semc:visualSecondaryPrint="," semc:secondaryPrint="!" semc:shiftedVisualSecondaryPrint="." semc:shiftedSecondaryPrint="\?" />
+            <Candidate semc:visualSecondaryPrint="=" semc:secondaryPrint="(" semc:shiftedVisualSecondaryPrint="+" semc:shiftedSecondaryPrint=")" />
+        </Key>
+    </Row>
+</Keyboard>

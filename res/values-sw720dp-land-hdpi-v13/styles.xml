@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyboardViewTablet" parent="@style/KeyboardView">
+        <item name="showKeyPreview">false</item>
+    </style>
+    <style name="KeyboardViewTabletGuideLandscape" parent="@style/KeyboardViewTablet">
+        <item name="keyboardModifiedWidth">734.0dip</item>
+        <item name="keyboardModifiedHeight">276.0dip</item>
+        <item name="keyboardKeyContentScaleFactor">0.85</item>
+    </style>
+</resources>

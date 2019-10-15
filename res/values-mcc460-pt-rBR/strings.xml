@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Aguardar WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Baixe apenas através de WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Os dicionários para seus idiomas não foram baixados. Conecte-se à rede ou WLAN para baixar.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Atualizar automat. apenas via WLAN</string>
+</resources>

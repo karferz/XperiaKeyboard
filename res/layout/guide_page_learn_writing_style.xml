@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/guide_item_margin_large">
+        <TextView android:id="@id/learnWritingStyleText" android:layout_marginTop="@dimen/guide_item_learn_my_writing_style_margin" android:layout_marginBottom="@dimen/guide_item_learn_my_writing_style_margin" style="@style/PersonalizationGuideInfoText" />
+        <TextView android:id="@id/upgradeLearnWritingStyleText" android:text="@string/textinput_strings_personalization_guide_upgrade_learn_my_writing_style_description" style="@style/PersonalizationGuideInfoText" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/learnWritingStyleButton" android:layout_width="@dimen/guide_button_width" android:layout_height="wrap_content" android:text="@string/textinput_strings_personalization_guide_learn_my_writing_style_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/backupAndSyncSection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/backupGuidePicture" android:src="@drawable/ic_guide_banner_backup" style="@style/PersonalizationGuideImage" />
+        <TextView android:id="@id/backupAndSyncText" android:layout_marginTop="@dimen/guide_item_learn_my_writing_style_margin" android:layout_marginBottom="@dimen/guide_item_learn_my_writing_style_margin" android:text="@string/textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_description" style="@style/PersonalizationGuideInfoText" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/backupAndSyncButton" android:layout_width="@dimen/guide_button_width" android:layout_height="wrap_content" android:text="@string/textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button" />
+            <TextView android:gravity="center_horizontal" android:id="@id/backupAndSyncTextIfAlreadyActivated" android:visibility="gone" android:text="@string/textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_information_instead_of_button" style="@style/PersonalizationGuideInfoText" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

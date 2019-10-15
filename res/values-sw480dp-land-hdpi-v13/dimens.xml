@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_text_y_offset_default">0.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_column_minimum_width">60.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_minimum_height">55.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_preferred_height">60.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_column_minimum_width">60.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_minimum_height">60.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_preferred_height">65.0dip</dimen>
+    <dimen name="key_top_gap_3rows">6.0dip</dimen>
+    <dimen name="keyboard_default_height">184.0dip</dimen>
+    <item type="dimen" name="emoji_grid_view_smiley_scale_factor">0.8</item>
+    <dimen name="key_bottom_gap_3rows">6.0dip</dimen>
+</resources>

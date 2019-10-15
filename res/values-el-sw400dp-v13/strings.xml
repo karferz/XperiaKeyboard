@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Αντίγραφα ασφαλείας και συγχρονισμό</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Αντίγραφα ασφαλείας και συγχρ.</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Αντίγραφα ασφαλείας και συγχρονισμό</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">Πληροφορίες για αντίγραφα ασφαλείας και συγχρονισμό</string>
+    <string name="textinput_strings_settings_show_period_and_comma">Πλήκτρα τελείας και κόμματος</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">Πλήκτρο φωνητικής πληκτρολόγησης Google</string>
+</resources>

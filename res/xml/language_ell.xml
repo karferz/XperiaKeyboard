@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="greek" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="α">
+        <semc:candidates data="ά" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="β" />
+    <semc:baseCharacter data="γ" />
+    <semc:baseCharacter data="δ" />
+    <semc:baseCharacter data="ε">
+        <semc:candidates data="έ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ζ" />
+    <semc:baseCharacter data="η">
+        <semc:candidates data="ή" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="θ" />
+    <semc:baseCharacter data="ι">
+        <semc:candidates data="ί" />
+        <semc:candidates data="ϊ" />
+        <semc:candidates data="ΐ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="κ" />
+    <semc:baseCharacter data="λ" />
+    <semc:baseCharacter data="μ" />
+    <semc:baseCharacter data="ν" />
+    <semc:baseCharacter data="ξ" />
+    <semc:baseCharacter data="ο">
+        <semc:candidates data="ό" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="π" />
+    <semc:baseCharacter data="ρ" />
+    <semc:baseCharacter data="ς" />
+    <semc:baseCharacter data="σ" />
+    <semc:baseCharacter data="τ" />
+    <semc:baseCharacter data="υ">
+        <semc:candidates data="ύ" />
+        <semc:candidates data="ϋ" />
+        <semc:candidates data="ΰ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="φ" />
+    <semc:baseCharacter data="χ" />
+    <semc:baseCharacter data="ψ" />
+    <semc:baseCharacter data="ω">
+        <semc:candidates data="ώ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Α">
+        <semc:candidates data="Ά" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Β" />
+    <semc:baseCharacter data="Γ" />
+    <semc:baseCharacter data="Δ" />
+    <semc:baseCharacter data="Ε">
+        <semc:candidates data="Έ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Ζ" />
+    <semc:baseCharacter data="Η">
+        <semc:candidates data="Ή" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Θ" />
+    <semc:baseCharacter data="Ι">
+        <semc:candidates data="Ί" />
+        <semc:candidates data="Ϊ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Κ" />
+    <semc:baseCharacter data="Λ" />
+    <semc:baseCharacter data="Μ" />
+    <semc:baseCharacter data="Ν" />
+    <semc:baseCharacter data="Ξ" />
+    <semc:baseCharacter data="Ο">
+        <semc:candidates data="Ό" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Π" />
+    <semc:baseCharacter data="Ρ" />
+    <semc:baseCharacter data="ς" />
+    <semc:baseCharacter data="Σ" />
+    <semc:baseCharacter data="Τ" />
+    <semc:baseCharacter data="Υ">
+        <semc:candidates data="Ύ" />
+        <semc:candidates data="Ϋ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Φ" />
+    <semc:baseCharacter data="Χ" />
+    <semc:baseCharacter data="Ψ" />
+    <semc:baseCharacter data="Ω">
+        <semc:candidates data="Ώ" />
+    </semc:baseCharacter>
+</Language>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="middle" android:id="@id/language_dialog_download_language_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/DialogTextStyle" />
+    <CheckBox android:id="@id/auto_update_checkbox" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogCheckboxStyle" />
+    <CheckBox android:id="@id/confirm_checkbox" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogCheckboxStyle" />
+</LinearLayout>

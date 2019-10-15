@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="numeric_keys_enabled">false</bool>
+    <bool name="prediction_trace_default">false</bool>
+    <bool name="show_voice_input_key">false</bool>
+</resources>

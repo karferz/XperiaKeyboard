@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN এর জন্য অপেক্ষা</string>
+    <string name="textinput_strings_download_only_via_wifi">শুধুমাত্র WLAN মারফত ডাউনলোড করুন</string>
+    <string name="textinput_strings_missing_dictionary_and_network">আপনার ভাষাগুলির অভিধানগুলি ডাউনলোড করা হয়নি। দয়া করে ডাউনলোড করতে নেটওয়ার্ক বা WLAN এ সংযোগ করুন।</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">কেবলমাত্রWLAN দ্বারাই আপডেট করুন</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_key_size">60.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_column_minimum_width">50.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_minimum_height">50.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_preferred_height">60.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_column_minimum_width">50.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_minimum_height">55.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_preferred_height">65.0dip</dimen>
+    <dimen name="key_preview_label_style_text_very_small_size">16.0dip</dimen>
+    <dimen name="key_top_gap_3rows">8.0dip</dimen>
+    <dimen name="key_top_gap_4rows">4.0dip</dimen>
+    <dimen name="key_variants_candidate_min_width">30.0dip</dimen>
+    <dimen name="popup_smileys_bottom_margin">66.0dip</dimen>
+    <dimen name="candidate_bar_height">44.0dip</dimen>
+    <dimen name="candidate_bar_text_size">20.0dip</dimen>
+    <dimen name="emoji_grid_view_label_font_size">30.0dip</dimen>
+    <item type="dimen" name="emoji_grid_view_smiley_scale_factor">0.8</item>
+    <dimen name="emoji_grid_view_sub_label_font_size">16.0dip</dimen>
+    <dimen name="guide_expansible_list_item_minimum_vertical_margin">10.0dip</dimen>
+    <item type="dimen" name="guide_finish_checkbox_text_size">@dimen/guide_text_size_normal</item>
+    <item type="dimen" name="guide_info_text_size">@dimen/guide_text_size_normal</item>
+    <dimen name="guide_item_margin_small">16.0dip</dimen>
+    <dimen name="guide_item_side_margin_normal">16.0dip</dimen>
+    <dimen name="guide_keyboard_layout_footer_margin">15.0dip</dimen>
+    <dimen name="guide_keyboard_layout_footer_text_size">26.0dip</dimen>
+    <dimen name="guide_keyboard_layout_header_text_size">31.0dip</dimen>
+    <dimen name="guide_languages_list_object_height">64.0dip</dimen>
+    <dimen name="guide_layout_button_padding">15.0dip</dimen>
+    <dimen name="guide_layout_gallery_center_offset">60.0dip</dimen>
+    <dimen name="guide_list_side_inner_padding_normal">8.0dip</dimen>
+    <dimen name="guide_list_side_margin_normal">16.0dip</dimen>
+    <dimen name="guide_margin_small">8.0dip</dimen>
+    <item type="dimen" name="guide_radio_button_text_size">@dimen/guide_text_size_normal</item>
+    <dimen name="guide_rb_side_margin_normal">16.0dip</dimen>
+    <dimen name="guide_text_side_margin_normal">16.0dip</dimen>
+    <dimen name="guide_text_size_large">22.0dip</dimen>
+    <dimen name="guide_text_size_normal">20.0dip</dimen>
+    <dimen name="guide_text_size_small">18.0dip</dimen>
+    <dimen name="highlighted_key_variants_text_size">37.0dip</dimen>
+    <dimen name="highlighted_key_variants_text_size_small">31.0dip</dimen>
+    <dimen name="key_bottom_gap_3rows">8.0dip</dimen>
+    <dimen name="key_bottom_gap_4rows">4.0dip</dimen>
+    <dimen name="key_label_style_text_size">18.0dip</dimen>
+    <dimen name="key_label_style_text_small_size">16.0dip</dimen>
+    <dimen name="key_label_style_text_very_small_size">12.0dip</dimen>
+    <dimen name="key_left_gap">4.0dip</dimen>
+    <dimen name="key_preview_label_style_text_size">24.0dip</dimen>
+    <dimen name="key_right_gap">4.0dip</dimen>
+    <dimen name="key_secondary_print_text_size">14.0dip</dimen>
+    <dimen name="key_text_size">24.0dip</dimen>
+    <dimen name="key_variants_text_size">27.0dip</dimen>
+    <dimen name="key_variants_text_size_small">24.0dip</dimen>
+    <dimen name="keyboard_auxiliary_row_height">55.0dip</dimen>
+    <dimen name="my_words_pop_up_padding_between_icon_and_text">14.0dip</dimen>
+    <dimen name="one_handed_candidate_bar_height">44.0dip</dimen>
+    <dimen name="one_handed_emoji_grid_view_emoji_column_minimum_width">50.0dip</dimen>
+    <dimen name="one_handed_emoji_grid_view_emoji_row_minimum_height">50.0dip</dimen>
+    <dimen name="one_handed_emoji_grid_view_emoji_row_preferred_height">55.0dip</dimen>
+    <item type="dimen" name="one_handed_emoji_grid_view_minimum_visible_rows">2.5</item>
+    <dimen name="one_handed_emoji_grid_view_smiley_column_minimum_width">50.0dip</dimen>
+    <item type="dimen" name="one_handed_emoji_grid_view_smiley_minimum_visible_rows">2.5</item>
+    <dimen name="one_handed_emoji_grid_view_smiley_row_minimum_height">62.0dip</dimen>
+    <dimen name="one_handed_emoji_grid_view_smiley_row_preferred_height">65.0dip</dimen>
+    <item type="dimen" name="one_handed_emoji_grid_view_smiley_scale_factor">0.8</item>
+    <dimen name="one_handed_emoji_grid_view_sub_label_font_size">14.0dip</dimen>
+    <dimen name="one_handed_highlighted_key_variants_text_size">29.0dip</dimen>
+    <dimen name="one_handed_highlighted_key_variants_text_size_small">29.0dip</dimen>
+    <dimen name="one_handed_key_variants_candidate_min_width">25.0dip</dimen>
+    <dimen name="one_handed_key_variants_text_size">22.0dip</dimen>
+    <dimen name="one_handed_key_variants_text_size_small">19.0dip</dimen>
+    <dimen name="one_handed_keyboard_auxiliary_row_height">55.0dip</dimen>
+    <dimen name="one_handed_keyboard_bottom_padding">20.0dip</dimen>
+    <dimen name="one_handed_keyboard_left_padding">20.0dip</dimen>
+    <dimen name="one_handed_keyboard_right_padding">20.0dip</dimen>
+    <item type="dimen" name="one_handed_keyboard_smiley_scale_factor">0.9</item>
+    <dimen name="one_handed_keyboard_width">360.0dip</dimen>
+    <dimen name="one_handed_keyboard_width_margin">45.0dip</dimen>
+    <dimen name="tamil_secondary_key_print_size">13.0dip</dimen>
+    <dimen name="popup_smileys_symbols_height">700.0dip</dimen>
+    <dimen name="guide_item_bottom_margin_normal">16.0dip</dimen>
+</resources>

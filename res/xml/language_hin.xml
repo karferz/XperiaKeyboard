@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="hindi" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="ौ">
+        <semc:candidates data="औ" />
+        <semc:candidates data="ऑ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ै">
+        <semc:candidates data="ऐ" />
+        <semc:candidates data="ऍ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ा">
+        <semc:candidates data="आ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ी">
+        <semc:candidates data="ई" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ू">
+        <semc:candidates data="ऊ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ब">
+        <semc:candidates data="भ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ह">
+        <semc:candidates data="ङ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ग">
+        <semc:candidates data="घ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="द">
+        <semc:candidates data="ध" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ज">
+        <semc:candidates data="झ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ड">
+        <semc:candidates data="ढ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ो">
+        <semc:candidates data="ओ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="े">
+        <semc:candidates data="ए" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="्">
+        <semc:candidates data="अ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ि">
+        <semc:candidates data="इ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ु">
+        <semc:candidates data="उ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="प">
+        <semc:candidates data="फ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="र" />
+    <semc:baseCharacter data="क">
+        <semc:candidates data="ख" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="त">
+        <semc:candidates data="थ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="च">
+        <semc:candidates data="छ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ट">
+        <semc:candidates data="ठ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ं">
+        <semc:candidates data="ँ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="म">
+        <semc:candidates data="ण" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="न" />
+    <semc:baseCharacter data="व" />
+    <semc:baseCharacter data="ल">
+        <semc:candidates data="ळ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="स">
+        <semc:candidates data="श" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ष">
+        <semc:candidates data="ः" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="य">
+        <semc:candidates data="ञ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ृ">
+        <semc:candidates data="़" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="औ">
+        <semc:candidates data="ौ" />
+        <semc:candidates data="ऑ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ऐ">
+        <semc:candidates data="ै" />
+        <semc:candidates data="ऍ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="आ">
+        <semc:candidates data="ा" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ई">
+        <semc:candidates data="ी" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ऊ">
+        <semc:candidates data="ू" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="भ">
+        <semc:candidates data="ब" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ङ">
+        <semc:candidates data="ह" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="घ">
+        <semc:candidates data="ग" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ध">
+        <semc:candidates data="द" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="झ">
+        <semc:candidates data="ज" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ढ">
+        <semc:candidates data="ड" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ओ">
+        <semc:candidates data="ो" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ए">
+        <semc:candidates data="े" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="अ">
+        <semc:candidates data="्" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="इ">
+        <semc:candidates data="ि" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="उ">
+        <semc:candidates data="ु" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="फ">
+        <semc:candidates data="प" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ख">
+        <semc:candidates data="क" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="थ">
+        <semc:candidates data="त" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="छ">
+        <semc:candidates data="च" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ठ">
+        <semc:candidates data="ट" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ँ">
+        <semc:candidates data="ं" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ण">
+        <semc:candidates data="म" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="न" />
+    <semc:baseCharacter data="ळ">
+        <semc:candidates data="ल" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="श">
+        <semc:candidates data="स" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ः">
+        <semc:candidates data="ष" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="ञ">
+        <semc:candidates data="य" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="़">
+        <semc:candidates data="ृ" />
+    </semc:baseCharacter>
+</Language>

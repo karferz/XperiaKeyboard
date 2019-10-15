@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Varnostno kopiraj in sinhroniziraj</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Varnostno kopiraj in sinhroniziraj</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Varnostno kopiraj in sinhroniziraj</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">O varnostno kopiranje in sinhronizacijo</string>
+    <string name="textinput_strings_settings_show_secondary_prints">Z dolgim pritiskom prikaže simbole</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">Googlova tipka za glasovni vnos</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">WLAN ਦੀ ਉਡੀਕ ਕਰੋ</string>
+    <string name="textinput_strings_download_only_via_wifi">ਕੇਵਲ WLAN ਰਾਹੀਂ ਡਾਊਨਲੋਡ ਕਰੋ</string>
+    <string name="textinput_strings_missing_dictionary_and_network">ਤੁਹਾਡੀਆਂ ਭਾਸ਼ਾਵਾਂ ਲਈ ਸ਼ਬਦਕੋਸ਼ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤੇ ਗਏ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਨੈਟਵਰਕ ਜਾਂ WLAN ਨਾਲ ਕਨੈਕਟ ਕਰੋ।</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">ਸਿਰਫ WLAN ਰਾਹੀਂ ਸਵੈਚਲਿਤ ਅਪਡੇਟ ਕਰੋ</string>
+</resources>

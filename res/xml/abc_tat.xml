@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label=". , -" semc:candidates=".,-'@?!:;/1" />
+        <Key semc:label="аб​вг" semc:candidates="абвг2" semc:shiftedCandidates="АБВГ2" semc:shiftedLabel="АБ​ВГ" />
+        <Key semc:label="деё​жз" semc:candidates="деёжзәҗ3" semc:shiftedCandidates="ДЕЁЖЗӘҖ3" semc:shiftedLabel="ДЕЁ​ЖЗ" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="ий​кл" semc:candidates="ийкл4" semc:shiftedCandidates="ИЙКЛ4" semc:shiftedLabel="ИЙ​КЛ" />
+        <Key semc:label="мн​оп" semc:candidates="мнопңө5" semc:shiftedCandidates="МНОПҢӨ5" semc:shiftedLabel="МН​ОП" />
+        <Key semc:label="рс​ту" semc:candidates="рстуү6" semc:shiftedCandidates="РСТУҮ6" semc:shiftedLabel="РС​ТУ" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="фх​цч" semc:candidates="фхцчһ7" semc:shiftedCandidates="ФХЦЧҺ7" semc:shiftedLabel="ФХ​ЦЧ" />
+        <Key semc:label="шщ​ъы" semc:candidates="шщъы8" semc:shiftedCandidates="ШЩЪЫ8" semc:shiftedLabel="ШЩ​ЪЫ" />
+        <Key semc:label="ьэ​юя" semc:candidates="ьэюя9" semc:shiftedCandidates="ЬЭЮЯ9" semc:shiftedLabel="ЬЭ​ЮЯ" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+</Keyboard>

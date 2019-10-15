@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardViewTextStyle" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:drawablePadding">@dimen/skin_selector_card_view_text_right_margin</item>
+    </style>
+    <style name="CardViewTitleStyle" parent="@android:style/TextAppearance.Material.Headline">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:layout_marginTop">@dimen/skin_selector_card_view_title_top_margin</item>
+    </style>
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogCheckboxStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_marginStart">24.0dip</item>
+        <item name="android:layout_marginEnd">24.0dip</item>
+    </style>
+    <style name="DialogTextStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_marginStart">24.0dip</item>
+        <item name="android:layout_marginEnd">24.0dip</item>
+    </style>
+    <style name="DialogTransparentNoTitle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="GuideActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:title">@string/textinput_strings_personalization_guide_what_do_you_prefer_title</item>
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+    <style name="ImageContainerClickable" parent="@style/LanguageListImageClickable" />
+    <style name="InputMethodTheme" parent="@android:style/Theme.DeviceDefault.InputMethod">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="LanguageListCheckbox">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="LanguageListImageClickable">
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="LanguageListItemClickable" parent="@android:style/Theme.Material.Light">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="LanguageListViewItemSummaryStyle">
+        <item name="android:textAppearance">?android:textAppearanceListItemSecondary</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="LanguageListViewItemTitleStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+    </style>
+    <style name="MainInfoText" parent="@style/PersonalizationGuideInfoText" />
+    <style name="MyWordsTheme" parent="@android:style/Theme.DeviceDefault.Settings" />
+    <style name="PersonalizationGuideFinishCheckBox" parent="@style/PersonalizationGuideSwitch" />
+    <style name="PersonalizationGuideImageWithStartEndMargins" parent="@style/PersonalizationGuideImage">
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingRight</item>
+    </style>
+    <style name="PersonalizationGuideInfoText" parent="@style/PersonalizationGuideText">
+        <item name="android:layout_marginTop">@dimen/guide_item_margin_small</item>
+    </style>
+    <style name="PersonalizationGuideListItemDoubleLine" parent="@style/PersonalizationGuideListItemSingleLine">
+        <item name="android:minHeight">72.0dip</item>
+    </style>
+    <style name="PersonalizationGuideListItemSplit" parent="@style/PersonalizationGuideListItemSingleLine">
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="PersonalizationGuideRadioButton" parent="@android:style/Widget.Material.CompoundButton.RadioButton">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+        <item name="android:paddingLeft">@dimen/guide_radio_button_padding_left</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeightSmall</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingRight</item>
+    </style>
+    <style name="PersonalizationGuideSwitch">
+        <item name="android:background">@null</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingEnd</item>
+    </style>
+    <style name="PersonalizationGuideSwitchListSubheadText" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingRight</item>
+    </style>
+    <style name="PersonalizationGuideSwitchListText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingRight</item>
+    </style>
+    <style name="PersonalizationGuideText" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingRight</item>
+    </style>
+    <style name="PersonalizationGuideTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar" />
+    <style name="PersonalizeTransparentTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SettingsTheme" parent="@android:style/Theme.DeviceDefault.Settings" />
+    <style name="SkinSelectorTheme" parent="@android:style/Theme.DeviceDefault.Settings" />
+    <style name="guide_navbar_button_style" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">100.0dip</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingStart">24.0dip</item>
+        <item name="android:paddingEnd">24.0dip</item>
+    </style>
+    <style name="guide_navbar_style" parent="@android:style/DeviceDefault.ButtonBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">ממתין ל-WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">הורד באמצעות WLAN בלבד</string>
+    <string name="textinput_strings_missing_dictionary_and_network">המילונים עבור השפות שלך לא הורדו. כדי להוריד, התחבר לרשת או ל-WLAN.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">עדכן באופן אוטומטי באמצעות WLAN בלבד</string>
+</resources>

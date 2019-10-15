@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page semc:columnMinWidth="@string/emoji_grid_view_emoji_column_minimum_width_key" semc:rowPreferredHeight="@string/emoji_grid_view_emoji_row_preferred_height_key" semc:rowMinHeight="@string/emoji_grid_view_emoji_row_minimum_height_key" semc:minVisibleRows="@string/emoji_grid_view_minimum_visible_rows_key" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <DynamicContent semc:identifier="usage_frequency" semc:empty_hint="@string/textinput_strings_empty_emoji_frequency_tab_hint" />
+</Page>

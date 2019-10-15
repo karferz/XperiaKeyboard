@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardTemplate semc:totalWidth="320" semc:keyWidth="77" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <RowTemplate semc:layoutId="@string/row1_abc" semc:rowEdgeFlags="top">
+        <ReservedKey semc:metaKey="comma" semc:keyEdgeFlags="left" semc:keyWidth="43" semc:leftVisualGap="1" />
+        <Key semc:keyIndex="1" />
+        <Key semc:keyIndex="2" semc:keyWidth="78" />
+        <Key semc:keyIndex="3" />
+        <ReservedKey semc:metaKey="question" semc:keyEdgeFlags="right" semc:keyWidth="43" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row2_abc">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_multitap" semc:metaKey="singletap" semc:isModifier="true" semc:isSticky="true" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="43" semc:leftVisualGap="1" />
+        <Key semc:keyIndex="4" />
+        <Key semc:keyIndex="5" semc:keyWidth="78" />
+        <Key semc:keyIndex="6" />
+        <ReservedKey semc:metaKey="exclamation" semc:keyEdgeFlags="right" semc:keyWidth="43" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row3_abc">
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_shift" semc:metaKey="shift" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="43" semc:leftVisualGap="1" />
+        <Key semc:keyIndex="7" />
+        <Key semc:keyIndex="8" semc:keyWidth="78" />
+        <Key semc:keyIndex="9" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_delete" semc:metaKey="delete" semc:isRepeatable="true" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="43" semc:rightVisualGap="1" />
+    </RowTemplate>
+    <RowTemplate semc:layoutId="@string/row_bottom_abc" semc:rowEdgeFlags="bottom">
+        <ReservedKey semc:metaKey="symbols" semc:keyEdgeFlags="left" semc:keyStyle="function" semc:keyWidth="52" semc:showPreview="onDragTo" />
+        <ReservedKey semc:metaKey="smileys" semc:keyWidth="41" />
+        <ReservedKey semc:metaKey="comma" semc:keyWidth="30" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_space" semc:metaKey="space" semc:keyWidth="74" />
+        <ReservedKey semc:metaKey="period" semc:keyWidth="30" />
+        <ReservedKey semc:metaKey="xkey" semc:keyStyle="function" semc:keyWidth="41" />
+        <ReservedKey semc:iconId="@drawable/ic_keyboard_enter" semc:metaKey="enter" semc:keyEdgeFlags="right" semc:keyStyle="function" semc:keyWidth="52" />
+    </RowTemplate>
+</KeyboardTemplate>

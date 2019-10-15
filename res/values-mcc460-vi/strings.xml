@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Chờ WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Chỉ tải xuống qua WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Từ điển cho ngôn ngữ của bạn chưa được tải xuống. Hãy kết nối với mạng hoặc WLAN để tải xuống.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Chỉ cập nhật tự động qua WLAN</string>
+</resources>

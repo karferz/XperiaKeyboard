@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Рэзервнае капіраванне і сінхранізацыя</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Рэзервнае капіраванне і сінхр.</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Рэзервнае капіраванне і сінхранізацыя</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">Аб рэзервнае капіраванне і сінхранізацыя</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_text_y_offset_default">0.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_column_minimum_width">70.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_minimum_height">65.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_preferred_height">70.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_column_minimum_width">70.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_minimum_height">70.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_preferred_height">80.0dip</dimen>
+    <dimen name="key_variants_candidate_min_width">30.0dip</dimen>
+    <dimen name="keyboard_bottom_padding">5.3299866dip</dimen>
+    <dimen name="privacy_policy_side_margin">273.0dip</dimen>
+    <dimen name="candidate_bar_height">51.0dip</dimen>
+    <dimen name="candidate_bar_text_size">20.0dip</dimen>
+    <item type="dimen" name="emoji_grid_view_smiley_scale_factor">0.8</item>
+    <dimen name="emoji_grid_view_sub_label_font_size">14.0dip</dimen>
+    <dimen name="guide_item_side_margin_normal">48.0dip</dimen>
+    <dimen name="guide_rb_side_margin_normal">99.0dip</dimen>
+    <dimen name="key_secondary_print_text_size">18.0dip</dimen>
+    <dimen name="keyboard_auxiliary_row_height">50.0dip</dimen>
+    <dimen name="emoji_grid_view_page_gap">20.0dip</dimen>
+    <dimen name="keyboard_top_padding">5.3299866dip</dimen>
+    <dimen name="mini_candidate_bar_height">45.0dip</dimen>
+    <dimen name="mini_candidate_bar_text_size">18.0dip</dimen>
+    <dimen name="mini_emoji_grid_view_emoji_column_minimum_width">55.0dip</dimen>
+    <dimen name="mini_emoji_grid_view_emoji_row_minimum_height">55.0dip</dimen>
+    <dimen name="mini_emoji_grid_view_emoji_row_preferred_height">60.0dip</dimen>
+    <item type="dimen" name="mini_emoji_grid_view_minimum_visible_rows">2.5</item>
+    <dimen name="mini_emoji_grid_view_page_gap">20.0dip</dimen>
+    <dimen name="mini_emoji_grid_view_smiley_column_minimum_width">55.0dip</dimen>
+    <item type="dimen" name="mini_emoji_grid_view_smiley_minimum_visible_rows">2.5</item>
+    <dimen name="mini_emoji_grid_view_smiley_row_minimum_height">75.0dip</dimen>
+    <dimen name="mini_emoji_grid_view_smiley_row_preferred_height">75.0dip</dimen>
+    <item type="dimen" name="mini_emoji_grid_view_smiley_scale_factor">0.7</item>
+    <dimen name="mini_emoji_grid_view_sub_label_font_size">14.0dip</dimen>
+    <dimen name="mini_highlighted_key_variants_text_size">27.0dip</dimen>
+    <dimen name="mini_highlighted_key_variants_text_size_small">24.0dip</dimen>
+    <dimen name="mini_key_bottom_gap_3rows">5.3299866dip</dimen>
+    <dimen name="mini_key_bottom_gap_4rows">5.3299866dip</dimen>
+    <item type="dimen" name="mini_key_icon_scale_factor">0.75</item>
+    <dimen name="mini_key_left_gap">3.3299866dip</dimen>
+    <dimen name="mini_key_right_gap">3.3299866dip</dimen>
+    <item type="dimen" name="mini_key_secondary_print_scale_factor">0.75</item>
+    <item type="dimen" name="mini_key_text_scale_factor">0.75</item>
+    <dimen name="mini_key_top_gap_3rows">5.3299866dip</dimen>
+    <dimen name="mini_key_top_gap_4rows">5.3299866dip</dimen>
+    <dimen name="mini_key_variants_candidate_min_width">26.0dip</dimen>
+    <dimen name="mini_keyboard_auxiliary_row_height">46.0dip</dimen>
+    <dimen name="mini_keyboard_bottom_padding">4.0dip</dimen>
+    <dimen name="mini_keyboard_height">264.0dip</dimen>
+    <item type="dimen" name="mini_keyboard_padding_scale_factor">0.75</item>
+    <item type="dimen" name="mini_keyboard_smiley_scale_factor">0.75</item>
+    <dimen name="mini_keyboard_top_padding">4.0dip</dimen>
+    <dimen name="mini_keyboard_width">474.0dip</dimen>
+    <dimen name="mini_num_keyboard_height">310.0dip</dimen>
+    <dimen name="split_candidate_bar_height">45.0dip</dimen>
+    <dimen name="split_candidate_bar_text_size">18.0dip</dimen>
+    <dimen name="split_emoji_grid_view_emoji_column_minimum_width">55.0dip</dimen>
+    <dimen name="split_emoji_grid_view_emoji_row_minimum_height">55.0dip</dimen>
+    <dimen name="split_emoji_grid_view_emoji_row_preferred_height">60.0dip</dimen>
+    <item type="dimen" name="split_emoji_grid_view_minimum_visible_rows">2.5</item>
+    <dimen name="split_emoji_grid_view_page_gap">20.0dip</dimen>
+    <dimen name="split_emoji_grid_view_smiley_column_minimum_width">55.0dip</dimen>
+    <item type="dimen" name="split_emoji_grid_view_smiley_minimum_visible_rows">2.5</item>
+    <dimen name="split_emoji_grid_view_smiley_row_minimum_height">75.0dip</dimen>
+    <dimen name="split_emoji_grid_view_smiley_row_preferred_height">75.0dip</dimen>
+    <item type="dimen" name="split_emoji_grid_view_smiley_scale_factor">0.7</item>
+    <dimen name="split_emoji_grid_view_sub_label_font_size">14.0dip</dimen>
+    <dimen name="split_highlighted_key_variants_text_size">27.0dip</dimen>
+    <dimen name="split_highlighted_key_variants_text_size_small">24.0dip</dimen>
+    <dimen name="split_key_bottom_gap_3rows">5.3299866dip</dimen>
+    <dimen name="split_key_bottom_gap_4rows">5.3299866dip</dimen>
+    <item type="dimen" name="split_key_icon_scale_factor">0.75</item>
+    <dimen name="split_key_left_gap">3.3299866dip</dimen>
+    <dimen name="split_key_right_gap">3.3299866dip</dimen>
+    <item type="dimen" name="split_key_secondary_print_scale_factor">0.75</item>
+    <item type="dimen" name="split_key_text_scale_factor">0.75</item>
+    <dimen name="split_key_top_gap_3rows">5.3299866dip</dimen>
+    <dimen name="split_key_top_gap_4rows">5.3299866dip</dimen>
+    <dimen name="split_key_variants_candidate_min_width">26.0dip</dimen>
+    <dimen name="split_keyboard_auxiliary_row_height">46.0dip</dimen>
+    <dimen name="split_keyboard_bottom_padding">4.0dip</dimen>
+    <dimen name="split_keyboard_height">264.0dip</dimen>
+    <item type="dimen" name="split_keyboard_padding_scale_factor">0.75</item>
+    <item type="dimen" name="split_keyboard_smiley_scale_factor">0.75</item>
+    <dimen name="split_keyboard_top_padding">4.0dip</dimen>
+    <dimen name="split_keyboard_width">560.0dip</dimen>
+    <dimen name="split_num_keyboard_height">310.0dip</dimen>
+    <dimen name="tablet_guide_content_side_margin">273.0dip</dimen>
+    <dimen name="tablet_guide_keyboard_side_margin">273.0dip</dimen>
+</resources>

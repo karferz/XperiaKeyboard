@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Maghintay para sa WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">I-download sa pamamagitan lang ng WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Ang mga diksyunaryo para sa iyong mga wika ay hindi pa nada-download. Mangyaring kumonekta sa network o WLAN upang i-download.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Awto update gamit lang ang WLAN</string>
+</resources>

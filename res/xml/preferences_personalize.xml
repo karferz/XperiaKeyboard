@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/personalizer_fragment" android:title="@string/textinput_strings_settings_personalization" android:key="@string/key_personalizer_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/textinput_stringssettings_personalization_section" android:key="@string/key_personalizer_category">
+        <com.sonyericsson.textinput.uxp.swiftkeypersonalizer.PersonalizerPreference android:id="@id/gmail" android:title="@string/textinput_strings_settings_personalization_personalize_gmail_title" android:key="@string/key_personalize_gmail" android:summary="@string/textinput_strings_settings_personalization_personalize_gmail_subtitle" style="?android:attr/dialogPreferenceStyle" />
+        <com.sonyericsson.textinput.uxp.swiftkeypersonalizer.PersonalizerPreference android:id="@id/sms" android:title="@string/textinput_strings_settings_personalization_personalize_sms_title" android:key="@string/key_personalize_sms" android:summary="@string/textinput_strings_settings_personalization_personalize_sms_subtitle" style="?android:attr/preferenceStyle" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/textinput_strings_settings_backup_and_synchronization_section" android:key="@string/key_backup_and_sync_category">
+        <com.sonyericsson.textinput.uxp.PassiveSwitchPreference android:title="@string/textinput_strings_settings_backup_and_synchronization" android:key="@string/key_backup_and_sync" android:order="1" />
+        <PreferenceScreen android:title="@string/textinput_strings_settings_backup_and_synchronization_about" android:key="@string/key_backup_and_sync_about" android:order="2">
+            <intent android:targetPackage="com.sonyericsson.textinput.uxp" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.textinput.uxp.swiftkeypersonalizer.BackupAndSyncAboutActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/textinput_strings_settings_my_words_section" android:key="@string/key_my_words_category">
+        <PreferenceScreen android:title="@string/textinput_strings_settings_my_words" android:key="@string/key_my_words" android:summary="@string/textinput_strings_settings_my_words_summary">
+            <intent android:targetPackage="com.sonyericsson.textinput.uxp" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.textinput.uxp.controller.settings.MyWordsActivity" />
+        </PreferenceScreen>
+        <Preference android:title="@string/textinput_strings_settings_clear_language_data" android:key="@string/key_clear_language_data" android:summary="@string/textinput_strings_settings_clear_language_data_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

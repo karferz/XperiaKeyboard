@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Prit për WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Shkarko vetëm nëpërmjet WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">"Fjalorët për gjuhët tuaja nuk janë shkarkuar. Për t'i shkarkuar, lidhuni me rrjetin ose WLAN."</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Përditësoni auto. vetëm me WLAN</string>
+</resources>

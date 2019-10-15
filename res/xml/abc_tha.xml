@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label=". , -" semc:candidates=".,-'@?!:;/1" />
+        <Key semc:label="ก - ฉ" semc:candidates="กขคฆงจฉ2" />
+        <Key semc:label="ช - ฐ" semc:candidates="ชซฌญฎฏฐ3" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="ฑ - ท" semc:candidates="ฑฒณดตถท4" />
+        <Key semc:label="ธ - พ" semc:candidates="ธนบปผฝพ5" />
+        <Key semc:label="ฟ - ว" semc:candidates="ฟภมยรลว6" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="ศ - ฮ" semc:candidates="ศษสหฬอฮ7" />
+        <Key semc:label="ะ - ,ู">
+            <Candidate semc:candidate="ะ" />
+            <Candidate semc:candidate="ั" />
+            <Candidate semc:candidate="ิ" />
+            <Candidate semc:candidate="ี" />
+            <Candidate semc:candidate="ึ" />
+            <Candidate semc:candidate="ื" />
+            <Candidate semc:candidate="ุ" />
+            <Candidate semc:candidate="ู" />
+            <Candidate semc:candidate="8" />
+        </Key>
+        <Key semc:label="า - ๆ" semc:candidates="าำเแโใไฯๅๆ9" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+    <OverrideKey semc:keyIndex="0" semc:metaKey="space" semc:label="่ - ฤ" semc:candidates="่">
+        <Candidate semc:candidate="้" />
+        <Candidate semc:candidate="๊" />
+        <Candidate semc:candidate="๋" />
+        <Candidate semc:candidate="็" />
+        <Candidate semc:candidate="์" />
+        <Candidate semc:candidate="ฤ" />
+        <Candidate semc:candidate="0" />
+    </OverrideKey>
+</Keyboard>

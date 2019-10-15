@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Yedekleme ve senkronizasyon</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Yedekleme ve senkronizasyon</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">Google sesle yazma tuşu</string>
+</resources>

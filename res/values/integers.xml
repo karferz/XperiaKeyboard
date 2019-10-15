@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_vibrator_duration">45</integer>
+    <integer name="max_vibrator_duration">75</integer>
+    <integer name="min_vibrator_duration">30</integer>
+    <integer name="candidate_anim_alpha_duration_phone">200</integer>
+    <integer name="candidate_anim_alpha_in_duration_tablet">90</integer>
+    <integer name="candidate_anim_alpha_out_duration">80</integer>
+    <integer name="candidate_anim_candidate_alpha_delay_phone">17</integer>
+    <integer name="candidate_anim_first_candidate_alpha_delay_phone">30</integer>
+    <integer name="candidate_anim_scale_from">70</integer>
+    <integer name="candidate_anim_scale_in_duration_tablet">80</integer>
+    <integer name="candidate_anim_scale_out_duration">100</integer>
+    <integer name="candidate_anim_scale_to">70</integer>
+    <integer name="candidate_anim_translate_and_width_duration_phone">120</integer>
+    <integer name="default_sound_feedback_volume">12</integer>
+    <integer name="emoji_usage_frequency_tab_maximum_number_of_emojis">60</integer>
+    <integer name="google_play_services_version">10298000</integer>
+    <integer name="kbd_orientation_landscape">2</integer>
+    <integer name="kbd_orientation_portrait">1</integer>
+    <integer name="kbd_orientation_undefined">0</integer>
+    <integer name="max_sound_feedback_volume">50</integer>
+    <integer name="min_sound_feedback_volume">5</integer>
+    <integer name="mini_floating_keyboard_move_alpha">90</integer>
+</resources>

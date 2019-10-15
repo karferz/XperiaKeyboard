@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/wrappingView" style="@style/PersonalizationGuideListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/guideListItemTextContainer" android:paddingTop="@dimen/guide_list_single_and_three_row_item_top_padding" android:paddingBottom="@dimen/guide_list_single_and_three_row_item_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/guideListItemSwitch" android:layout_alignParentStart="true">
+        <TextView android:layout_gravity="start" android:id="@id/primaryGuideListItemText" android:text="@string/textinput_strings_personalization_guide_additional_keys_show_secondary_prints" style="@style/PersonalizationGuideSwitchListSubheadText" />
+        <TextView android:textColor="?android:textColorSecondary" android:layout_gravity="start" android:id="@id/secondaryGuideListItemText" android:visibility="gone" android:text="@string/textinput_strings_settings_secondary_prints_warning" style="@style/PersonalizationGuideSwitchListText" />
+    </LinearLayout>
+    <Switch android:id="@id/guideListItemSwitch" android:layout_centerInParent="true" android:layout_alignParentEnd="true" style="@style/PersonalizationGuideSwitch" />
+</RelativeLayout>

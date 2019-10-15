@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label=". , -" semc:candidates=".,-'@;!?:/1" />
+        <Key semc:label="αβγ" semc:candidates="αβγά2" semc:shiftedCandidates="ΑΒΓΆ2" semc:shiftedLabel="ΑΒΓ" />
+        <Key semc:label="δεζ" semc:candidates="δεζέ3" semc:shiftedCandidates="ΔΕΖΈ3" semc:shiftedLabel="ΔΕΖ" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="ηθι" semc:candidates="ηθιήί4" semc:shiftedCandidates="ΗΘΙΉΊ4" semc:shiftedLabel="ΗΘΙ" />
+        <Key semc:label="κλμ" semc:candidates="κλμ5" semc:shiftedCandidates="ΚΛΜ5" semc:shiftedLabel="ΚΛΜ" />
+        <Key semc:label="νξο" semc:candidates="νξοό6" semc:shiftedCandidates="ΝΞΟΌ6" semc:shiftedLabel="ΝΞΟ" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="πρσ" semc:candidates="πρςσ7" semc:shiftedCandidates="ΠΡΣ7" semc:shiftedLabel="ΠΡΣ" />
+        <Key semc:label="τυφ" semc:candidates="τυφύ8" semc:shiftedCandidates="ΤΥΦΎ8" semc:shiftedLabel="ΤΥΦ" />
+        <Key semc:label="χψω" semc:candidates="χψωώ9" semc:shiftedCandidates="ΧΨΩΏ9" semc:shiftedLabel="ΧΨΩ" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+    <OverrideKey semc:metaKey="question" semc:candidates=";" />
+</Keyboard>

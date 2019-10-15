@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="hebrew" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="ף" />
+    <semc:baseCharacter data="ק" />
+    <semc:baseCharacter data="ר" />
+    <semc:baseCharacter data="א" />
+    <semc:baseCharacter data="ט" />
+    <semc:baseCharacter data="ו" />
+    <semc:baseCharacter data="ן" />
+    <semc:baseCharacter data="ם" />
+    <semc:baseCharacter data="פ" />
+    <semc:baseCharacter data="ש" />
+    <semc:baseCharacter data="ד" />
+    <semc:baseCharacter data="ג" />
+    <semc:baseCharacter data="כ" />
+    <semc:baseCharacter data="ע" />
+    <semc:baseCharacter data="י" />
+    <semc:baseCharacter data="ח" />
+    <semc:baseCharacter data="ל" />
+    <semc:baseCharacter data="ך" />
+    <semc:baseCharacter data="ץ" />
+    <semc:baseCharacter data="ז" />
+    <semc:baseCharacter data="ס" />
+    <semc:baseCharacter data="ב" />
+    <semc:baseCharacter data="ה" />
+    <semc:baseCharacter data="נ" />
+    <semc:baseCharacter data="מ" />
+    <semc:baseCharacter data="צ" />
+    <semc:baseCharacter data="ת" />
+</Language>

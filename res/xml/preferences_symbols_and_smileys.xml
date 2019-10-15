@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/textinput_strings_settings_keyboard_symbols_and_smileys" android:key="@string/key_textinput_keyboard_appearance"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/textinput_strings_settings_show_secondary_prints" android:key="@string/key_show_secondary_prints" android:summary="@string/textinput_strings_settings_show_secondary_prints_summary" android:defaultValue="false" />
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_show_smiley" android:key="@string/key_show_smiley_key" android:defaultValue="@bool/show_smiley_key" />
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_show_period_and_comma" android:key="@string/key_show_period_and_comma_keys" android:defaultValue="@bool/show_period_and_comma_keys" />
+    <SwitchPreference android:persistent="true" android:title="@string/textinput_strings_settings_auto_space" android:key="@string/key_candidate_selection_auto_space" android:summary="@string/textinput_strings_settings_auto_space_summary" android:defaultValue="@bool/candidate_selection_auto_space" />
+</PreferenceScreen>

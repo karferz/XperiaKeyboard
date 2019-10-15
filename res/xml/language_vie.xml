@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="latin" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="a">
+        <semc:candidates data="ă" />
+        <semc:candidates data="â" />
+        <semc:candidates data="ã" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="d">
+        <semc:candidates data="đ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="e">
+        <semc:candidates data="ê" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="i">
+        <semc:candidates data="ị" />
+        <semc:candidates data="í" />
+        <semc:candidates data="î" />
+        <semc:candidates data="ï" />
+        <semc:candidates data="ì" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="o">
+        <semc:candidates data="ô" />
+        <semc:candidates data="ơ" />
+        <semc:candidates data="ọ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="u">
+        <semc:candidates data="ư" />
+        <semc:candidates data="ụ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="A">
+        <semc:candidates data="Ă" />
+        <semc:candidates data="Â" />
+        <semc:candidates data="Ã" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="D">
+        <semc:candidates data="Đ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="E">
+        <semc:candidates data="Ê" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="I">
+        <semc:candidates data="Ị" />
+        <semc:candidates data="Í" />
+        <semc:candidates data="Î" />
+        <semc:candidates data="Ï" />
+        <semc:candidates data="Ì" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="O">
+        <semc:candidates data="Ô" />
+        <semc:candidates data="Ơ" />
+        <semc:candidates data="Ọ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="U">
+        <semc:candidates data="Ư" />
+        <semc:candidates data="Ụ" />
+    </semc:baseCharacter>
+</Language>

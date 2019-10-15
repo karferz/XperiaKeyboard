@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language semc:script="cyrillic" xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <semc:baseCharacter data="а" />
+    <semc:baseCharacter data="б" />
+    <semc:baseCharacter data="в" />
+    <semc:baseCharacter data="г">
+        <semc:candidates data="ґ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="д" />
+    <semc:baseCharacter data="е">
+        <semc:candidates data="є" />
+        <semc:candidates data="ё" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="з" />
+    <semc:baseCharacter data="и">
+        <semc:candidates data="і" />
+        <semc:candidates data="ї" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="й" />
+    <semc:baseCharacter data="к" />
+    <semc:baseCharacter data="л" />
+    <semc:baseCharacter data="м" />
+    <semc:baseCharacter data="н" />
+    <semc:baseCharacter data="о" />
+    <semc:baseCharacter data="п" />
+    <semc:baseCharacter data="р" />
+    <semc:baseCharacter data="с" />
+    <semc:baseCharacter data="т" />
+    <semc:baseCharacter data="у" />
+    <semc:baseCharacter data="ф" />
+    <semc:baseCharacter data="ц" />
+    <semc:baseCharacter data="ч" />
+    <semc:baseCharacter data="ш" />
+    <semc:baseCharacter data="щ" />
+    <semc:baseCharacter data="ы" />
+    <semc:baseCharacter data="э" />
+    <semc:baseCharacter data="ь" />
+    <semc:baseCharacter data="я" />
+    <semc:baseCharacter data="А" />
+    <semc:baseCharacter data="Б" />
+    <semc:baseCharacter data="В" />
+    <semc:baseCharacter data="Г">
+        <semc:candidates data="Ґ" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Д" />
+    <semc:baseCharacter data="Е">
+        <semc:candidates data="Є" />
+        <semc:candidates data="Ё" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="З" />
+    <semc:baseCharacter data="И">
+        <semc:candidates data="І" />
+        <semc:candidates data="Ї" />
+    </semc:baseCharacter>
+    <semc:baseCharacter data="Й" />
+    <semc:baseCharacter data="К" />
+    <semc:baseCharacter data="Л" />
+    <semc:baseCharacter data="М" />
+    <semc:baseCharacter data="Н" />
+    <semc:baseCharacter data="О" />
+    <semc:baseCharacter data="П" />
+    <semc:baseCharacter data="Р" />
+    <semc:baseCharacter data="С" />
+    <semc:baseCharacter data="Т" />
+    <semc:baseCharacter data="У" />
+    <semc:baseCharacter data="Ф" />
+    <semc:baseCharacter data="Ц" />
+    <semc:baseCharacter data="Ч" />
+    <semc:baseCharacter data="Ш" />
+    <semc:baseCharacter data="Щ" />
+    <semc:baseCharacter data="Ы" />
+    <semc:baseCharacter data="Э" />
+    <semc:baseCharacter data="Ь" />
+    <semc:baseCharacter data="Я" />
+</Language>

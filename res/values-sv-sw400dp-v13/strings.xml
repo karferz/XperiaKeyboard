@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Säkerhetskopiering och synkronisering</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Säkerhetskopiering och synkronisering</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">Om säkerhetskopiering &amp; synkronisering</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">Knapp för Google-röstinmatning</string>
+</resources>

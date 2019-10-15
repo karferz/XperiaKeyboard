@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:keyIndex="" semc:label="੍">
+            <Candidate semc:candidate="੍" />
+            <Candidate semc:candidate="ੰ" />
+            <Candidate semc:candidate="ੱ" />
+            <Candidate semc:candidate="ਁ" />
+            <Candidate semc:candidate="ਃ" />
+            <Candidate semc:candidate="ਂ" />
+            <Candidate semc:candidate="਼" />
+        </Key>
+        <Key semc:label="।,-" semc:candidates="।,-'.@?!:;/1" />
+        <Key semc:label="ਅ - ਊ" semc:candidates="ਾਿੁੂਅਆਇਈਉਊ2" />
+        <Key semc:label="ਏ - ਔ" semc:candidates="ੇੈੋੋਏਐਓਔ3" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="ਕ - ਙ" semc:candidates="ਕਖਗਘਙ4" />
+        <Key semc:label="ਚ - ਞ" semc:candidates="ਚਛਜਝਞ5" />
+        <Key semc:label="ਟ - ਣ" semc:candidates="ਟਠਡਢਣ6" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="ਤ - ਨ" semc:candidates="ਤਥਦਧਨ7" />
+        <Key semc:label="ਪ - ਮ" semc:candidates="ਪਫਬਭਮ8" />
+        <Key semc:label="ਯ - ਹ" semc:candidates="ਯਰਲਵਸ਼ਸਹਲ਼9" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+</Keyboard>

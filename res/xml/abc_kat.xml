@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_abc">
+        <Key semc:label=". , -" semc:candidates=".,-'@?!:;/1" />
+        <Key semc:label="აბგდ" semc:candidates="აბგდ2" />
+        <Key semc:label="ევზთ" semc:candidates="ევზთ3" />
+    </Row>
+    <Row semc:layoutId="@string/row2_abc">
+        <Key semc:label="იკლმ" semc:candidates="იკლმ4" />
+        <Key semc:label="ნოპჟ" semc:candidates="ნოპჟ5" />
+        <Key semc:label="რსტუ" semc:candidates="რსტუ6" />
+    </Row>
+    <Row semc:layoutId="@string/row3_abc">
+        <Key semc:label="ფქღყ" semc:candidates="ფქღყ7" />
+        <Key semc:label="შჩცძ" semc:candidates="შჩცძ8" />
+        <Key semc:label="წჭხჯ" semc:candidates="წჭხჯჰ9" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom_abc" />
+</Keyboard>

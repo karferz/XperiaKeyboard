@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">等候WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">只透過WLAN下載</string>
+    <string name="textinput_strings_missing_dictionary_and_network">尚未下載您的語言所適用的詞典。請連接到網絡或WLAN進行下載。</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">僅透過WLAN自動更新</string>
+</resources>

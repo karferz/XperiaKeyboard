@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Debug" android:key="@string/key_textinput_debug"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Information">
+        <Preference android:key="version" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug keyboard options" android:order="1000">
+        <CheckBoxPreference android:persistent="true" android:title="Draw prediction keys" android:key="debug_draw_prediction_keys" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="Draw touch area on keys" android:key="debug_draw_key_touch_area" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="true" android:title="Draw visible area on keys" android:key="debug_draw_key_visible_area" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="Draw heat map area on keys. Slooow!" android:key="debug_draw_key_heatmap" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="Visualize tap/trace mode" android:key="debug_draw_trace_boundary" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:enabled="true" android:title="Draw touch history TODO" android:key="debug_draw_touch_history" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Stress">
+        <CheckBoxPreference android:persistent="true" android:enabled="true" android:title="Draw free heap memory" android:key="debug_draw_heap_mem" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:enabled="true" android:title="Swallow heap" android:key="debug_swallow_heap" android:defaultValue="false" />
+        <EditTextPreference android:persistent="true" android:key="debug_after_swallow_heap_free_mb" android:dialogMessage="How many MB of heap to leave free after swallow" android:inputType="numberDecimal" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Trace settings">
+        <EditTextPreference android:persistent="true" android:key="distance-decay" android:dialogMessage="What should be the 'decay distance' of the distance penalty function - if lower, users will have to be more accurate (specified as a fraction of the minimum key separation)" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="length-decay" android:dialogMessage="What should be the 'decay distance' of the length penalty function, which penalizes errant input strokes (specified as a fraction of the minimum key separation)" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="end-decay" android:dialogMessage="What should be the 'decay distance' of the stroke start and end-point penalty function used to penalize errant input strokes (specified as a fraction of the minimum key separation)" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="feature-threshold" android:dialogMessage="The minimum approach distance between a stroke and a key for it to be considered as a feature (specified as a fraction of the minimum key separation)" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="feature-hysteresis" android:dialogMessage="If a stroke re-approaches a key after moving away by less than hysteresis (specified as a fraction of the feature-threshold), it is considered as a single feature" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="upcase-probability" android:dialogMessage="With what probability should characters be upper-cased, e.g. input 'fred' >> predict 'Fred'" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="downcase-probability" android:dialogMessage="With what probability should characters be down-cased, e.g. input 'Right' >> predict 'right'" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="prefix-probability" android:dialogMessage="A discount factor to apply to prefix predictions when using continuous input (this overrides input-model:prefix-probability when continuous input is used)" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="confidence-factor" android:dialogMessage="See input-model:confidence-factor - this overrides input-model:confidence-factor when continuous input is used" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="multi-term-leniency" android:dialogMessage="A leniency factor used to prevent multi-term predictions being pruned against shorter ones. Replaces the function formerly played by the ignored-reset-penalty" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="min-skip-probability" android:dialogMessage="The smallest possible skip probability (or, the largest possible skip penalty) for any feature" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="free-skip-duration" android:dialogMessage="How long an user can linger on a key before incurring any skip penalty, in milliseconds" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="dwell-duration-decay" android:dialogMessage="How fast the skip penalty on a feature decays after exceeding free-skip-duration (specified as a fraction of free-skip-duration)" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="dwell-duration-factor" android:dialogMessage="The scaling factor for free-skip-duration and dwell-duration-decay for computing skip penalty incurred on a repeated feature" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="free-skip-distance" android:dialogMessage="The 'equivalent' distance for free-skip-duration as a fraction of the minimum key separation" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="trace-speed-weight" android:dialogMessage="The maximum distance over which the speed of user strokes are estimated (specified as a fraction of the minimum key separation)" android:inputType="numberDecimal" />
+        <EditTextPreference android:persistent="true" android:key="prefix-skip-probability" android:dialogMessage="What probability factor should 'prefix predictions' be discounted for EACH character prefix matched (e.g. if 0.1, with input 'in', penalize the prediction 'inside' by a factor of 0.0001); if 0, 'prefix predictions' are excluded during tire search" android:inputType="numberDecimal" />
+        <SwitchPreference android:persistent="true" android:title="adapt-trace-speed" android:key="adapt-trace-speed" android:dialogMessage="If true, the estimated speed of user strokes are used to adapt free-skip-duration" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Backup and sync">
+        <Preference android:title="Force sync" android:key="sync-trigger" android:summary="Will start a sync immediately" />
+    </PreferenceCategory>
+</PreferenceScreen>

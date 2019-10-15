@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="key_text_y_offset_default">0.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_column_minimum_width">43.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_minimum_height">43.0dip</dimen>
+    <dimen name="emoji_grid_view_emoji_row_preferred_height">49.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_column_minimum_width">43.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_minimum_height">52.0dip</dimen>
+    <dimen name="emoji_grid_view_smiley_row_preferred_height">53.0dip</dimen>
+    <dimen name="key_preview_label_style_text_very_small_size">18.0dip</dimen>
+    <dimen name="key_preview_minHeight">80.0dip</dimen>
+    <dimen name="key_text_y_offset_4row">-3.0dip</dimen>
+    <dimen name="key_text_y_offset_hye">-2.0dip</dimen>
+    <dimen name="key_top_gap_3rows">5.0dip</dimen>
+    <dimen name="key_top_gap_4rows">3.0dip</dimen>
+    <dimen name="key_variants_candidate_min_width">35.0dip</dimen>
+    <dimen name="keyboard_bottom_padding">0.0dip</dimen>
+    <dimen name="keyboard_default_height">184.0dip</dimen>
+    <dimen name="popup_smileys_bottom_margin">43.0dip</dimen>
+    <dimen name="privacy_policy_large_margin">6.0dip</dimen>
+    <dimen name="privacy_policy_medium_margin">16.0dip</dimen>
+    <dimen name="privacy_policy_side_margin">16.0dip</dimen>
+    <dimen name="privacy_policy_small_margin">16.0dip</dimen>
+</resources>

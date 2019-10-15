@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/more_candidates_animation_container" android:background="@drawable/ic_candidatebar_expand_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/more_candidates_with_margin_container" android:background="@drawable/ic_candidatebar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+            <LinearLayout android:orientation="vertical" android:id="@id/more_candidates_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/more_candidates_container_margin" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:id="@id/more_candidates_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+</FrameLayout>

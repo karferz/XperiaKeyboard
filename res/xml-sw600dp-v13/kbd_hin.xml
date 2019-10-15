@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_11keys">
+        <Key semc:candidates="ौऔॉ" semc:shiftedCandidates="औौऑॉ" semc:secondaryPrints="औ" semc:shiftedSecondaryPrints="ौ" />
+        <Key semc:candidates="ैऐॅ" semc:shiftedCandidates="ऐैऍॅ" semc:secondaryPrints="ऐ" semc:shiftedSecondaryPrints="ै" />
+        <Key semc:candidates="ाआ" semc:shiftedCandidates="आा" semc:secondaryPrints="आ" semc:shiftedSecondaryPrints="ा" />
+        <Key semc:candidates="ीई" semc:shiftedCandidates="ईी" semc:secondaryPrints="ई" semc:shiftedSecondaryPrints="ी" />
+        <Key semc:candidates="ूऊ" semc:shiftedCandidates="ऊू" semc:secondaryPrints="ऊ" semc:shiftedSecondaryPrints="ू" />
+        <Key semc:candidates="बभ" semc:shiftedCandidates="भब" semc:secondaryPrints="भ" semc:shiftedSecondaryPrints="ब" />
+        <Key semc:candidates="हङ" semc:shiftedCandidates="ङह" semc:secondaryPrints="ङ" semc:shiftedSecondaryPrints="ह" />
+        <Key semc:candidates="गघ" semc:shiftedCandidates="घग" semc:secondaryPrints="घ" semc:shiftedSecondaryPrints="ग" />
+        <Key semc:candidates="दध" semc:shiftedCandidates="धद" semc:secondaryPrints="ध" semc:shiftedSecondaryPrints="द" />
+        <Key semc:candidates="जझ" semc:shiftedCandidates="झज" semc:secondaryPrints="झ" semc:shiftedSecondaryPrints="ज" />
+        <Key semc:candidates="डढ" semc:shiftedCandidates="ढड" semc:secondaryPrints="ढ" semc:shiftedSecondaryPrints="ड" />
+    </Row>
+    <Row semc:layoutId="@string/row2_11keys">
+        <Key semc:candidates="ोओ" semc:shiftedCandidates="ओो" semc:secondaryPrints="ओ" semc:shiftedSecondaryPrints="ो" />
+        <Key semc:candidates="ेए" semc:shiftedCandidates="एे" semc:secondaryPrints="ए" semc:shiftedSecondaryPrints="े" />
+        <Key semc:candidates="्अ" semc:shiftedCandidates="अ्" semc:secondaryPrints="अ" semc:shiftedSecondaryPrints="्" />
+        <Key semc:candidates="िइ" semc:shiftedCandidates="इि" semc:secondaryPrints="इ" semc:shiftedSecondaryPrints="ि" />
+        <Key semc:candidates="ुउ" semc:shiftedCandidates="उु" semc:secondaryPrints="उ" semc:shiftedSecondaryPrints="ु" />
+        <Key semc:candidates="पफ" semc:shiftedCandidates="फप" semc:secondaryPrints="फ" semc:shiftedSecondaryPrints="प" />
+        <Key semc:candidates="र" semc:shiftedCandidates="र" />
+        <Key semc:candidates="कख" semc:shiftedCandidates="खक" semc:secondaryPrints="ख" semc:shiftedSecondaryPrints="क" />
+        <Key semc:candidates="तथ" semc:shiftedCandidates="थत" semc:secondaryPrints="थ" semc:shiftedSecondaryPrints="त" />
+        <Key semc:candidates="चछ" semc:shiftedCandidates="छच" semc:secondaryPrints="छ" semc:shiftedSecondaryPrints="च" />
+        <Key semc:candidates="टठ" semc:shiftedCandidates="ठट" semc:secondaryPrints="ठ" semc:shiftedSecondaryPrints="ट" />
+    </Row>
+    <Row semc:layoutId="@string/row3_9keys">
+        <Key semc:candidates="ंँ" semc:shiftedCandidates="ँं" semc:secondaryPrints="ँ" semc:shiftedSecondaryPrints="ं" />
+        <Key semc:candidates="मण" semc:shiftedCandidates="णम" semc:secondaryPrints="ण" semc:shiftedSecondaryPrints="म" />
+        <Key semc:candidates="न" semc:shiftedCandidates="न" />
+        <Key semc:candidates="वः" semc:shiftedCandidates="ःव" semc:secondaryPrints="ः" semc:shiftedSecondaryPrints="व" />
+        <Key semc:candidates="लळ" semc:shiftedCandidates="ळल" semc:secondaryPrints="ळ" semc:shiftedSecondaryPrints="ल" />
+        <Key semc:candidates="सश" semc:shiftedCandidates="शस" semc:secondaryPrints="श" semc:shiftedSecondaryPrints="स" />
+        <Key semc:candidates="ष़" semc:shiftedCandidates="़ष" semc:secondaryPrints="़" semc:shiftedSecondaryPrints="ष" />
+        <Key semc:candidates="यञ" semc:shiftedCandidates="ञय" semc:secondaryPrints="ञ" semc:shiftedSecondaryPrints="य" />
+        <Key semc:candidates="ृॠ" semc:shiftedCandidates="ॠृ" semc:secondaryPrints="ॠ" semc:shiftedSecondaryPrints="ृ" />
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="comma" semc:label="," semc:candidates=",?!-'।" />
+    <OverrideKey semc:metaKey="period" semc:label="।" semc:candidates="।?!-'." semc:secondaryLabel="\?!" />
+</Keyboard>

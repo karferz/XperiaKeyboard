@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyboardViewTablet" parent="@style/KeyboardView">
+        <item name="showKeyPreview">false</item>
+    </style>
+    <style name="KeyboardViewTabletGuideLandscape" parent="@style/KeyboardViewTablet">
+        <item name="keyboardModifiedWidth">734.0dip</item>
+        <item name="keyboardModifiedHeight">276.0dip</item>
+        <item name="keyboardKeyContentScaleFactor">0.82</item>
+    </style>
+    <style name="CardViewTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:drawablePadding">@dimen/skin_selector_card_view_text_right_margin</item>
+    </style>
+    <style name="CardViewTitleStyle" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:layout_marginTop">@dimen/skin_selector_card_view_title_top_margin</item>
+    </style>
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogCheckboxStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_marginStart">24.0dip</item>
+        <item name="android:layout_marginEnd">24.0dip</item>
+    </style>
+    <style name="DialogTextStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_marginStart">24.0dip</item>
+        <item name="android:layout_marginEnd">24.0dip</item>
+    </style>
+    <style name="DialogTransparentNoTitle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="GuideActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:title">@string/textinput_strings_personalization_guide_what_do_you_prefer_title</item>
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+    <style name="ImageContainerClickable" parent="@style/LanguageListImageClickable" />
+    <style name="InputMethodTheme" parent="@android:style/Theme.DeviceDefault.InputMethod">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="LanguageListCheckbox" />
+    <style name="LanguageListImageClickable" />
+    <style name="LanguageListItemClickable">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="LanguageListViewItemSummaryStyle" parent="@style/LanguageListViewItemTitleStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Small</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="LanguageListViewItemTitleStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+    </style>
+    <style name="MainInfoText" parent="@style/PersonalizationGuideInfoText" />
+    <style name="MyWordsTheme" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="PersonalizationGuideFinishCheckBox" parent="@style/PersonalizationGuideSwitch">
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="PersonalizationGuideImageWithStartEndMargins" parent="@style/PersonalizationGuideImage">
+        <item name="android:layout_marginStart">@dimen/guide_item_side_margin_normal</item>
+        <item name="android:layout_marginEnd">@dimen/guide_item_side_margin_normal</item>
+    </style>
+    <style name="PersonalizationGuideInfoText" parent="@style/PersonalizationGuideSwitch">
+        <item name="android:textSize">@dimen/guide_info_text_size</item>
+        <item name="android:layout_marginTop">@dimen/guide_item_margin_small</item>
+        <item name="android:layout_marginStart">@dimen/guide_text_side_margin_normal</item>
+        <item name="android:layout_marginEnd">@dimen/guide_text_side_margin_normal</item>
+    </style>
+    <style name="PersonalizationGuideListItemDoubleLine" parent="@style/PersonalizationGuideListItemSingleLine" />
+    <style name="PersonalizationGuideListItemSplit" parent="@style/PersonalizationGuideListItemSingleLine">
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="PersonalizationGuideRadioButton" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">@dimen/guide_radio_button_text_size</item>
+        <item name="android:paddingLeft">@dimen/guide_radio_button_padding_left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/guide_item_margin_small</item>
+        <item name="android:layout_marginBottom">@dimen/guide_margin_small</item>
+        <item name="android:layout_marginStart">@dimen/guide_rb_side_margin_normal</item>
+        <item name="android:layout_marginEnd">@dimen/guide_rb_side_margin_normal</item>
+    </style>
+    <style name="PersonalizationGuideSwitch" parent="@style/PersonalizationGuideText">
+        <item name="android:textSize">@dimen/guide_text_size_normal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/guide_item_side_margin_normal</item>
+        <item name="android:layout_marginEnd">@dimen/guide_item_side_margin_normal</item>
+    </style>
+    <style name="PersonalizationGuideSwitchListSubheadText" parent="@style/PersonalizationGuideText">
+        <item name="android:textSize">@dimen/guide_text_size_large</item>
+        <item name="android:layout_marginStart">@dimen/guide_margin_small</item>
+    </style>
+    <style name="PersonalizationGuideSwitchListText" parent="@style/PersonalizationGuideText">
+        <item name="android:textSize">@dimen/guide_text_size_small</item>
+        <item name="android:layout_marginStart">@dimen/guide_margin_small</item>
+    </style>
+    <style name="PersonalizationGuideText" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="PersonalizationGuideTheme" parent="@style/SettingsTheme">
+        <item name="android:actionBarStyle">@style/GuideActionBarStyle</item>
+    </style>
+    <style name="PersonalizeTransparentTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="SettingsTheme" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="SkinSelectorTheme" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="BaseDialogKeyboardView">
+        <item name="keyBackground">@drawable/ic_keyboard_bg</item>
+        <item name="keyTextSize">22.0sp</item>
+        <item name="labelTextSize">14.0sp</item>
+        <item name="keyTextColor">@color/key_text_color</item>
+        <item name="verticalCorrection">-10.0dip</item>
+    </style>
+    <style name="Blob">
+        <item name="maxLength">2500.0</item>
+        <item name="velocity">1800.0</item>
+        <item name="touchPrecision">3.0</item>
+        <item name="smooth">false</item>
+        <item name="smoothPrecision">5.0</item>
+        <item name="weight0">0.4</item>
+        <item name="weight1">0.4</item>
+        <item name="headSize">8.0dip</item>
+        <item name="tailSize">1.0dip</item>
+    </style>
+    <style name="CandidateTextView">
+        <item name="android:textSize">@dimen/key_variants_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CandidateTextViewMini" parent="@style/CandidateTextView">
+        <item name="android:textSize">@dimen/key_variants_text_size_mini</item>
+    </style>
+    <style name="CandidateTextViewMiniSmall" parent="@style/CandidateTextView">
+        <item name="android:textSize">@dimen/key_variants_text_size_mini_small</item>
+    </style>
+    <style name="CandidateTextViewOnehanded" parent="@style/CandidateTextView">
+        <item name="android:textSize">@dimen/one_handed_key_variants_text_size</item>
+    </style>
+    <style name="CandidateTextViewOnehandedSmall" parent="@style/CandidateTextView">
+        <item name="android:textSize">@dimen/one_handed_key_variants_text_size_small</item>
+    </style>
+    <style name="CandidateTextViewSmall" parent="@style/CandidateTextView">
+        <item name="android:textSize">@dimen/key_variants_text_size_small</item>
+    </style>
+    <style name="CandidateTextViewSplit" parent="@style/CandidateTextView">
+        <item name="android:textSize">@dimen/key_variants_text_size_split</item>
+    </style>
+    <style name="CandidateTextViewSplitSmall" parent="@style/CandidateTextView">
+        <item name="android:textSize">@dimen/key_variants_text_size_split_small</item>
+    </style>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="CloudLoginButtons">
+        <item name="android:textColor">@color/login_text_color</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="EmojiBottomRowKey">
+        <item name="android:background">@drawable/ic_keyboard_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">100.0dip</item>
+        <item name="android:layout_height">100.0dip</item>
+    </style>
+    <style name="EmojiTabItem">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="HintToastTextView" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="HorizontalDivider">
+        <item name="android:background">?android:dividerHorizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+        <item name="android:layout_marginStart">@dimen/guide_text_side_margin_normal</item>
+        <item name="android:layout_marginEnd">@dimen/guide_text_side_margin_normal</item>
+    </style>
+    <style name="KeyLabelColorStyle">
+        <item name="android:textColor">#e5ffffff</item>
+        <item name="android:shadowColor">#7f000000</item>
+    </style>
+    <style name="KeyLabelColorStyleDark" parent="@style/KeyLabelColorStyle" />
+    <style name="KeyLabelColorStyleLight">
+        <item name="android:textColor">#e5222222</item>
+        <item name="android:shadowColor">#7fffffff</item>
+    </style>
+    <style name="KeyLabelStyle">
+        <item name="android:textSize">@dimen/key_label_style_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="KeyLargeLabelStyle" parent="@style/KeyLabelStyle">
+        <item name="android:textSize">@dimen/key_label_style_text_size_large</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="KeyPreviewLabelStyle" parent="@style/KeyLabelStyle">
+        <item name="android:textSize">@dimen/key_preview_label_style_text_size</item>
+    </style>
+    <style name="KeySmallLabelStyle" parent="@style/KeyLabelStyle">
+        <item name="android:textSize">@dimen/key_label_style_text_small_size</item>
+    </style>
+    <style name="KeyVariantHighlightStyle">
+        <item name="android:textSize">@dimen/highlighted_key_variants_text_size</item>
+    </style>
+    <style name="KeyVariantHighlightStyleMini">
+        <item name="android:textSize">@dimen/mini_highlighted_key_variants_text_size</item>
+    </style>
+    <style name="KeyVariantHighlightStyleMiniSmall">
+        <item name="android:textSize">@dimen/mini_highlighted_key_variants_text_size_small</item>
+    </style>
+    <style name="KeyVariantHighlightStyleOnehanded">
+        <item name="android:textSize">@dimen/one_handed_highlighted_key_variants_text_size</item>
+    </style>
+    <style name="KeyVariantHighlightStyleOnehandedSmall">
+        <item name="android:textSize">@dimen/one_handed_highlighted_key_variants_text_size_small</item>
+    </style>
+    <style name="KeyVariantHighlightStyleSmall">
+        <item name="android:textSize">@dimen/highlighted_key_variants_text_size_small</item>
+    </style>
+    <style name="KeyVariantHighlightStyleSplit">
+        <item name="android:textSize">@dimen/split_highlighted_key_variants_text_size</item>
+    </style>
+    <style name="KeyVariantHighlightStyleSplitSmall">
+        <item name="android:textSize">@dimen/split_highlighted_key_variants_text_size_small</item>
+    </style>
+    <style name="KeyVariantStyle">
+        <item name="android:textSize">@dimen/key_variants_text_size</item>
+    </style>
+    <style name="KeyVariantStyleMini">
+        <item name="android:textSize">@dimen/key_variants_text_size_mini</item>
+    </style>
+    <style name="KeyVariantStyleMiniSmall">
+        <item name="android:textSize">@dimen/key_variants_text_size_mini_small</item>
+    </style>
+    <style name="KeyVariantStyleOnehanded">
+        <item name="android:textSize">@dimen/one_handed_key_variants_text_size</item>
+    </style>
+    <style name="KeyVariantStyleOnehandedSmall">
+        <item name="android:textSize">@dimen/one_handed_key_variants_text_size_small</item>
+    </style>
+    <style name="KeyVariantStyleSmall">
+        <item name="android:textSize">@dimen/key_variants_text_size_small</item>
+    </style>
+    <style name="KeyVariantStyleSplit">
+        <item name="android:textSize">@dimen/key_variants_text_size_split</item>
+    </style>
+    <style name="KeyVariantStyleSplitSmall">
+        <item name="android:textSize">@dimen/key_variants_text_size_split_small</item>
+    </style>
+    <style name="KeyVerySmallLabelStyle" parent="@style/KeyLabelStyle">
+        <item name="android:textSize">@dimen/key_label_style_text_very_small_size</item>
+    </style>
+    <style name="KeyVerySmallPreviewLabelStyle" parent="@style/KeyLabelStyle">
+        <item name="android:textSize">@dimen/key_preview_label_style_text_very_small_size</item>
+    </style>
+    <style name="KeyVeryVerySmallLabelStyle" parent="@style/KeyLabelStyle">
+        <item name="android:textSize">@dimen/key_label_style_text_very_very_small_size</item>
+    </style>
+    <style name="KeyboardView">
+        <item name="keyBackground">@drawable/ic_keyboard_button</item>
+        <item name="keyLabelStyle">@style/KeyLabelStyle</item>
+        <item name="keyPreviewLabelStyle">@style/KeyPreviewLabelStyle</item>
+        <item name="viewBackground">@drawable/ic_keyboard_bg</item>
+        <item name="keyShadow">@drawable/ic_keyboard_button_shadow</item>
+        <item name="keyTextSize">@dimen/key_text_size</item>
+        <item name="keyTextOffset">@dimen/key_text_y_offset_default</item>
+        <item name="secondaryPrintTextSize">@dimen/key_secondary_print_text_size</item>
+        <item name="secondaryPrintOffset">1.0dip</item>
+        <item name="keyTextColor">@color/key_text_color</item>
+        <item name="colorIconsUsingTextColor">true</item>
+        <item name="showKeyPreview">true</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset</item>
+        <item name="verticalCorrection">-10.0dip</item>
+        <item name="keyExpansionFactorX">1.5</item>
+        <item name="keyExpansionFactorY">1.2</item>
+    </style>
+    <style name="LanguageListItemMatch">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="LanguageListItemWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MyWordsTextView" parent="@android:style/TextAppearance.Medium" />
+    <style name="PersonalizationGuideImage">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="PersonalizationGuideListItem">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/guide_list_side_inner_padding_normal</item>
+        <item name="android:paddingEnd">@dimen/guide_list_side_inner_padding_normal</item>
+    </style>
+    <style name="PersonalizationGuideListItemSingleLine">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+        <item name="android:paddingStart">@dimen/guide_list_side_inner_padding_normal</item>
+        <item name="android:paddingEnd">@dimen/guide_list_side_inner_padding_normal</item>
+    </style>
+    <style name="PhonePadKeyLabelStyle">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ResizeKeyboardDividerText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:layout_marginBottom">@dimen/keyboard_height_divider_label_bottom_margin</item>
+        <item name="android:alpha">0.54</item>
+        <item name="android:layout_marginStart">@dimen/keyboard_height_divider_label_start_margin</item>
+    </style>
+    <style name="VerticalDivider">
+        <item name="android:background">?android:dividerVertical</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="speechbubble">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColorHighlight">@color/multitap_candidate_highlighted_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="highlightImage">@drawable/ic_candidatebar_item</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="vertical" android:id="@id/rbgSelectPrediction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/rb_prediction_automatic_correction" android:text="@string/textinput_strings_personalization_guide_what_do_you_prefer_automatic_correction" style="@style/PersonalizationGuideRadioButton" />
+    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_guide_autocorr" />
+    <RadioButton android:id="@id/rb_prediction_substitute_letters" android:text="@string/textinput_strings_personalization_guide_what_do_you_prefer_substitute_letters" style="@style/PersonalizationGuideRadioButton" />
+    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_guide_accentedletters" />
+    <RadioButton android:id="@id/rb_prediction_sloppy_manual" android:text="@string/textinput_strings_personalization_guide_what_do_you_prefer_sloppy_manual" style="@style/PersonalizationGuideRadioButton" />
+</RadioGroup>

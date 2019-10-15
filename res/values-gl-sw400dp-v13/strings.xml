@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_backup_and_sync_about_dialog_title">Copia de seguridade e sincronización</string>
+    <string name="textinput_strings_personalization_guide_learn_my_writing_style_backup_and_sync_button">Copia de seguridade e sincronización</string>
+    <string name="textinput_strings_settings_backup_and_synchronization">Copia de seguridade e sincronización</string>
+    <string name="textinput_strings_settings_backup_and_synchronization_about">Acerca da copia seguridade e sincronización</string>
+    <string name="textinput_strings_settings_voice_input_start_from_keyboard">Tecla de escritura de voz de Google</string>
+</resources>

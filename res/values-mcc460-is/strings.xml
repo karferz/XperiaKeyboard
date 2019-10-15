@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Bíða eftir WLAN</string>
+    <string name="textinput_strings_download_only_via_wifi">Aðeins sækja um WLAN</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Orðabækur fyrir tungumálin þín hafa ekki verið sóttar. Tengstu netkerfinu eða WLAN til að sækja þær.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Aðeins uppfæra sjálfkrafa í gegnum WLAN</string>
+</resources>

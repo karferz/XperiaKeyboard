@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Grid xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Include semc:pageXml="@xml/page_emoji_smileys" />
+    <Include semc:pageXml="@xml/page_emoji_recent" />
+    <Include semc:pageXml="@xml/page_emoji_eight_smiley_people" />
+    <Include semc:pageXml="@xml/page_emoji_eight_animals_nature" />
+    <Include semc:pageXml="@xml/page_emoji_eight_food_drink" />
+    <Include semc:pageXml="@xml/page_emoji_eight_travel_places" />
+    <Include semc:pageXml="@xml/page_emoji_eight_activity" />
+    <Include semc:pageXml="@xml/page_emoji_eight_objects" />
+    <Include semc:pageXml="@xml/page_emoji_eight_symbols" />
+    <Include semc:pageXml="@xml/page_emoji_flags" />
+</Grid>

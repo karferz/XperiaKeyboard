@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textinput_strings_download_dictionaries_mobile_network_wait_for_wifi">Poveziv. s WLAN mrežom</string>
+    <string name="textinput_strings_download_only_via_wifi">Preuzmi samo putem WLAN veze</string>
+    <string name="textinput_strings_missing_dictionary_and_network">Rječnici za vaše jezike nisu se preuzeli. Da biste ih preuzeli, povežite se s fiksnom ili WLAN mrežom.</string>
+    <string name="textinput_strings_settings_auto_dictionary_update_wifi_only">Auto. ažuriraj samo putem WLANja</string>
+</resources>

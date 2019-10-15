@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:semc="http://schemas.android.com/apk/res-auto">
+    <Row semc:layoutId="@string/row1_11keys">
+        <Key semc:candidates="ض" semc:shiftedCandidates="١" semc:secondaryPrints="1١" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ص" semc:shiftedCandidates="٢" semc:secondaryPrints="2٢" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ث" semc:shiftedCandidates="٣" semc:secondaryPrints="3٣" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ق" semc:shiftedCandidates="٤" semc:secondaryPrints="4٤" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ف" semc:shiftedCandidates="٥" semc:secondaryPrints="5٥" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="غ" semc:shiftedCandidates="٦" semc:secondaryPrints="6٦" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ع" semc:shiftedCandidates="٧" semc:secondaryPrints="7٧" semc:shiftedSecondaryPrints="" />
+        <Key semc:secondaryPrints="8٨" semc:shiftedSecondaryPrints="">
+            <Candidate semc:candidate="ه" semc:visualCandidate="ﻫ" semc:shiftedCandidate="٨" />
+        </Key>
+        <Key semc:candidates="خ" semc:shiftedCandidates="٩" semc:secondaryPrints="9٩" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ح" semc:shiftedCandidates="٠" semc:secondaryPrints="0٠" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ج" semc:shiftedCandidates="٪" />
+    </Row>
+    <Row semc:layoutId="@string/row2_11keys">
+        <Key semc:candidates="ش" semc:shiftedCandidates="]" semc:shiftedVisualCandidates="[" semc:secondaryPrints="\@" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="س" semc:shiftedCandidates="[" semc:shiftedVisualCandidates="]" semc:secondaryPrints="_" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ي" semc:shiftedCandidates="}" semc:shiftedVisualCandidates="{" semc:secondaryPrints="-" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ب" semc:shiftedCandidates="{" semc:shiftedVisualCandidates="}" semc:secondaryPrints="+" semc:shiftedSecondaryPrints="" />
+        <Key semc:secondaryPrints="*" semc:shiftedSecondaryPrints="">
+            <Candidate semc:candidate="ل" semc:shiftedCandidate="لا" />
+        </Key>
+        <Key semc:secondaryPrints="\#" semc:shiftedSecondaryPrints="">
+            <Candidate semc:candidate="ا" semc:shiftedCandidate="لأ" />
+        </Key>
+        <Key semc:candidates="ت" semc:shiftedCandidates="أ" semc:visualSecondaryPrints="(" semc:secondaryPrints=")" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ن" semc:shiftedCandidates="؛" semc:visualSecondaryPrints=")" semc:secondaryPrints="(" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="م" semc:shiftedCandidates="،" semc:secondaryPrints="/" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ظ" semc:shiftedCandidates="؟" semc:secondaryPrints="\\" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ط" semc:shiftedCandidates="\\" />
+    </Row>
+    <Row semc:layoutId="@string/row3_8keys" semc:secondaryStyle="extendedSecondaryPrint">
+        <Key semc:candidates="ذ" semc:shiftedCandidates="ء" />
+        <Key semc:candidates="د" semc:shiftedCandidates="ى" semc:secondaryPrints="&quot;" semc:shiftedSecondaryPrints="" />
+        <Key semc:secondaryPrints="'" semc:shiftedSecondaryPrints="">
+            <Candidate semc:candidate="ئ" semc:shiftedCandidate="لإ" />
+        </Key>
+        <Key semc:candidates="وؤ" semc:shiftedCandidates="إ" semc:secondaryPrints="ؤ" semc:shiftedSecondaryPrints="" />
+        <Key semc:secondaryPrints=":" semc:shiftedSecondaryPrints="">
+            <Candidate semc:candidate="ر" semc:shiftedCandidate="لآ" />
+        </Key>
+        <Key semc:candidates="ز" semc:shiftedCandidates="آ" semc:secondaryPrints="؛" semc:shiftedSecondaryPrints="" />
+        <Key semc:candidates="ة" semc:shiftedCandidates="ٱ" semc:secondaryPrints="!" semc:shiftedSecondaryPrints="" />
+        <Key semc:secondaryPrints="؟" semc:shiftedSecondaryPrints="">
+            <Candidate semc:candidate="ك" semc:shiftedCandidate="ً" semc:shiftedVisualCandidate="ً " />
+            <Candidate semc:shiftedCandidate="َ" semc:shiftedVisualCandidate="َ " />
+            <Candidate semc:shiftedCandidate="ٍ" semc:shiftedVisualCandidate="ٍ " />
+            <Candidate semc:shiftedCandidate="ِ" semc:shiftedVisualCandidate="ِ " />
+            <Candidate semc:shiftedCandidate="ٌ" semc:shiftedVisualCandidate="ٌ " />
+            <Candidate semc:shiftedCandidate="ُ" semc:shiftedVisualCandidate="ُ " />
+            <Candidate semc:shiftedCandidate="ّ" semc:shiftedVisualCandidate="ّ " />
+            <Candidate semc:shiftedCandidate="ْ" semc:shiftedVisualCandidate="ْ " />
+            <Candidate semc:shiftedCandidate="ٰ" semc:shiftedVisualCandidate="ٰ " />
+        </Key>
+    </Row>
+    <Row semc:layoutId="@string/row_bottom" />
+    <OverrideKey semc:metaKey="comma" semc:label="،" semc:candidates="،؟!-'." />
+    <OverrideKey semc:metaKey="period" semc:label="." semc:candidates=".؟!-'،" semc:secondaryLabel="؟!" />
+    <OverrideKey semc:metaKey="symbols" semc:label="@string/symbol_key_arabic_farsi" />
+</Keyboard>
